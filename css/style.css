@@ -1,6 +1,6 @@
 /* 
 
-Template: Finder Ecommerce 
+Template: Real State Website
 Author: Shuvo Mallick
 Description: Real State Template
 Version: 1.0.0
@@ -9,17 +9,16 @@ Keywords: real state, Template etc.
 */
 
 /* =============== *** =============== */
+/* ===== Utilities css ===== */
 /* ===== Home Page css ===== */
-/* ===== Login Page & Registration Page CSS ===== */
+/* ===== Login Page CSS ===== */
 /* ===== Product Page CSS ===== */
 /* =============== *** =============== */
 
 /* ===== style list table ===== */
 /* 
-  1. utilities class 
-  2. header section
-  3. hero section
-
+  1. header section
+  2. hero section
   */
 /* ===== style list table ===== */
 
@@ -27,4 +26,33 @@ Keywords: real state, Template etc.
 /* ===== Home Page CSS ===== */
 /* ====================== Next Page ====================== */
 
-/* ===== Discount alert start ===== */
+/* ===== Header Css start ===== */
+.custom-header {
+}
+
+.custom-menu li a {
+  font-weight: 600;
+  color: var(--bs-gray-800);
+}
+
+.custom-btn {
+  all: unset;
+  /* background-color: var(--bs-primary) !important; */
+  background-color: #fd5631 !important;
+  border-radius: 8px;
+  padding: 8px 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.sign-in-btn {
+  color: #fd5631 !important;
+  font-weight: 600 !important;
+}
+
+.custom-menu .dropdown-toggle::after {
+  all: unset;
+  content: "\f078";
+  font-family: "Font Awesome 6 Free";
+  font-size: 12px;
+}
