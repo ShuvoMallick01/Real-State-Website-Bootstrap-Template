@@ -89,3 +89,7 @@
 i {
   font-style: normal;
 }
+
+.fa-solid {
+  color: var(--bs-gray-600);
+}

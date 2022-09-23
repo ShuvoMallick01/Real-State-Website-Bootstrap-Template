@@ -12,13 +12,14 @@ Keywords: real state, Template etc.
 /* ===== Utilities css ===== */
 /* ===== Home Page css ===== */
 /* ===== Login Page CSS ===== */
-/* ===== Product Page CSS ===== */
 /* =============== *** =============== */
 
 /* ===== style list table ===== */
 /* 
-  1. header section
-  2. hero section
+  1. Header section
+  2. Hero section
+  3. Category & Major Category Section
+  4. Top Offers Section
   */
 /* ===== style list table ===== */
 
@@ -28,6 +29,8 @@ Keywords: real state, Template etc.
 
 /* ===== Header Css start ===== */
 .custom-header {
+  font-weight: 700;
+  font-size: 28px;
 }
 
 .custom-menu li a {
@@ -109,11 +112,49 @@ Keywords: real state, Template etc.
 }
 /* ===== Category Section END===== */
 
-/* ===== title START===== */
-/* ===== title END===== */
+/* ===== Major Category START===== */
+.custom-major-category-card {
+  cursor: pointer;
+}
 
-/* ===== title START===== */
-/* ===== title END===== */
+.custom-major-category-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.custom-major-category-card h5 {
+  font-weight: 700;
+  font-size: 24px;
+}
+/* ===== Major Category END===== */
+
+/* ===== Top Offer START===== */
+.custom-top-offer-card {
+  cursor: pointer;
+}
+
+.custom-top-offer-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.custom-top-offer-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.custom-top-offer-title {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.custom-top-offer-card h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.custom-top-offer-card-description {
+  font-weight: 400;
+  font-size: 14px;
+}
+/* ===== Top Offer END===== */
 
 /* ===== title START===== */
 /* ===== title END===== */
