@@ -69,7 +69,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Eng
+                  <i class="fa-solid fa-language"></i> Eng
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
@@ -87,14 +87,52 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Explore</a>
+              <li class="nav-item dropdown px-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Property for Rent</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Property for Sell</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Property for Buy</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Top Cities</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Help</a>
+              <li class="nav-item dropdown px-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Help
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Help for Rent</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Help for Sell</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Help for Buy</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -121,7 +159,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-5 mt-5 pt-4">
-            <h2 class="hero-title">Easy way to find a perfect property</h2>
+            <h2 class="hero-title pb-4">Easy way to find a perfect property</h2>
 
             <p class="hero-description position-relative">
               We provide a complete service for the sale, purchase or rental of
@@ -141,33 +179,45 @@
           <div class="col-lg-8">
             <form
               action=""
-              class="d-flex align-items-center bg-white p-3 gap-3 search-location"
+              class="d-flex align-items-center bg-white p-3 gap-3 search-location rounded-2"
             >
-              <div class="d-flex gap-2 flex-grow-1 align-items-center">
-                <select class="form-select">
+              <div
+                class="d-flex gap-1 flex-grow-1 align-items-center custom-field"
+              >
+                <i class="fa-solid fa-house"></i
+                ><select class="form-select custom-form-select me-3">
                   <option selected>For Rent</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
 
-                <select class="form-select">
+                <i class="fa-solid fa-location-dot"></i>
+                <select class="form-select custom-form-select me-3">
                   <option selected>Location</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
 
-                <select class="form-select">
+                <i class="fa-solid fa-layer-group"></i>
+                <select class="form-select custom-form-select me-3">
                   <option selected>Property Type</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                 </select>
 
-                <input type="range" class="form-range" id="customRange1" />
+                <label for="customRange1" class="form-label me-2">Price </label>
+                <input
+                  type="range"
+                  class="form-range custom-range"
+                  id="customRange1"
+                />
               </div>
-              <button class="btn btn-primary">Search</button>
+              <button class="btn btn-primary custom-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </form>
           </div>
         </div>
@@ -175,8 +225,144 @@
     </section>
     <!-- Hero/Banner Section End -->
 
-    <!-- Bootstrap JS -->
-    <!-- JavaScript Bundle with Popper -->
+    <!-- Category Section Start -->
+    <section class="custom-category py-5">
+      <div class="container">
+        <div class="row g-0 gx-4 gy-md-4">
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/houses-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/apartments-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/commercial-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/daily-rental-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/new-building-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Card -->
+          <div class="col-md-2 col-4 mb-4">
+            <div
+              class="card custom-category-card text-center border-0"
+              style="width: 95%"
+            >
+              <img
+                src="./assets/images/icons/more-icon.png"
+                class="img-fluid pt-4"
+                style="width: 30%; margin: auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">House</h5>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+    </section>
+    <!-- Category Section End -->
+
+    <!-- title Section START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <!-- title Section END -->
+
+    <!-- title Section START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <!-- title Section END -->
+
+    <!-- Bootstrap JS - JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

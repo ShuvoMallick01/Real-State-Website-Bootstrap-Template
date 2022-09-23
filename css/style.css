@@ -43,6 +43,7 @@ Keywords: real state, Template etc.
   padding: 8px 20px;
   color: white;
   font-weight: 600;
+  border: #fd5631 !important;
 }
 
 .sign-in-btn {
@@ -73,11 +74,40 @@ Keywords: real state, Template etc.
 
 .search-location {
   margin-top: -30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-form-select {
+  outline: none !important;
+  border: none !important;
+  /* gap: 5px; */
+}
+
+.custom-field .custom-form-select:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+
+.custom-range {
+  all: unset;
 }
 /* ===== Hero or Banner END===== */
 
-/* ===== title START===== */
-/* ===== title END===== */
+/* ===== Category Section START===== */
+.custom-category-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+
+.custom-category-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.custom-category-card h5 {
+  font-weight: 700;
+  font-size: 16px;
+}
+/* ===== Category Section END===== */
 
 /* ===== title START===== */
 /* ===== title END===== */
