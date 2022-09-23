@@ -236,4 +236,8 @@ Keywords: real state, Template etc.
 .custom-download-app-artwork img {
   margin-top: -50px;
 }
+
+.custom-download-app-store-icon img {
+  width: 40% !important;
+}
 /* ===== Footer END===== */
