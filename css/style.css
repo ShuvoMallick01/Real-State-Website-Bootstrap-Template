@@ -202,25 +202,38 @@ Keywords: real state, Template etc.
   background-color: #fd5631 !important;
   color: white !important;
 }
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.custom-footer-quick-link > p,
+.custom-footer-about-link > p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.custom-featured-news {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.custom-featured-news h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.custom-featured-news-description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.custom-download-our-app {
+  background-color: #1f1b2d;
+}
+
+.custom-download-app-artwork img {
+  margin-top: -50px;
+}
 /* ===== Footer END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
-
-/* ===== title START===== */
-/* ===== title END===== */
