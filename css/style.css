@@ -17,7 +17,7 @@ Keywords: real state, Template etc.
 /* ===== style list table ===== */
 /* 
   1. Header section
-  2. Hero section
+  2. Hero/Banner section
   3. Category & Major Category Section
   4. Top Offers Section
   */
@@ -27,7 +27,7 @@ Keywords: real state, Template etc.
 /* ===== Home Page CSS ===== */
 /* ====================== Next Page ====================== */
 
-/* ===== Header Css start ===== */
+/* ===== Header START ===== */
 .custom-header {
   font-weight: 700;
   font-size: 28px;
@@ -61,9 +61,9 @@ Keywords: real state, Template etc.
   font-family: "Font Awesome 6 Free";
   font-size: 12px;
 }
-/* ===== Header Css End ===== */
+/* ===== Header END ===== */
 
-/* ===== Hero or Banner START===== */
+/* ===== Hero/Banner START===== */
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -76,26 +76,78 @@ Keywords: real state, Template etc.
   margin-right: -54px;
 }
 
+/* form */
 .search-location {
   margin-top: -30px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
+    0px 4px 12px rgba(31, 27, 45, 0.08);
+  border-radius: 8px;
+  z-index: 2;
 }
 
-.custom-form-select {
-  outline: none !important;
-  border: none !important;
-  /* gap: 5px; */
+.rent-wrapper {
+  width: 200px;
 }
 
-.custom-field .custom-form-select:hover {
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.rent-wrapper:hover {
+  box-shadow: 0px 2px 8px -4px rgba(31, 27, 45, 0.12),
+    0px 4px 16px rgba(31, 27, 45, 0.12);
+}
+
+.rent-wrapper {
+  border-right: 1px solid var(--bs-gray-300);
+  border-right: 1px solid #efecf3 !important;
+}
+
+.form-select,
+.form-label {
+  color: var(--bs-gray-600);
+  color: #9691a4 !important;
   cursor: pointer;
+  box-shadow: none;
 }
 
-.custom-range {
-  all: unset;
+.form-select:hover {
+  color: var(--bs-gray-800);
+  color: #454056 !important;
 }
-/* ===== Hero or Banner END===== */
+
+.search-location .filter-item {
+  flex: 1;
+}
+
+.search-location .filter-range {
+  max-width: 10rem;
+}
+
+.filter-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: var(--bs-primary);
+  /* background: #fd5631; */
+}
+
+.filter-range:hover::-webkit-slider-thumb {
+  outline: none;
+  box-shadow: none;
+  background: var(--bs-primary);
+  /* background: #fd5631; */
+}
+
+.search-btn {
+  background-color: var(--bs-primary);
+  background: #fd5631 !important;
+  border: none !important;
+  padding: 0.5rem 1rem;
+}
+
+.search-btn i {
+  font-size: 1rem;
+}
+
+.svg-search {
+  fill: red !important;
+}
+/* ===== Hero/Banner END===== */
 
 /* ===== Category Section START===== */
 .custom-category-card {

@@ -69,7 +69,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <i class="fa-solid fa-language"></i> Eng
+                  <img src="./assets/images/icons/united-states 1.svg" class="img-fluid" alt="United State Flag" /> Eng
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
@@ -170,56 +170,82 @@
 
           <div class="col-md-6 col-lg-7">
             <img
-              src="./assets/images/banners/banner-building.png"
+              src="./assets/images/banner-building.png"
               class="img-fluid"
               alt="Banner Building"
             />
           </div>
-
+          
+          <!-- Start Form -->
           <div class="col-lg-8">
             <form
               action=""
-              class="d-flex align-items-center bg-white p-3 gap-3 search-location rounded-2"
+              class="d-flex align-items-center bg-white gap-3 search-location"
             >
-              <div
-                class="d-flex gap-1 flex-grow-1 align-items-center custom-field"
-              >
-                <i class="fa-solid fa-house"></i
-                ><select class="form-select custom-form-select me-3">
-                  <option selected>For Rent</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+              <div class="d-flex gap-2 flex-grow-1 align-items-center">
+            
+                <!-- Single Field -->
+                <div class="d-flex align-items-center filter-item">
+                  <div class="d-flex align-items-center rent-wrapper p-3">
+                    <img src="./assets/images/icons/home.svg" class="img-fluid svg-search" alt="Home" />
+                    <select class="form-select border-0">
+                      <option selected>For Rent</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
 
-                <i class="fa-solid fa-location-dot"></i>
-                <select class="form-select custom-form-select me-3">
-                  <option selected>Location</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <!-- Single Field -->
+                <div class="d-flex align-items-center filter-item">
+                  <div class="d-flex align-items-center rent-wrapper p-3">
+                    <img src="./assets/images/icons/pin.svg" class="img-fluid" alt="Home" />
+                    <select class="form-select border-0">
+                      <option selected>Location</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
 
-                <i class="fa-solid fa-layer-group"></i>
-                <select class="form-select custom-form-select me-3">
-                  <option selected>Property Type</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <!-- Single Field -->
+                <div class="d-flex align-items-center filter-item">
+                  <div class="d-flex align-items-center rent-wrapper p-3">
+                    <img src="./assets/images/icons/list.svg" class="img-fluid" alt="Home" />
+                    <select class="form-select border-0">
+                      <option selected>Property type</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
 
-                <label for="customRange1" class="form-label me-2">Price </label>
-                <input
-                  type="range"
-                  class="form-range custom-range"
-                  id="customRange1"
-                />
+                <!-- Single Range -->
+                <div class="d-flex align-items-center filter-item bg-white">
+                  <div class="d-flex align-items-center  rent-wrapper gap-2 p-3">
+                    <img src="./assets/images/icons/cash.svg" class="img-fluid " alt="Home" />
+                    <label for="customRange1" class="form-label me-2"> Price </label>
+                    <input
+                      type="range"
+                      class="form-range filter-range"
+                      id="customRange1"
+                    /> 
+                  </div>
+                </div>
+               
+                <!-- End Field -->
               </div>
-              <button class="btn btn-primary custom-btn">
-                <i class="fa-solid fa-magnifying-glass text-white"></i>
+
+              <button class="btn search-btn btn-primary filter-item p-3">
+                  <i class="fa-solid fa-magnifying-glass text-white"></i>
               </button>
             </form>
+            <!-- End Form -->
           </div>
+          <!-- End Row -->
         </div>
       </div>
     </section>
