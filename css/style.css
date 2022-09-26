@@ -123,21 +123,21 @@ Keywords: real state, Template etc.
 .filter-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: var(--bs-primary);
-  /* background: #fd5631; */
+  background: #fd5631 !important;
 }
 
 .filter-range:hover::-webkit-slider-thumb {
   outline: none;
   box-shadow: none;
   background: var(--bs-primary);
-  /* background: #fd5631; */
+  background: #fd5631 !important;
 }
 
 .search-btn {
   background-color: var(--bs-primary);
   background: #fd5631 !important;
   border: none !important;
-  padding: 0.5rem 1rem;
+  padding: 30px 50px;
 }
 
 .search-btn i {
