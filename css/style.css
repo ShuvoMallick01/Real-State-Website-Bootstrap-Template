@@ -110,7 +110,7 @@ Keywords: real state, Template etc.
   border-left: 1px solid var(--bs-gray-300);
 }
 
-.rent-wrapper:nth-child(2) img {
+.rent-wrapper:nth-child(2) i {
   margin-left: 15px;
 }
 
@@ -119,18 +119,25 @@ Keywords: real state, Template etc.
   border-right: none;
 }
 
-.rent-field .form-select {
+.rent-field .form-select,
+.rent-field i {
   color: var(--bs-gray-800) !important;
 }
 
 .search-location .form-select,
-.form-label {
+.form-label,
+.search-location i {
   color: var(--bs-gray-600);
 }
 
 .search-location .form-select:hover,
-.form-label:hover {
+.form-label:hover,
+.search-location i:hover {
   color: var(--bs-gray-800);
+}
+
+.search-location i {
+  font-size: 22px;
 }
 
 .search-location .filter-item {
