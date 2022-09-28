@@ -40,7 +40,7 @@ Keywords: real state, Template etc.
 }
 
 .custom-btn {
-  all: unset;
+  /* all: unset; */
   /* background-color: var(--bs-primary) !important; */
   background-color: #fd5631 !important;
   border-radius: 8px;
@@ -82,34 +82,55 @@ Keywords: real state, Template etc.
   box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
     0px 4px 12px rgba(31, 27, 45, 0.08);
   border-radius: 8px;
-  z-index: 2;
+  z-index: 20;
+}
+
+.search-location .form-select {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.rent-wrapper:first-child {
+  box-shadow: 0px 2px 8px -4px rgba(31, 27, 45, 0.12),
+    0px 4px 16px rgba(31, 27, 45, 0.12);
+  border-radius: 10px 0px 0px 0px;
 }
 
 .rent-wrapper {
-  width: 200px;
-}
-
-.rent-wrapper:hover {
-  box-shadow: 0px 2px 8px -4px rgba(31, 27, 45, 0.12),
-    0px 4px 16px rgba(31, 27, 45, 0.12);
+  width: 175px;
 }
 
 .rent-wrapper {
   border-right: 1px solid var(--bs-gray-300);
-  border-right: 1px solid #efecf3 !important;
 }
 
-.form-select,
+.rent-wrapper:nth-child(2) {
+  border-left: 1px solid var(--bs-gray-300);
+}
+
+.rent-wrapper:nth-child(2) img {
+  margin-left: 15px;
+}
+
+.rent-wrapper:last-child,
+.rent-wrapper:first-child {
+  border-right: none;
+}
+
+.rent-field .form-select {
+  color: var(--bs-gray-800) !important;
+}
+
+.search-location .form-select,
 .form-label {
   color: var(--bs-gray-600);
-  color: #9691a4 !important;
-  cursor: pointer;
-  box-shadow: none;
 }
 
-.form-select:hover {
+.search-location .form-select:hover,
+.form-label:hover {
   color: var(--bs-gray-800);
-  color: #454056 !important;
 }
 
 .search-location .filter-item {
@@ -123,29 +144,26 @@ Keywords: real state, Template etc.
 .filter-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: var(--bs-primary);
-  background: #fd5631 !important;
 }
 
 .filter-range:hover::-webkit-slider-thumb {
   outline: none;
   box-shadow: none;
   background: var(--bs-primary);
-  background: #fd5631 !important;
 }
 
 .search-btn {
   background-color: var(--bs-primary);
-  background: #fd5631 !important;
-  border: none !important;
-  padding: 30px 50px;
+  border: none;
+  padding: 1rem 1.2rem;
+}
+
+.search-btn {
+  background-color: var(--bs-primary) !important;
 }
 
 .search-btn i {
   font-size: 1rem;
-}
-
-.svg-search {
-  fill: red !important;
 }
 /* ===== Hero/Banner END===== */
 

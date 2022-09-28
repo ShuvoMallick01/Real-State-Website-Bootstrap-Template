@@ -21,19 +21,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/utilities.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <title>e-Commerce Website</title>
-    <!-- Bootstrap CSS -->
-    <!-- CSS only -->
+       
+    <!-- Bootstrap CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>e-Commerce Website</title>
   </head>
 
   <body>
@@ -178,28 +179,24 @@
           
           <!-- Start Form -->
           <div class="col-lg-8">
-            <form
-              action=""
-              class="d-flex align-items-center bg-white gap-3 search-location"
-            >
-              <div class="d-flex gap-2 flex-grow-1 align-items-center">
-            
-                <!-- Single Field -->
-                <div class="d-flex align-items-center filter-item">
-                  <div class="d-flex align-items-center rent-wrapper p-3">
-                    <img src="./assets/images/icons/home.svg" class="img-fluid svg-search" alt="Home" />
-                    <select class="form-select border-0">
-                      <option selected>For Rent</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
+            <form action="" class="d-flex align-items-center bg-white search-location ">
+                <div class="d-flex gap-4 align-items-center flex-grow-1">
+                  
+                  <!-- Single Field -->
+                  <div class="d-flex align-items-center filter-item">
+                    <div class="d-flex align-items-center rent-wrapper rent-field p-3">
+                      <img src="./assets/images/icons/home.svg" class="img-fluid svg-search" alt="Home" />
+                      <select class="form-select rent-field border-0">
+                        <option selected>For Rent</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                    </div>
                   </div>
-                </div>
 
-                <!-- Single Field -->
-                <div class="d-flex align-items-center filter-item">
-                  <div class="d-flex align-items-center rent-wrapper p-3">
+                  <!-- Single Field -->
+                  <div class="d-flex align-items-center rent-wrapper ">
                     <img src="./assets/images/icons/pin.svg" class="img-fluid" alt="Home" />
                     <select class="form-select border-0">
                       <option selected>Location</option>
@@ -208,11 +205,9 @@
                       <option value="3">Three</option>
                     </select>
                   </div>
-                </div>
 
-                <!-- Single Field -->
-                <div class="d-flex align-items-center filter-item">
-                  <div class="d-flex align-items-center rent-wrapper p-3">
+                 <!-- Single Field -->
+                  <div class="d-flex align-items-center rent-wrapper ">
                     <img src="./assets/images/icons/list.svg" class="img-fluid" alt="Home" />
                     <select class="form-select border-0">
                       <option selected>Property type</option>
@@ -220,12 +215,10 @@
                       <option value="2">Two</option>
                       <option value="3">Three</option>
                     </select>
-                  </div>
-                </div>
+                   </div>
 
-                <!-- Single Range -->
-                <div class="d-flex align-items-center filter-item bg-white">
-                  <div class="d-flex align-items-center  rent-wrapper gap-2 p-3">
+                  <!-- Single Range -->
+                  <div class="d-flex align-items-center rent-wrapper bg-white gap-2 py-3 pe-3">
                     <img src="./assets/images/icons/cash.svg" class="img-fluid " alt="Home" />
                     <label for="customRange1" class="form-label me-2"> Price </label>
                     <input
@@ -235,15 +228,13 @@
                     /> 
                   </div>
                 </div>
-               
-                <!-- End Field -->
-              </div>
 
-              <button class="btn search-btn btn-primary filter-item">
+                <div class="py-1 px-2 bg-white rounded-end search-location-btn">
+                  <button class="btn btn-primary search-btn p-3">
                   <i class="fa-solid fa-magnifying-glass text-white"></i>
-              </button>
+                </button>
+                </div>
             </form>
-            <!-- End Form -->
           </div>
           <!-- End Row -->
         </div>
@@ -895,7 +886,7 @@
     </footer>
     <!-- Footer END -->
 
-    <!-- Bootstrap JS - JavaScript Bundle with Popper -->
+    <!-- Bootstrap JS JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
