@@ -41,7 +41,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529; */
 
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 253, 86, 49;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -84,6 +84,13 @@
   --bs-link-hover-color: #0a58ca;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+
+  --shadow-small: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
+    0px 4px 12px rgba(31, 27, 45, 0.08);
+  --shadow-large: 0px 4px 12px -6px rgba(31, 27, 45, 0.02),
+    0px 8px 16px rgba(31, 27, 45, 0.16);
+  --shadow-default: 0px 2px 8px -4px rgba(31, 27, 45, 0.12),
+    0px 4px 16px rgba(31, 27, 45, 0.12);
 }
 
 i {

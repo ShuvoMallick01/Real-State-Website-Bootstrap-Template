@@ -71,7 +71,12 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <img src="./assets/images/icons/united-states 1.svg" class="img-fluid" alt="United State Flag" /> Eng
+                  <img
+                    src="./assets/images/icons/united-states 1.svg"
+                    class="img-fluid"
+                    alt="United State Flag"
+                  />
+                  Eng
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
@@ -177,64 +182,72 @@
               alt="Banner Building"
             />
           </div>
-          
+
           <!-- Start Form -->
           <div class="col-lg-8">
-            <form action="" class="d-flex align-items-center bg-white search-location ">
-                <div class="d-flex gap-4 align-items-center flex-grow-1">
-                  
-                  <!-- Single Field -->
-                  <div class="d-flex align-items-center filter-item">
-                    <div class="d-flex align-items-center rent-wrapper rent-field p-3">
-                      <i class="icon-home"></i>
-                      <select class="form-select rent-field border-0">
-                        <option selected>For Rent</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <!-- Single Field -->
-                  <div class="d-flex align-items-center rent-wrapper ">
-                     <i class="icon-pin"></i>
-                    <select class="form-select border-0">
-                      <option selected>Location</option>
+            <form
+              action=""
+              class="d-flex align-items-center bg-white search-location"
+            >
+              <div class="d-flex gap-4 align-items-center flex-grow-1">
+                <!-- Single Field -->
+                <div class="d-flex align-items-center filter-item">
+                  <div
+                    class="d-flex align-items-center rent-wrapper rent-field p-3"
+                  >
+                    <i class="icon-home"></i>
+                    <select class="form-select rent-field border-0">
+                      <option selected>For Rent</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
                       <option value="3">Three</option>
                     </select>
-                  </div>
-
-                 <!-- Single Field -->
-                  <div class="d-flex align-items-center rent-wrapper ">
-                    <i class="icon-list"></i>
-                    <select class="form-select border-0">
-                      <option selected>Property type</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                   </div>
-
-                  <!-- Single Range -->
-                  <div class="d-flex align-items-center rent-wrapper bg-white gap-2 py-3 pe-3">
-                    <i class="icon-cash"></i>
-                    <label for="customRange1" class="form-label me-2 mt-2"> Price </label>
-                    <input
-                      type="range"
-                      class="form-range filter-range"
-                      id="customRange1"
-                    /> 
                   </div>
                 </div>
 
-                <div class="py-1 px-2 bg-white rounded-end search-location-btn">
-                  <button class="btn btn-primary search-btn p-3">
+                <!-- Single Field -->
+                <div class="d-flex align-items-center rent-wrapper">
+                  <i class="icon-pin"></i>
+                  <select class="form-select border-0">
+                    <option selected>Location</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+
+                <!-- Single Field -->
+                <div class="d-flex align-items-center rent-wrapper">
+                  <i class="icon-list"></i>
+                  <select class="form-select border-0">
+                    <option selected>Property type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+
+                <!-- Single Range -->
+                <div
+                  class="d-flex align-items-center rent-wrapper bg-white gap-2 py-3 pe-3"
+                >
+                  <i class="icon-cash"></i>
+                  <label for="customRange1" class="form-label me-2 mt-2">
+                    Price
+                  </label>
+                  <input
+                    type="range"
+                    class="form-range filter-range"
+                    id="customRange1"
+                  />
+                </div>
+              </div>
+
+              <div class="py-1 px-2 bg-white rounded-end search-location-btn">
+                <button class="btn btn-primary search-btn p-3">
                   <i class="fa-solid fa-magnifying-glass text-white"></i>
                 </button>
-                </div>
+              </div>
             </form>
           </div>
           <!-- End Row -->
@@ -243,142 +256,90 @@
     </section>
     <!-- Hero/Banner Section End -->
 
-    <!-- Category Section Start -->
-    <section class="custom-category py-5">
+    <!-- Category area Start -->
+    <section class="custom-categories py-5">
       <div class="container">
-        <div class="row g-0 gx-4 gy-md-4">
+        <div class="row gy-4 gy-lg-0">
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/houses-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-real-estate-house"></i>
               </div>
+              <p class="mt-3 mb-0">Houses</p>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/apartments-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-apartment"></i>
               </div>
+              <p class="mt-3 mb-0">Apartments</p>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/commercial-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-shop"></i>
               </div>
+              <p class="mt-3 mb-0">Commercial</p>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/daily-rental-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-rent"></i>
               </div>
+              <p class="mt-3 mb-0">Daily rental</p>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/new-building-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-house-chosen"></i>
               </div>
+              <p class="mt-3 mb-0">New buildings</p>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-2 col-4 mb-4">
-            <div
-              class="card custom-category-card text-center border-0"
-              style="width: 95%"
-            >
-              <img
-                src="./assets/images/icons/more-icon.png"
-                class="img-fluid pt-4"
-                style="width: 30%; margin: auto"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">House</h5>
+          <div class="col-lg-2 col-md-4 col-6">
+            <div class="category text-center p-4">
+              <div class="category-icon">
+                <i class="icon-horisontal"></i>
               </div>
+              <p class="mt-3 mb-0">More</p>
             </div>
           </div>
           <!-- End -->
         </div>
       </div>
     </section>
-    <!-- Category Section End -->
+    <!-- Category area End -->
 
-    <!-- Major Category Section START -->
-    <section class="py-5">
+    <!-- Service Section START -->
+    <section class="services py-5">
       <div class="container">
         <div class="row">
           <!-- Single Card -->
-          <div class="col-md-4 col-sm-12 mb-4">
-            <div
-              class="card custom-major-category-card text-center border-0"
-              style="width: 90%"
-            >
+          <div class="col-md-4">
+            <div class="card service text-center border-0 p-4">
               <img
                 src="./assets/images/illustration/buy-a-property.svg"
-                class="card-img-top pt-4"
-                style="width: 50%; margin: auto"
+                class="card-img-top"
                 alt="Major Category"
               />
-              <div class="card-body">
-                <h5 class="card-title">Buy a property</h5>
-                <p class="card-text text-muted">
+              <div class="card-body mt-3">
+                <h5 class="card-title mb-0">Buy a property</h5>
+                <p class="text-muted pt-3 pb-4 mb-0">
                   Blandit lorem dictum in velit. Et nisi at faucibus mauris
                   pretium enim. Risus sapien nisi aliquam egestas leo dignissim.
                 </p>
@@ -388,55 +349,48 @@
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-4 col-sm-12 mb-4">
-            <div
-              class="card custom-major-category-card text-center border-0"
-              style="width: 90%"
-            >
+          <div class="col-md-4">
+            <div class="card service text-center border-0 p-4">
               <img
-                src="./assets/images/illustration/seller-a-property.svg"
-                class="card-img-top pt-4"
-                style="width: 50%; margin: auto"
+                src="./assets/images/illustration/buy-a-property.svg"
+                class="card-img-top"
                 alt="Major Category"
               />
-              <div class="card-body">
-                <h5 class="card-title">Sell a property</h5>
-                <p class="card-text text-muted">
+              <div class="card-body mt-3">
+                <h5 class="card-title mb-0">Buy a property</h5>
+                <p class="text-muted pt-3 pb-4 mb-0">
                   Blandit lorem dictum in velit. Et nisi at faucibus mauris
                   pretium enim. Risus sapien nisi aliquam egestas leo dignissim.
                 </p>
-                <a href="#" class="btn btn-primary custom-btn">Find a ad</a>
+                <a href="#" class="btn btn-primary custom-btn">Find a home</a>
               </div>
             </div>
           </div>
 
           <!-- Single Card -->
-          <div class="col-md-4 col-sm-12 mb-4">
-            <div
-              class="card custom-major-category-card text-center border-0"
-              style="width: 90%"
-            >
+          <div class="col-md-4">
+            <div class="card service text-center border-0 p-4">
               <img
-                src="./assets/images/illustration/rent-a-property.svg"
-                class="card-img-top pt-4"
-                style="width: 50%; margin: auto"
+                src="./assets/images/illustration/buy-a-property.svg"
+                class="card-img-top"
                 alt="Major Category"
               />
-              <div class="card-body">
-                <h5 class="card-title">Rent a property</h5>
-                <p class="card-text text-muted">
+              <div class="card-body mt-3">
+                <h5 class="card-title mb-0">Buy a property</h5>
+                <p class="text-muted pt-3 pb-4 mb-0">
                   Blandit lorem dictum in velit. Et nisi at faucibus mauris
                   pretium enim. Risus sapien nisi aliquam egestas leo dignissim.
                 </p>
-                <a href="#" class="btn btn-primary custom-btn">Find a rental</a>
+                <a href="#" class="btn btn-primary custom-btn">Find a home</a>
               </div>
             </div>
           </div>
+
           <!-- End -->
         </div>
       </div>
     </section>
-    <!-- Major Category Section END -->
+    <!-- Service Section END -->
 
     <!-- Top Offer Section START -->
     <section class="py-5">
@@ -740,7 +694,7 @@
       <div class="container">
         <div class="row">
           <!-- Social Media Column -->
-          <div class="col-lg-2 col-sm-6 col-12 mb-3 ">
+          <div class="col-lg-2 col-sm-6 col-12 mb-3">
             <img
               src="./assets/images/logo-finder.svg"
               class="img-fluid mb-3"
@@ -777,27 +731,27 @@
                 >Buy a property</a
               >
             </p>
-            <p class="m-0 p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Sell a property</a
               >
             </p>
-            <p class="m-0 p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Rent a property</a
               >
             </p>
-            <p class="m-0  p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
-                >Сalculate  your property</a
+                >Сalculate your property</a
               >
             </p>
-            <p class="m-0  p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Top offers</a
               >
             </p>
-            <p class="m-0  p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Top cities</a
               >
@@ -812,22 +766,22 @@
                 >About Us</a
               >
             </p>
-            <p class="m-0 p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Our agents</a
               >
             </p>
-            <p class="m-0 p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Hepl & support</a
               >
             </p>
-            <p class="m-0  p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >Contacts</a
               >
             </p>
-            <p class="m-0  p-0>
+            <p class="m-0 p-0">
               <a href="#" class="text-black" style="text-decoration: none"
                 >News</a
               >
@@ -838,27 +792,53 @@
           <div class="col-md-5 col-12 mb-5">
             <h4 class="footer-heading pb-2">Featured News</h4>
             <div class="row mb-5">
-              <div class="col-2"><img src="./assets/images/news/featured-news-2.png" class="img-fluid" alt="Featured News"/></div>
+              <div class="col-2">
+                <img
+                  src="./assets/images/news/featured-news-2.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
               <div class="custom-featured-news col-10">
                 <p class="m-0 p-0 text-danger">HOME IMPROVEMENT</p>
                 <h3>Your Guide to a Smart Apartment Searching</h3>
-                <p class="text-muted custom-featured-news-description m-0 pb-2">Mi justo, varius vitae cursus ipsum sem massa amet pellentesque. Ipsum enim sit nulla ridiculus semper nam...</p>
+                <p class="text-muted custom-featured-news-description m-0 pb-2">
+                  Mi justo, varius vitae cursus ipsum sem massa amet
+                  pellentesque. Ipsum enim sit nulla ridiculus semper nam...
+                </p>
                 <div class="d-flex gap-4 m-0 p-0">
-                  <p class="m-0 p-0"><i class="fa-solid fa-calendar-days"></i> Dec 4</p>
-                  <p class="m-0 p-0"><i class="fa-regular fa-comment"></i> 2 comments</p>
+                  <p class="m-0 p-0">
+                    <i class="fa-solid fa-calendar-days"></i> Dec 4
+                  </p>
+                  <p class="m-0 p-0">
+                    <i class="fa-regular fa-comment"></i> 2 comments
+                  </p>
                 </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-2"><img src="./assets/images/news/featured-news-1.png" class="img-fluid" alt="Featured News"/></div>
+              <div class="col-2">
+                <img
+                  src="./assets/images/news/featured-news-1.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
               <div class="custom-featured-news col-10">
                 <p class="m-0 p-0 text-danger">HOME IMPROVEMENT</p>
                 <h3>Your Guide to a Smart Apartment Searching</h3>
-                <p class="text-muted custom-featured-news-description m-0 pb-2">Mi justo, varius vitae cursus ipsum sem massa amet pellentesque. Ipsum enim sit nulla ridiculus semper nam...</p>
+                <p class="text-muted custom-featured-news-description m-0 pb-2">
+                  Mi justo, varius vitae cursus ipsum sem massa amet
+                  pellentesque. Ipsum enim sit nulla ridiculus semper nam...
+                </p>
                 <div class="d-flex gap-4 m-0 p-0">
-                  <p class="m-0 p-0"><i class="fa-solid fa-calendar-days"></i> Dec 4</p>
-                  <p class="m-0 p-0"><i class="fa-regular fa-comment"></i> 2 comments</p>
+                  <p class="m-0 p-0">
+                    <i class="fa-solid fa-calendar-days"></i> Dec 4
+                  </p>
+                  <p class="m-0 p-0">
+                    <i class="fa-regular fa-comment"></i> 2 comments
+                  </p>
                 </div>
               </div>
             </div>
@@ -867,21 +847,41 @@
         </div>
 
         <!-- Download Our App -->
-        <div class="row custom-download-our-app mt-5 rounded-3 justify-content-center align-items-center">
-          <div class="custom-download-app-artwork col-md-4 mb-md-0 mb-sm-4 text-center">
-            <img src="./assets/images/illustration/download-our-app.svg" class="img-fluid" alt="Download Our App" />
+        <div
+          class="row custom-download-our-app mt-5 rounded-3 justify-content-center align-items-center"
+        >
+          <div
+            class="custom-download-app-artwork col-md-4 mb-md-0 mb-sm-4 text-center"
+          >
+            <img
+              src="./assets/images/illustration/download-our-app.svg"
+              class="img-fluid"
+              alt="Download Our App"
+            />
           </div>
 
           <div class="col-md-4 text-md-start text-center">
             <h4 class="text-light">Download Our App</h4>
-            <p class="text-light">Find everything you need for buying, selling & renting property in our new Finder App!</p>
+            <p class="text-light">
+              Find everything you need for buying, selling & renting property in
+              our new Finder App!
+            </p>
           </div>
 
-          <div class="custom-download-app-store-icon col-md-4 d-flex py-md-2 justify-content-center">
-            <img src="./assets/images/icons/app-store.png" class="img-fluid" alt="Download Our App" />
-            <img src="./assets/images/icons/google-play.png" class="" alt="Download Our App" />
+          <div
+            class="custom-download-app-store-icon col-md-4 d-flex py-md-2 justify-content-center"
+          >
+            <img
+              src="./assets/images/icons/app-store.png"
+              class="img-fluid"
+              alt="Download Our App"
+            />
+            <img
+              src="./assets/images/icons/google-play.png"
+              class=""
+              alt="Download Our App"
+            />
           </div>
-
         </div>
       </div>
     </footer>
