@@ -281,6 +281,27 @@ Keywords: real state, Template etc.
   box-shadow: var(--shadow-default);
 }
 
+.card-top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(var(--bs-black-rgb), 0.5);
+  z-index: 1;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.property:hover .card-top::after {
+  opacity: 1;
+}
+
+.property:hover .favorite-btn {
+  transform: scale(1);
+}
+
 .property-type {
   font-weight: 400;
   font-size: 12px;
@@ -332,6 +353,7 @@ Keywords: real state, Template etc.
 }
 
 .property .badges {
+  z-index: 2;
 }
 
 .favorite-btn {
@@ -342,6 +364,9 @@ Keywords: real state, Template etc.
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  z-index: 2;
+  transform: scale(0);
+  transition: all 300ms ease;
 }
 
 .favorite-btn:hover {
@@ -351,24 +376,6 @@ Keywords: real state, Template etc.
 .favorite-btn > i {
   color: var(--bs-primary);
 }
-
-.card-top::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(var(--bs-black-rgb), 0.5);
-  /* opacity: 0;
-  transition: opacity 0.3s; */
-  z-index: 1;
-}
-
-.custom-top-offer-img:hover::before {
-  opacity: 1;
-}
-
 /* ===== Top Offer END===== */
 
 /* ===== Calculate START===== */
