@@ -379,12 +379,28 @@ Keywords: real state, Template etc.
 /* ===== Top Offer END===== */
 
 /* ===== Calculate START===== */
-.custom-calculate {
+.calculate img {
+  width: 416px;
 }
 
-.custom-calculate > h2 {
+.calculate-details > h2 {
+  color: var(--bs-gray-900);
   font-weight: 700;
   font-size: 32px;
+}
+
+.calculate-details > p {
+  color: var(--bs-gray-700);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.calculate-details .custom-btn {
+  color: var(--bs-white);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 32px 14px 32px;
 }
 /* ===== Calculate END===== */
 
