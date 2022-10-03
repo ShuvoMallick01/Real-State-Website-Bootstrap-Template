@@ -140,3 +140,7 @@ i {
 .bg-success {
   background: rgba(7, 201, 139, 1) !important;
 }
+
+.btn:hover {
+  background-color: #fd390e !important;
+}

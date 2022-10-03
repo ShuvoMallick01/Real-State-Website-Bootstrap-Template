@@ -40,14 +40,12 @@ Keywords: real state, Template etc.
 }
 
 .custom-btn {
-  /* all: unset; */
-  /* background-color: var(--bs-primary) !important; */
-  background-color: #fd5631 !important;
+  background-color: var(--bs-primary);
   border-radius: 8px;
   padding: 8px 20px;
   color: white;
   font-weight: 600;
-  border: #fd5631 !important;
+  border: none;
 }
 
 .sign-in-btn {
@@ -440,6 +438,30 @@ Keywords: real state, Template etc.
 .added-today-property-details .added-today-property-address {
   font-weight: 400;
   font-size: 14px;
+}
+
+.added-today-property-button {
+  z-index: 1;
+}
+
+.added-today-property-button .custom-btn {
+  padding: 8px 10px 8px 18px;
+  border-radius: 8px 0 0 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.added-today-property-button .heart-icon-btn {
+  padding: 8px 18px 8px 10px;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.1em;
+  background-color: var(--bs-primary);
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.added-today-property-button .heart-icon-btn:hover {
+  border-left: 1px solid var(--bs-primary);
 }
 
 /* ===== Added Today END ===== */
