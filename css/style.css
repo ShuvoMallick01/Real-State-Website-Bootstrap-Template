@@ -552,12 +552,19 @@ Keywords: real state, Template etc.
 }
 
 .top-agents .top-agent-pic {
-  max-width: 416px;
+  width: 416px;
 }
 
 .top-agent-review-area {
-  margin-left: -100px;
+  margin-left: -80px;
   width: 526px;
+}
+
+.top-agent-review .agent-quote-mark {
+  right: 0;
+  top: 0;
+  margin-top: -17px;
+  margin-right: 30px;
 }
 
 .top-agents .top-agent-review {
@@ -578,6 +585,10 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-700);
 }
 
+.top-agent-review .agent-info {
+  cursor: pointer;
+}
+
 .top-agent-review .agent-info > h4 {
   font-weight: 700;
   font-size: 18px;
@@ -589,9 +600,46 @@ Keywords: real state, Template etc.
   font-size: 14px;
   color: var(--bs-gray-600);
 }
+
+.agent-info .social-icons {
+  color: var(--bs-gray-700);
+}
+
+.agent-info .social-icons > i {
+  background-color: var(--bs-white);
+  padding: 9px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-small);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.agent-info .social-icons > i:hover {
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
+  box-shadow: var(--shadow-large);
+}
+
+.agent-rating .rating {
+  color: var(--bs-warning);
+}
+
+.agent-rating .rating > i {
+  font-size: 16px;
+}
+
+.top-agent-review .agent-rating > p {
+  color: var(--bs-gray-600);
+  font-weight: 400;
+  font-size: 14px;
+}
 /* ===== Top real estate agents Section END ===== */
 
 /* ===== Footer START===== */
+.custom-footer-social-icons {
+  font-size: 16px;
+}
+
 .custom-footer-social-icons {
   font-size: 16px;
 }
