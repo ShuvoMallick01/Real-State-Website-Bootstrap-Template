@@ -719,14 +719,30 @@ Keywords: real state, Template etc.
 /* download our app */
 .custom-download-our-app {
   background-color: #1f1b2d;
+  border-radius: 12px;
 }
 
 .custom-download-app-artwork img {
   margin-top: -50px;
-  width: 100px;
+  width: 241px;
+}
+
+.custom-download-app-store-icon {
 }
 
 .custom-download-app-store-icon img {
-  width: 40% !important;
+  width: 176px;
+}
+
+.download-app-info h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--bs-white);
+}
+
+.download-app-info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-white);
 }
 /* ===== Footer END===== */
