@@ -1458,32 +1458,20 @@
       <div class="container">
         <div class="row">
           <!-- Social Media Column -->
-          <div class="col-lg-2 col-sm-6 col-12 mb-3">
+          <div class="footer-contact col-lg-3 col-sm-6 col-12 mb-3">
             <img
               src="./assets/images/logo-finder.svg"
               class="img-fluid mb-3"
               alt="Logo"
             />
-            <p class="m-0">
-              <i class="fa-regular fa-envelope"></i> example@gmail.com
-            </p>
-            <p>
-              <i class="fa-solid fa-mobile-screen-button"></i> (406) 555-0120
-            </p>
+            <p class="m-0 mb-1"><i class="icon-mail"></i> example@gmail.com</p>
+            <p><i class="icon-phone-1"></i> (406) 555-0120</p>
 
-            <div class="custom-footer-social-icons gx-4">
-              <i
-                class="fa-brands fa-facebook rounded-circle p-2 bg-white text-black"
-              ></i>
-              <i
-                class="fa-brands fa-twitter rounded-circle p-2 bg-white text-black"
-              ></i>
-              <i
-                class="fa-brands fa-whatsapp rounded-circle p-2 bg-white text-black"
-              ></i>
-              <i
-                class="fa-brands fa-telegram rounded-circle p-2 bg-white text-black"
-              ></i>
+            <div class="custom-footer-social-icons d-flex gap-2 mt-4">
+              <i class="icon-Facebook-white-bg rounded-circle"></i>
+              <i class="icon-twitter rounded-circle"></i>
+              <i class="icon-whatsapp rounded-circle"></i>
+              <i class="icon-telegram-1 rounded-circle"></i>
             </div>
           </div>
 
@@ -1553,35 +1541,36 @@
           </div>
 
           <!-- Featured News Column -->
-          <div class="col-md-5 col-12 mb-5">
+          <div class="footer-featured-newses col-md-5 col-12 mb-5">
             <h4 class="footer-heading pb-2">Featured News</h4>
-            <div class="row mb-5">
-              <div class="col-2">
+            <!-- Single News -->
+            <div
+              class="featured-news col-12 mb-5 d-flex justify-content-between"
+            >
+              <div class="featured-news-img col-2">
                 <img
                   src="./assets/images/news/featured-news-2.png"
                   class="img-fluid"
                   alt="Featured News"
                 />
               </div>
-              <div class="custom-featured-news col-10">
-                <p class="m-0 p-0 text-danger">HOME IMPROVEMENT</p>
+
+              <div class="featured-news-info col-10 pe-3">
+                <p class="m-0 mb-1 p-0">HOME IMPROVEMENT</p>
                 <h3>Your Guide to a Smart Apartment Searching</h3>
-                <p class="text-muted custom-featured-news-description m-0 pb-2">
+                <p class="text-muted news-description m-0 mb-3">
                   Mi justo, varius vitae cursus ipsum sem massa amet
                   pellentesque. Ipsum enim sit nulla ridiculus semper nam...
                 </p>
-                <div class="d-flex gap-4 m-0 p-0">
-                  <p class="m-0 p-0">
-                    <i class="fa-solid fa-calendar-days"></i> Dec 4
-                  </p>
-                  <p class="m-0 p-0">
-                    <i class="fa-regular fa-comment"></i> 2 comments
-                  </p>
+
+                <div class="featured-news-date d-flex gap-4 m-0 p-0">
+                  <p class="m-0 p-0"><i class="icon-date"></i> Dec 4</p>
+                  <p class="m-0 p-0"><i class="icon-left"></i> 2 comments</p>
                 </div>
               </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="col-12">
               <div class="col-2">
                 <img
                   src="./assets/images/news/featured-news-1.png"
@@ -1605,7 +1594,8 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
+            <!-- End Featured -->
           </div>
           <!-- End -->
         </div>

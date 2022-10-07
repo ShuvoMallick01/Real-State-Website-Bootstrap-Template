@@ -618,6 +618,7 @@ Keywords: real state, Template etc.
   color: var(--bs-white);
   background-color: var(--bs-primary);
   box-shadow: var(--shadow-large);
+  transition: all 300ms ease;
 }
 
 .agent-rating .rating {
@@ -636,56 +637,88 @@ Keywords: real state, Template etc.
 /* ===== Top real estate agents Section END ===== */
 
 /* ===== Footer START===== */
-.custom-footer-social-icons {
-  font-size: 16px;
+.footer-contact img {
+  width: 116px;
 }
 
-.custom-footer-social-icons {
+.footer-contact p {
+  font-weight: 400;
   font-size: 16px;
+  color: var(--bs-gray-800);
 }
 
-.custom-footer-social-icons i {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+.footer-contact .custom-footer-social-icons > i {
+  background-color: var(--bs-white);
+  padding: 9px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-small);
+  font-size: 15px;
   cursor: pointer;
+  color: var(--bs-gray-700);
 }
 
-.custom-footer-social-icons i:hover {
-  background-color: #fd5631 !important;
-  color: white !important;
+.custom-footer-social-icons > i:hover {
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
+  box-shadow: var(--shadow-large);
+  transition: all 300ms ease;
 }
 
 .footer-heading {
   font-weight: 700;
   font-size: 20px;
+  color: var(--bs-gray-900);
 }
 
 .custom-footer-quick-link > p,
 .custom-footer-about-link > p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
+  color: var(--bs-gray-800);
+  line-height: 1.7;
 }
 
-.custom-featured-news {
+/* featured news */
+.featured-news-img img {
+  width: 100px;
+}
+
+.featured-news-info {
+  margin-left: 25px;
+}
+
+.featured-news-info > p {
   font-weight: 400;
   font-size: 12px;
+  color: var(--bs-primary);
 }
 
-.custom-featured-news h3 {
+.featured-news-info h3 {
   font-weight: 700;
   font-size: 16px;
+  color: var(--bs-gray-800);
 }
 
-.custom-featured-news-description {
+.featured-news-info .news-description {
   font-weight: 400;
   font-size: 14px;
+  color: var(--bs-gray-700);
 }
 
+.featured-news-date p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--bs-gray-700);
+}
+
+/* download our app */
 .custom-download-our-app {
   background-color: #1f1b2d;
 }
 
 .custom-download-app-artwork img {
   margin-top: -50px;
+  width: 100px;
 }
 
 .custom-download-app-store-icon img {
