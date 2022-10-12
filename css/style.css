@@ -525,14 +525,19 @@ Keywords: real state, Template etc.
   opacity: 1;
 }
 
-/* .search-property:hover .property-progress {
+.search-property:hover .property-progress {
   transform: scale(1);
-} */
+}
 
 .search-property .property-feature {
   font-weight: 700;
   font-size: 16px;
   color: var(--bs-gray-800);
+}
+
+.search-property .custom-progress span {
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .search-property .property-progress {
@@ -543,8 +548,9 @@ Keywords: real state, Template etc.
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* transform: scale(0);
-  transition: all 300ms ease; */
+  z-index: 2;
+  transform: scale(0);
+  transition: all 300ms ease;
 }
 /* ===== Search property by city END===== */
 
