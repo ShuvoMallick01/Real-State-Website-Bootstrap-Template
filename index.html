@@ -168,7 +168,7 @@
           <div class="col-md-6 col-lg-5 mt-5 pt-4">
             <h2 class="hero-title pb-4">Easy way to find a perfect property</h2>
 
-            <p class="hero-description position-relative">
+            <p class="hero-description position-relative pb-5">
               We provide a complete service for the sale, purchase or rental of
               real estate. We have been operating more than 10 years. Search
               millions of apartments and houses on Finder.
@@ -189,9 +189,13 @@
               action=""
               class="d-flex align-items-center bg-white search-location"
             >
-              <div class="d-flex gap-4 align-items-center flex-grow-1">
+              <div
+                class="d-flex gap-4 align-items-center flex-grow-1 pe-2 responsive-search"
+              >
                 <!-- Single Field -->
-                <div class="d-flex align-items-center filter-item">
+                <div
+                  class="d-flex align-items-center filter-item rent-responsive"
+                >
                   <div
                     class="d-flex align-items-center rent-wrapper rent-field p-3"
                   >
@@ -206,7 +210,9 @@
                 </div>
 
                 <!-- Single Field -->
-                <div class="d-flex align-items-center rent-wrapper">
+                <div
+                  class="d-flex align-items-center rent-wrapper rent-responsive"
+                >
                   <i class="icon-pin"></i>
                   <select class="form-select border-0">
                     <option selected>Location</option>
@@ -217,7 +223,9 @@
                 </div>
 
                 <!-- Single Field -->
-                <div class="d-flex align-items-center rent-wrapper">
+                <div
+                  class="d-flex align-items-center rent-wrapper rent-responsive"
+                >
                   <i class="icon-list"></i>
                   <select class="form-select border-0">
                     <option selected>Property type</option>
@@ -229,7 +237,7 @@
 
                 <!-- Single Range -->
                 <div
-                  class="d-flex align-items-center rent-wrapper bg-white gap-2 py-3 pe-3"
+                  class="d-flex align-items-center rent-wrapper bg-white gap-2 py-3 rent-responsive"
                 >
                   <i class="icon-cash"></i>
                   <label for="customRange1" class="form-label me-2 mt-2">
@@ -241,16 +249,16 @@
                     id="customRange1"
                   />
                 </div>
-              </div>
 
-              <div class="py-1 px-2 bg-white rounded-end search-location-btn">
-                <button class="btn btn-primary search-btn p-3">
-                  <i class="fa-solid fa-magnifying-glass text-white"></i>
-                </button>
+                <div class="bg-white search-location-btn rent-responsive">
+                  <button class="btn btn-primary search-btn p-3">
+                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                  </button>
+                </div>
               </div>
             </form>
           </div>
-          <!-- End Row -->
+          <!-- End Form -->
         </div>
       </div>
     </section>
@@ -1335,12 +1343,12 @@
     <!--  Search Property Section END -->
 
     <!-- Our partners START -->
-    <section class="py-5">
+    <section class="py-5 our-partners">
       <div class="container">
         <div class="row gy-4 gy-lg-0">
           <h2 class="custom-header mb-4">Our partners</h2>
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-1.png"
               class="img-fluid"
@@ -1349,7 +1357,7 @@
           </div>
 
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-2.png"
               class="img-fluid"
@@ -1358,7 +1366,7 @@
           </div>
 
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-3.png"
               class="img-fluid"
@@ -1367,7 +1375,7 @@
           </div>
 
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-4.png"
               class="img-fluid"
@@ -1376,7 +1384,7 @@
           </div>
 
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-5.png"
               class="img-fluid"
@@ -1385,7 +1393,7 @@
           </div>
 
           <!-- Single Logo -->
-          <div class="col-lg-2 col-sm-4 col-6 text-center">
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
             <img
               src="./assets/images/partners/our-partners-6.png"
               class="img-fluid"
@@ -1406,68 +1414,68 @@
           </div>
 
           <!-- All Cards -->
-          <div class="row gy-4 gy-lg-0 top-agents align-items-center">
+          <div
+            class="row gy-4 gap-3 d-flex justify-content-between gy-lg-0 top-agents align-items-center flex-column flex-lg-row"
+          >
             <!-- single Card -->
-            <div class="col-6 col-lg-4 top-agent-pic">
-              <img
-                src="./assets/images/top-agent-2.png"
-                class="img-fluid"
-                alt=""
-              />
+            <div class="col-lg-4 col-6 top-agent-pic">
+              <img src="./assets/images/top-agent-2.png" class="" alt="" />
             </div>
 
-            <!-- single Card -->
-            <div class="col-6 col-lg-4 top-agent-pic">
-              <img
-                src="./assets/images/top-agent-1.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+            <!-- single Card with Review -->
+            <div
+              class="col-md-8 d-flex align-items-center flex-column flex-lg-row"
+            >
+              <div class="col-md-4 top-agent-pic">
+                <img src="./assets/images/top-agent-1.png" class="" alt="" />
+              </div>
 
-            <!-- single Card -->
-            <div class="col-md-4 top-agent-review-area p-0">
-              <div class="top-agent-review bg-white position-relative">
-                <h3 class="mb-3">
-                  “I will select the best <br />
-                  accommodation for you”
-                </h3>
-                <img
-                  src="./assets/images/icons/quote-mark.svg"
-                  class="img-fluid agent-quote-mark position-absolute"
-                  alt="Quote Mark"
-                />
-                <p class="mb-4">
-                  Amet libero morbi venenatis ut est. Iaculis leo ultricies nunc
-                  id ante adipiscing. Vel metus odio at faucibus ac. Neque id
-                  placerat et id ut. Scelerisque eu mi ullamcorper sit urna. Est
-                  volutpat dignissim elementum, nec.
-                </p>
+              <!-- single Card -->
+              <div class="col-md-6 top-agent-review-area p-0">
+                <div class="top-agent-review bg-white position-relative">
+                  <h3 class="mb-3">
+                    “I will select the best <br />
+                    accommodation for you”
+                  </h3>
+                  <img
+                    src="./assets/images/icons/quote-mark.svg"
+                    class="img-fluid agent-quote-mark position-absolute"
+                    alt="Quote Mark"
+                  />
+                  <p class="mb-4">
+                    Amet libero morbi venenatis ut est. Iaculis leo ultricies
+                    nunc id ante adipiscing. Vel metus odio at faucibus ac.
+                    Neque id placerat et id ut. Scelerisque eu mi ullamcorper
+                    sit urna. Est volutpat dignissim elementum, nec.
+                  </p>
 
-                <div class="d-flex justify-content-between">
-                  <!-- agent info -->
-                  <div class="agent-info">
-                    <h4 class="m-0">Floyd Miles</h4>
-                    <p>Imperial Property Group Agent</p>
-                    <div class="social-icons d-flex gap-2">
-                      <i class="icon-Facebook-white-bg"></i>
-                      <i class="icon-twitter"></i>
-                      <i class="icon-linkedin"></i>
+                  <div class="d-flex justify-content-between">
+                    <!-- agent info -->
+                    <div class="agent-info">
+                      <h4 class="m-0">Floyd Miles</h4>
+                      <p>Imperial Property Group Agent</p>
+                      <div class="social-icons d-flex gap-2">
+                        <i class="icon-Facebook-white-bg"></i>
+                        <i class="icon-twitter"></i>
+                        <i class="icon-linkedin"></i>
+                      </div>
                     </div>
-                  </div>
-                  <!-- rating -->
-                  <div class="agent-rating">
-                    <div class="rating">
-                      <i class="icon-rating"></i>
-                      <i class="icon-rating"></i>
-                      <i class="icon-rating"></i>
-                      <i class="icon-rating"></i>
+                    <!-- rating -->
+                    <div class="agent-rating">
+                      <div class="rating">
+                        <i class="icon-rating"></i>
+                        <i class="icon-rating"></i>
+                        <i class="icon-rating"></i>
+                        <i class="icon-rating"></i>
+                      </div>
+                      <p>45 reviews</p>
                     </div>
-                    <p>45 reviews</p>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- end Card -->
           </div>
         </div>
       </div>
@@ -1636,10 +1644,10 @@
           </div>
 
           <div
-            class="col-md-9 d-flex flex-lg-row flex-column justify-content-center align-content-center text-center text-md-start"
+            class="download-app-info-icon col-lg-9 d-flex flex-lg-row flex-column justify-content-center align-content-center text-center text-lg-start"
           >
             <!-- info -->
-            <div class="download-app-info col-md-6 py-3 px-3">
+            <div class="download-app-info col-lg-6 py-3 px-3">
               <h4 class="mb-3">Download Our App</h4>
               <p>
                 Find everything you need for buying, selling <br />
@@ -1649,7 +1657,7 @@
 
             <!-- icons -->
             <div
-              class="custom-download-app-store-icon col-md-6 d-flex p-md-4 p-4 p-md-2 d-flex gap-4 justify-content-md-start justify-content-center justify-md align-items-center"
+              class="custom-download-app-store-icon col-lg-6 d-flex p-lg-4 pb-4 d-flex gap-4 justify-content-lg-start justify-content-center align-items-center"
             >
               <img
                 src="./assets/images/icons/app-store.png"
@@ -1658,7 +1666,7 @@
               />
               <img
                 src="./assets/images/icons/google-play.png"
-                class=""
+                class="img-fluid"
                 alt="Download Our App"
               />
             </div>
