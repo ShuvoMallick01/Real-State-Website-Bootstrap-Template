@@ -34,6 +34,11 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./css/utilities.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home-v2.css" />
+    <link rel="stylesheet" href="./css/catalog.css" />
+    <link rel="stylesheet" href="./css/account.css" />
+    <link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <title>e-Commerce Website</title>
   </head>
@@ -63,7 +68,8 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-menu">
-              <li class="nav-item dropdown px-3">
+              <!-- Language Change Menu -->
+              <li class="nav-item dropdown px-3 menu-language">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -91,10 +97,8 @@
                 </ul>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown px-3">
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -102,24 +106,20 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Explore
+                  Home
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Property for Rent</a>
+                    <a class="dropdown-item" href="./index.html">Home V.1</a>
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Property for Sell</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="#">Property for Buy</a>
+                    <a class="dropdown-item" href="./home-v2.html">Home V.2</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Top Cities</a>
-              </li>
-              <li class="nav-item dropdown px-3">
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -127,22 +127,155 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Help
+                  Catalog
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Help for Rent</a>
+                    <a class="dropdown-item" href="./property-for-rent.html"
+                      >Property for Rent</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Help for Sell</a>
+                    <a class="dropdown-item" href="./property-for-sale.html"
+                      >Property for Sell</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Help for Buy</a>
+                    <a class="dropdown-item" href="./property-for-buy.html"
+                      >Property for Buy</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./single-property-v1.html"
+                      >Single Property V.1</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./single-property-v2.html"
+                      >Single Property V.2</a
+                    >
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./personal-info.html"
+                      >Personal Info</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./security.html">Security</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./my-properties.html"
+                      >My Properties</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./wishlist.html">Wishlist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./notifications.html"
+                      >Notifications</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Vendor
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./add-property.html"
+                      >Add Property</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./promotion.html"
+                      >Property Promotion</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./vendor-rent.html"
+                      >Vendor Page: Rent</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./vendor-sale.html"
+                      >Vendor Page: Sale</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./reviews.html"
+                      >Vendor Page: Reviews</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./post.html">Post</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./help-center.html"
+                      >Help Center</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./404.html">404</a>
+                  </li>
+                </ul>
               </li>
             </ul>
 

@@ -33,6 +33,10 @@ Keywords: real state, Template etc.
   font-size: 28px;
 }
 
+.menu-language {
+  border-right: 1px solid var(--bs-gray-300);
+}
+
 .custom-menu li a {
   font-weight: 600;
   font-size: 15px;
