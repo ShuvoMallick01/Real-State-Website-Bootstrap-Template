@@ -10,7 +10,7 @@ Keywords: real state, Template etc.
 
 /* =========== CSS Files List =========== */
 /* ----- Utilities CSS ----- */
-/* ----- Home Page V1 CSS ----- */
+/* ----- Style CSS ----- */
 /* ----- Home Page V2 CSS ----- */
 /* ----- Catalog CSS ----- */
 /* ----- Account CSS ----- */
@@ -52,6 +52,10 @@ Keywords: real state, Template etc.
   font-weight: 600;
   font-size: 15px;
   color: var(--bs-gray-800) !important;
+}
+
+.nav-item .active {
+  color: var(--bs-primary) !important;
 }
 
 .custom-btn {

@@ -1,0 +1,201 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template etc. 
+
+*/
+
+/* =========== CSS Files List =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Home V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS Files List =============== */
+
+/* ===== Style List Table Start ===== */
+/* 
+  1. Header Section
+  2. Hero/Banner Section
+  3. Category Section
+  4. Service Section
+  5. Top Offer Section
+  6. Added Today Section
+  7. Calculate the Cost Section
+  8. Search Property Section
+  9. Our partners Section
+  10. Top real estate agents Section
+  11. Footer Section
+  */
+/* ===== Style List Table End ===== */
+
+/* ================= Next Page ================= */
+/* ----- Catalog CSS ----- */
+/* ================= Next Page ================= */
+
+/* ===== Header START ===== */
+/* ===== Header END ===== */
+
+/* ===== Hero Section START ===== */
+.hero-area-v2 {
+  background-image: url("../assets/images/home-v2/banner-v2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 736px;
+  object-fit: cover;
+  position: relative;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: #1f1b2d;
+  opacity: 0.4;
+  /* border-radius: 12px; */
+  position: absolute;
+}
+
+.banner-content-v2 {
+  height: 736px;
+}
+
+.banner-content-v2 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--bs-white);
+  z-index: 1;
+}
+
+/* fiter form */
+.filter-area-v2 {
+  z-index: 1;
+}
+
+.search-location-v2 {
+  box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
+    0px 4px 12px rgba(31, 27, 45, 0.08);
+  border-radius: 8px;
+}
+
+.search-location-v2 .form-select {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.rent-wrapper-v2,
+.rent-wrapper-v2 select {
+  border-left: 1px solid var(--bs-gray-300);
+  color: var(--bs-gray-600);
+}
+
+.rent-wrapper-v2:first-child,
+.rent-wrapper-v2:first-child select {
+  border-left: none;
+  color: var(--bs-gray-800);
+}
+
+.search-location-v2 {
+  font-size: 22px;
+}
+
+.search-btn-v2 {
+  background-color: var(--bs-primary);
+  border: none;
+  padding: 14px 32px !important;
+}
+/* ===== Hero Section END ===== */
+
+/* ===== About Section START ===== */
+.about-left-contents .about-description-v2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.about-divider-v2 {
+  border: 1px solid #efecf3;
+  color: var(--bs-gray-300);
+}
+
+.about-statistics-v2 .trustpilot-info img {
+  width: 144px;
+}
+
+.about-statistics-v2 .trustpilot-info h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .trustpilot-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-statistics-v2 .property-listings h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .property-listings p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-statistics-v2 .annual-earning h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .annual-earning p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-illustration-v2 img {
+  width: 526px;
+}
+/* ===== About Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */
+
+/* ===== Section START ===== */
+/* ===== Section END ===== */

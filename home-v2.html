@@ -100,7 +100,7 @@
               <!-- Single menu item -->
               <li class="nav-item dropdown px-2">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle active"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -295,57 +295,36 @@
     <!-- Navbar End -->
 
     <!-- Hero/Banner Section Start -->
-    <section class="hero py-4">
+    <section class="hero-area-v2 mt-2">
+      <div class="color-overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-5 mt-5 pt-4">
-            <h2 class="hero-title pb-4">Easy way to find a perfect property</h2>
+          <div
+            class="banner-content-v2 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="col-lg-6 col-md-8 text-center">
+              Easy way to find a perfect property
+            </h2>
 
-            <p class="hero-description position-relative pb-5">
-              We provide a complete service for the sale, purchase or rental of
-              real estate. We have been operating more than 10 years. Search
-              millions of apartments and houses on Finder.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-lg-7">
-            <img
-              src="./assets/images/banner-building.png"
-              class="img-fluid"
-              alt="Banner Building"
-            />
-          </div>
-
-          <!-- Start Form -->
-          <div class="col-lg-8 mt-lg-0 mt-5">
-            <form
-              action=""
-              class="d-flex align-items-center bg-white search-location search-responsive"
-            >
-              <div
-                class="d-flex gap-4 align-items-center flex-grow-1 pe-2 responsive-search rent-responsives"
+            <!-- Start Form -->
+            <div class="col-md-8 col-sm-12 mt-5 filter-area-v2">
+              <form
+                action=""
+                class="d-flex align-items-center justify-content-between bg-white search-location-v2 p-2"
               >
-                <!-- Single Field -->
-                <div
-                  class="d-flex align-items-center filter-item rent-responsive"
-                >
-                  <div
-                    class="d-flex align-items-center rent-wrapper rent-field p-md-3"
-                  >
-                    <i class="icon-home"></i>
-                    <select class="form-select rent-field border-0">
-                      <option selected>For Rent</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
+                <!-- Single Rent Field -->
+                <div class="d-flex align-items-center rent-wrapper-v2 ps-3">
+                  <i class="icon-home"></i>
+                  <select class="form-select border-0">
+                    <option selected>For Rent</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
                 </div>
 
                 <!-- Single Field -->
-                <div
-                  class="d-flex align-items-center rent-wrapper rent-responsive"
-                >
+                <div class="d-flex align-items-center rent-wrapper-v2 px-3">
                   <i class="icon-pin"></i>
                   <select class="form-select border-0">
                     <option selected>Location</option>
@@ -356,9 +335,7 @@
                 </div>
 
                 <!-- Single Field -->
-                <div
-                  class="d-flex align-items-center rent-wrapper rent-responsive"
-                >
+                <div class="d-flex align-items-center rent-wrapper-v2 px-3">
                   <i class="icon-list"></i>
                   <select class="form-select border-0">
                     <option selected>Property type</option>
@@ -368,1251 +345,100 @@
                   </select>
                 </div>
 
-                <!-- Single Range -->
-                <div
-                  class="d-flex align-items-center rent-wrapper bg-white gap-2 py-md-3 rent-responsive"
-                >
-                  <i class="icon-cash"></i>
-                  <label for="customRange1" class="form-label me-2 mt-2">
-                    Price
-                  </label>
-                  <input
-                    type="range"
-                    class="form-range filter-range"
-                    id="customRange1"
-                  />
+                <!-- Single Button -->
+                <div class="bg-white search-location-btn">
+                  <button class="btn btn-primary search-btn-v2">Search</button>
                 </div>
-
-                <div class="bg-white search-location-btn rent-responsive">
-                  <button class="btn btn-primary search-btn p-3">
-                    <i class="fa-solid fa-magnifying-glass text-white"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
+            <!-- End Form -->
           </div>
-          <!-- End Form -->
         </div>
       </div>
     </section>
     <!-- Hero/Banner Section End -->
 
-    <!-- Category area Start -->
-    <section class="custom-categories py-5">
-      <div class="container">
-        <div class="row gy-4 gy-lg-0">
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-real-estate-house"></i>
-              </div>
-              <p class="mt-3 mb-0">Houses</p>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-apartment"></i>
-              </div>
-              <p class="mt-3 mb-0">Apartments</p>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-shop"></i>
-              </div>
-              <p class="mt-3 mb-0">Commercial</p>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-rent"></i>
-              </div>
-              <p class="mt-3 mb-0">Daily rental</p>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-house-chosen"></i>
-              </div>
-              <p class="mt-3 mb-0">New buildings</p>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <div class="category text-center p-4">
-              <div class="category-icon">
-                <i class="icon-horisontal"></i>
-              </div>
-              <p class="mt-3 mb-0">More</p>
-            </div>
-          </div>
-          <!-- End -->
-        </div>
-      </div>
-    </section>
-    <!-- Category area End -->
-
-    <!-- Service Section START -->
-    <section class="services py-5">
-      <div class="container">
-        <div class="row gy-4 gy-lg-0">
-          <!-- Single Card -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card service text-center border-0 p-4">
-              <img
-                src="./assets/images/illustration/buy-a-property.svg"
-                class="card-img-top"
-                alt="Major Category"
-              />
-              <div class="card-body mt-3">
-                <h5 class="card-title mb-0">Buy a property</h5>
-                <p class="text-muted pt-3 pb-4 mb-0">
-                  Blandit lorem dictum in velit. Et nisi at faucibus mauris
-                  pretium enim. Risus sapien nisi aliquam egestas leo dignissim.
-                </p>
-                <a href="#" class="btn btn-primary custom-btn">Find a home</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card service text-center border-0 p-4">
-              <img
-                src="./assets/images/illustration/seller-a-property.svg"
-                class="card-img-top"
-                alt="Major Category"
-              />
-              <div class="card-body mt-3">
-                <h5 class="card-title mb-0">Sell a property</h5>
-                <p class="text-muted pt-3 pb-4 mb-0">
-                  Amet, cras orci justo, tortor nisl aliquet. Enim tincidunt
-                  tellus nunc, nulla arcu posuere quis. Velit turpis orci
-                  venenatis.
-                </p>
-                <a href="#" class="btn btn-primary custom-btn">Place an ad</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Single Card -->
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="card service text-center border-0 p-4">
-              <img
-                src="./assets/images/illustration/rent-a-property.svg"
-                class="card-img-top"
-                alt="Major Category"
-              />
-              <div class="card-body mt-3">
-                <h5 class="card-title mb-0">Rent a property</h5>
-                <p class="text-muted pt-3 pb-4 mb-0">
-                  Sed sed aliquet sed id purus malesuada congue viverra.
-                  Habitant quis lacus, volutpat natoque ipsum iaculis cursus.
-                </p>
-                <a href="#" class="btn btn-primary custom-btn">Find a rental</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- End -->
-        </div>
-      </div>
-    </section>
-    <!-- Service Section END -->
-
-    <!-- Top Offer Section START -->
-    <section class="py-5">
+    <!-- About Section START -->
+    <section class="about-v2 py-5 my-5">
       <div class="container">
         <div class="row">
-          <div
-            class="heading d-flex justify-content-between align-items-center mb-4"
-          >
-            <h2>Top offers</h2>
-            <a href="#"
-              ><span>View all</span> <i class="icon-Property-2right1"></i
-            ></a>
-          </div>
-
-          <!-- Carousel start -->
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <!-- Single Carousel Group -->
-              <div class="carousel-item active">
-                <div class="row gy-4 gy-lg-0">
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-1.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-2.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-3.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-4.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <!-- left side -->
+          <div class="col-lg-6 col-md-8 about-left-contents">
+            <!-- top contents -->
+            <div class="row py-3 mt-5">
+              <div class="col-md-6">
+                <h4 class="heading-title">
+                  We are the best in the housing market
+                </h4>
               </div>
-
-              <!-- Single Carousel Group -->
-              <div class="carousel-item">
-                <div class="row gy-4 gy-lg-0">
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-1.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-2.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-3.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Single Card -->
-                  <div class="col-lg-3 col-md-6">
-                    <div class="card border-0 property overflow-hidden">
-                      <div class="card-top position-relative">
-                        <img
-                          src="./assets/images/products/top-offers-4.png"
-                          class="card-img-top position-relative"
-                          alt="Apartment"
-                        />
-
-                        <!-- Badge -->
-                        <div class="position-absolute top-0 left-0 p-3 badges">
-                          <span class="d-table badge bg-success d-block mb-1"
-                            >Verified</span
-                          >
-                          <span class="d-table badge bg-info">New</span>
-                        </div>
-
-                        <!-- Heart Badge -->
-                        <button
-                          class="btn favorite-btn d-flex justify-content-center align-items-center"
-                        >
-                          <i class="fa-regular fa-heart"></i>
-                        </button>
-                      </div>
-
-                      <div class="card-body p-4">
-                        <p class="property-type mb-2">FOR RENT</p>
-                        <h5 class="card-title m-0 property-feature">
-                          3-bed Apartment | 67 sq.m
-                        </h5>
-                        <p class="my-2 text-muted property-address">
-                          3811 Ditmars Blvd Astoria, NY 11105
-                        </p>
-                        <h6 class="property-price">
-                          <i class="icon-cash me-1"></i> $1,629
-                        </h6>
-                        <hr class="my-3" />
-                        <div
-                          class="d-flex justify-content-center gap-4 property-details"
-                        >
-                          <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
-                          <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-lg-6">
+                <p class="about-description-v2">
+                  Viverra a, mauris elit, pretium senectus ut sagittis malesuada
+                  lacus. Egestas risus lorem lectus nunc. Aliquet ultrices risus
+                  lobortis cursus vel blandit magna. Eu donec hendrerit morbi
+                  tortor.
+                </p>
               </div>
             </div>
 
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
+            <hr class="about-divider-v2" />
 
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <!-- End -->
-        </div>
-      </div>
-    </section>
-    <!--  Top Offer Section END -->
-
-    <!-- Added Today Section START -->
-    <section class="added-today-services py-5">
-      <div class="container">
-        <div class="row gy-4 gy-lg-0">
-          <!-- Start Heading -->
-          <div
-            class="heading d-flex justify-content-between align-items-center mb-0 mb-lg-5 flex-lg-row flex-column"
-          >
-            <div
-              class="heading d-flex justify-content-start align-items-center gap-4 flex-lg-row flex-column"
-            >
-              <h2 class="heading-title">Added today</h2>
-              <div class="added-today-btns d-flex gap-2">
-                <button class="custom-btn">Apartments</button>
-                <button class="custom-btn custom-btn-active">Houses</button>
-                <button class="custom-btn">Rooms</button>
-                <button class="custom-btn">Commercial property</button>
-              </div>
-            </div>
-
-            <a href="#" class="section-view-all mt-3 mt-lg-0"
-              ><span>View all</span> <i class="icon-Property-2right1"></i
-            ></a>
-          </div>
-
-          <div class="row gy-4 gy-lg-0">
-            <!-- Single Service -->
-            <div class="col-lg-6">
-              <div class="added-today-service overflow-hidden">
-                <div class="image-overlay"></div>
-                <div class="overflow-hidden">
+            <!-- bottom contents -->
+            <div class="row about-statistics-v2 py-3 align-items-center">
+              <div class="col-md-4">
+                <div class="trustpilot-info text-center">
                   <img
-                    src="./assets/images/products/added-today-1.png"
-                    class="position-relative img-cover"
-                    alt="Apartment"
+                    src="./assets/images/home-v2/trustpilot.svg"
+                    class="img-fluid"
+                    alt="TrustPilot Logo"
                   />
+                  <h4 class="m-0 pt-3">Excellent</h4>
+                  <p class="m-0">4.8 out of 5</p>
                 </div>
+              </div>
 
-                <!-- Badge -->
-                <div
-                  class="position-absolute top-0 left-0 p-4 badges d-flex gap-2"
-                >
-                  <span class="d-table badge bg-success">Verified</span>
-                  <span class="d-table badge bg-info">New</span>
-                </div>
-
-                <!-- Service Info -->
-                <div
-                  class="position-absolute added-today-property-details bottom-0 left-0 p-4"
-                >
-                  <p class="added-today-property-type mb-2">FOR RENT</p>
-                  <h5 class="card-title m-0 added-today-property-feature">
-                    Luxury Rental Villa
-                  </h5>
-                  <p class="added-today-property-address m-0 mt-1">
-                    <i class="icon-pin"></i> 118-11 Sutphin Blvd Jamaica, NY
-                    11434
+              <div class="col-md-4">
+                <div class="property-listings text-center">
+                  <h2>1.2M+</h2>
+                  <p>
+                    Property listings <br />
+                    worldwide
                   </p>
                 </div>
-
-                <!-- Button -->
-                <div
-                  class="position-absolute added-today-property-button bottom-0 end-0 p-4 d-flex gap-0"
-                >
-                  <button class="btn btn-primary custom-btn">
-                    From $3,850
-                  </button>
-                  <button class="btn btn-primary heart-icon-btn">
-                    <i class="icon-heart-default"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Service -->
-            <div class="col-lg-6 d-flex flex-column justify-content-between">
-              <!-- Single Service -->
-              <div class="col-12">
-                <div class="added-today-service overflow-hidden">
-                  <div class="image-overlay"></div>
-                  <div class="overflow-hidden">
-                    <img
-                      src="./assets/images/products/added-today-2.png"
-                      class="card-img-top position-relative"
-                      alt="Apartment"
-                    />
-                  </div>
-
-                  <!-- Badge -->
-                  <div
-                    class="position-absolute top-0 left-0 p-4 badges d-flex gap-2"
-                  >
-                    <span class="d-table badge bg-info">New</span>
-                  </div>
-
-                  <!-- Service Info -->
-                  <div
-                    class="position-absolute added-today-property-details bottom-0 left-0 p-4"
-                  >
-                    <p class="added-today-property-type mb-2">FOR RENT</p>
-                    <h5 class="card-title m-0 added-today-property-feature">
-                      Duplex with Garage
-                    </h5>
-                    <p class="added-today-property-address m-0 mt-1">
-                      <i class="icon-pin"></i> 21 Pulaski Road Kings Park, NY
-                      11754
-                    </p>
-                  </div>
-
-                  <!-- Button -->
-                  <div
-                    class="position-absolute added-today-property-button bottom-0 end-0 p-4 d-flex gap-0"
-                  >
-                    <button class="btn btn-primary custom-btn">$200,410</button>
-                    <button class="btn btn-primary heart-icon-btn">
-                      <i class="icon-heart-default"></i>
-                    </button>
-                  </div>
-                </div>
               </div>
 
-              <!-- Single Service -->
-              <div class="col-12 mt-lg-0 mt-4">
-                <div class="added-today-service overflow-hidden">
-                  <div class="image-overlay"></div>
-                  <div class="overflow-hidden">
-                    <img
-                      src="./assets/images/products/added-today-3.png"
-                      class="card-img-top position-relative"
-                      alt="Apartment"
-                    />
-                  </div>
-
-                  <!-- Badge -->
-                  <div
-                    class="position-absolute top-0 left-0 p-4 badges d-flex gap-2"
-                  >
-                    <span class="d-table badge bg-info">New</span>
-                  </div>
-
-                  <!-- Service Info -->
-                  <div
-                    class="position-absolute added-today-property-details bottom-0 left-0 p-4"
-                  >
-                    <p class="added-today-property-type mb-2">FOR RENT</p>
-                    <h5 class="card-title m-0 added-today-property-feature">
-                      Country House
-                    </h5>
-                    <p class="added-today-property-address m-0 mt-1">
-                      <i class="icon-pin"></i> 6954 Grand AveMaspeth, NY 11378
-                    </p>
-                  </div>
-
-                  <!-- Button -->
-                  <div
-                    class="position-absolute added-today-property-button bottom-0 end-0 p-4 d-flex gap-0"
-                  >
-                    <button class="btn btn-primary custom-btn">$162,000</button>
-                    <button class="btn btn-primary heart-icon-btn">
-                      <i class="icon-heart-default"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Row -->
-        </div>
-      </div>
-    </section>
-    <!-- Added Today Section END -->
-
-    <!-- Calculate the Cost Section START -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row align-items-center calculate gy-4 gy-lg-0">
-          <div class="col-md-5 mb-sm-0 mb-4">
-            <img
-              src="./assets/images/illustration/calculate-the-cost.svg"
-              class="img-fluid"
-              alt="calculator Artwork"
-            />
-          </div>
-
-          <div class="col-md-6">
-            <div class="calculate-details text-center text-sm-start">
-              <h2 class="mb-3">Calculate the cost of your property</h2>
-              <p class="mb-4">
-                Real estate appraisal is a procedure that allows you
-                to determine the average market value of real estate (apartment,
-                house, land, etc.). Сalculate the cost of your property with our
-                new Calculation Service.
-              </p>
-              <button class="btn btn-primary custom-btn">
-                <i class="icon-calculator"></i> Calculate
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Calculate the Cost Section END -->
-
-    <!-- Search Property Section START -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div
-            class="heading d-flex justify-content-between align-items-center mb-4"
-          >
-            <h2>Search property by city</h2>
-            <a href="#"
-              ><span>View all</span> <i class="icon-Property-2right1"></i
-            ></a>
-          </div>
-
-          <!-- All Cards -->
-          <div class="row gy-4 gy-lg-0">
-            <!-- Single Card -->
-            <div class="col-lg-3 col-md-6">
-              <div class="card border-0 search-property overflow-hidden">
-                <div class="card-top position-relative">
-                  <img
-                    src="./assets/images/products/search-property-4.png"
-                    class="card-img-top position-relative"
-                    alt="Apartment"
-                  />
-
-                  <!-- Progress Bar  -->
-                  <div class="position-absolute ps-3 pe-4 property-progress">
-                    <div>
-                      <span class="d-block mb-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-danger"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 30%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>268</span>
-                      </div>
-                    </div>
-
-                    <div>
-                      <span class="d-block mb-1 mt-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-success"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 80%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>1540</span>
-                      </div>
-                    </div>
-                    <!-- End Progress -->
-                  </div>
-                </div>
-
-                <div class="card-body p-4">
-                  <h5 class="card-title m-0 property-feature text-center">
-                    New York
-                  </h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="col-lg-3 col-md-6">
-              <div class="card border-0 search-property overflow-hidden">
-                <div class="card-top position-relative">
-                  <img
-                    src="./assets/images/products/search-property-3.png"
-                    class="card-img-top position-relative"
-                    alt="Apartment"
-                  />
-
-                  <!-- Progress Bar  -->
-                  <div class="position-absolute ps-3 pe-4 property-progress">
-                    <div>
-                      <span class="d-block mb-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-danger"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 30%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>268</span>
-                      </div>
-                    </div>
-
-                    <div>
-                      <span class="d-block mb-1 mt-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-success"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 80%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>1540</span>
-                      </div>
-                    </div>
-                    <!-- End Progress -->
-                  </div>
-                </div>
-
-                <div class="card-body p-4">
-                  <h5 class="card-title m-0 property-feature text-center">
-                    Chicago
-                  </h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="col-lg-3 col-md-6">
-              <div class="card border-0 search-property overflow-hidden">
-                <div class="card-top position-relative">
-                  <img
-                    src="./assets/images/products/search-property-2.png"
-                    class="card-img-top position-relative"
-                    alt="Apartment"
-                  />
-
-                  <!-- Progress Bar  -->
-                  <div class="position-absolute ps-3 pe-4 property-progress">
-                    <div>
-                      <span class="d-block mb-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-danger"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 30%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>268</span>
-                      </div>
-                    </div>
-
-                    <div>
-                      <span class="d-block mb-1 mt-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-success"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 80%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>1540</span>
-                      </div>
-                    </div>
-                    <!-- End Progress -->
-                  </div>
-                </div>
-
-                <div class="card-body p-4">
-                  <h5 class="card-title m-0 property-feature text-center">
-                    Los Angeles
-                  </h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Single Card -->
-            <div class="col-lg-3 col-md-6">
-              <div class="card border-0 search-property overflow-hidden">
-                <div class="card-top position-relative">
-                  <img
-                    src="./assets/images/products/search-property-1.png"
-                    class="card-img-top position-relative"
-                    alt="Apartment"
-                  />
-
-                  <!-- Progress Bar  -->
-                  <div class="position-absolute ps-3 pe-4 property-progress">
-                    <div>
-                      <span class="d-block mb-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-danger"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 30%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>268</span>
-                      </div>
-                    </div>
-
-                    <div>
-                      <span class="d-block mb-1 mt-1"
-                        ><i class="icon-credit-card"></i> Property for
-                        sale</span
-                      >
-                      <div class="custom-progress d-flex gap-2">
-                        <div class="progress flex-grow-1">
-                          <div
-                            class="progress-bar bg-success"
-                            role="progressbar"
-                            aria-label="Danger example"
-                            style="width: 80%"
-                            aria-valuenow="100"
-                            aria-valuemin="0"
-                            aria-valuemax="100"
-                          ></div>
-                        </div>
-                        <span>1540</span>
-                      </div>
-                    </div>
-                    <!-- End Progress -->
-                  </div>
-                </div>
-
-                <div class="card-body p-4">
-                  <h5 class="card-title m-0 property-feature text-center">
-                    San Diego
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <!-- End -->
-          </div>
-          <!-- End -->
-        </div>
-      </div>
-    </section>
-    <!--  Search Property Section END -->
-
-    <!-- Our partners START -->
-    <section class="py-5 our-partners">
-      <div class="container">
-        <div class="row gy-4 gy-lg-0">
-          <h2 class="custom-header mb-4">Our partners</h2>
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-1.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-2.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-3.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-4.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-5.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <!-- Single Logo -->
-          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
-            <img
-              src="./assets/images/partners/our-partners-6.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Our partners END -->
-
-    <!-- Top real estate agents Section START -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="heading mb-4">
-            <h2>Top real estate agents</h2>
-          </div>
-
-          <!-- All Cards -->
-          <div
-            class="row gy-4 gap-3 d-flex justify-content-between gy-lg-0 top-agents align-items-center flex-column flex-lg-row"
-          >
-            <!-- single Card -->
-            <div class="col-lg-4 col-6 top-agent-pic">
-              <img src="./assets/images/top-agent-2.png" class="" alt="" />
-            </div>
-
-            <!-- single Card with Review -->
-            <div
-              class="col-md-8 d-flex align-items-center flex-column flex-lg-row"
-            >
-              <div class="col-md-4 top-agent-pic">
-                <img src="./assets/images/top-agent-1.png" class="" alt="" />
-              </div>
-
-              <!-- single Card -->
-              <div class="col-md-6 top-agent-review-area p-0">
-                <div class="top-agent-review bg-white position-relative">
-                  <h3 class="mb-3">
-                    “I will select the best <br />
-                    accommodation for you”
-                  </h3>
-                  <img
-                    src="./assets/images/icons/quote-mark.svg"
-                    class="img-fluid agent-quote-mark position-absolute"
-                    alt="Quote Mark"
-                  />
-                  <p class="mb-4">
-                    Amet libero morbi venenatis ut est. Iaculis leo ultricies
-                    nunc id ante adipiscing. Vel metus odio at faucibus ac.
-                    Neque id placerat et id ut. Scelerisque eu mi ullamcorper
-                    sit urna. Est volutpat dignissim elementum, nec.
+              <div class="col-md-4">
+                <div class="annual-earning text-center">
+                  <h2>$3.8K</h2>
+                  <p>
+                    Average annual <br />
+                    earnings per landlord
                   </p>
-
-                  <div class="d-flex justify-content-between">
-                    <!-- agent info -->
-                    <div class="agent-info">
-                      <h4 class="m-0">Floyd Miles</h4>
-                      <p>Imperial Property Group Agent</p>
-                      <div class="social-icons d-flex gap-2">
-                        <i class="icon-Facebook-white-bg"></i>
-                        <i class="icon-twitter"></i>
-                        <i class="icon-linkedin"></i>
-                      </div>
-                    </div>
-                    <!-- rating -->
-                    <div class="agent-rating">
-                      <div class="rating">
-                        <i class="icon-rating"></i>
-                        <i class="icon-rating"></i>
-                        <i class="icon-rating"></i>
-                        <i class="icon-rating"></i>
-                      </div>
-                      <p>45 reviews</p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- end Card -->
+          <!-- right side -->
+          <div class="col-lg-6 col-md-4 about-illustration-v2 text-end">
+            <img
+              src="./assets/images/home-v2/best-housing-market.svg"
+              class="img-fluid"
+              alt="TrustPilot Logo"
+            />
           </div>
         </div>
       </div>
     </section>
+    <!-- About Section END -->
+
+    <!-- Section START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </section>
+    <!-- Section END -->
 
     <!-- Footer START -->
     <footer class="bg-light py-5">
