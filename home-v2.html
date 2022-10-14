@@ -359,11 +359,11 @@
     <!-- Hero/Banner Section End -->
 
     <!-- About Section START -->
-    <section class="about-v2 py-5 my-5">
+    <section class="about-v2 py-5 mt-5">
       <div class="container">
         <div class="row">
           <!-- left side -->
-          <div class="col-lg-6 col-md-8 about-left-contents">
+          <div class="col-lg-6 col-md-7 about-left-contents">
             <!-- top contents -->
             <div class="row py-3 mt-5">
               <div class="col-md-6">
@@ -384,7 +384,9 @@
             <hr class="about-divider-v2" />
 
             <!-- bottom contents -->
-            <div class="row about-statistics-v2 py-3 align-items-center">
+            <div
+              class="row about-statistics-v2 py-3 align-items-center gy-4 gy-lg-0"
+            >
               <div class="col-md-4">
                 <div class="trustpilot-info text-center">
                   <img
@@ -420,10 +422,10 @@
           </div>
 
           <!-- right side -->
-          <div class="col-lg-6 col-md-4 about-illustration-v2 text-end">
+          <div class="col-lg-6 col-md-5 about-illustration-v2 text-end">
             <img
               src="./assets/images/home-v2/best-housing-market.svg"
-              class="img-fluid"
+              class="img-fluid d-none d-md-inline"
               alt="TrustPilot Logo"
             />
           </div>
@@ -431,6 +433,77 @@
       </div>
     </section>
     <!-- About Section END -->
+
+    <!-- Newly listed properties Section START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="heading d-flex justify-content-between align-items-center mb-4"
+          >
+            <h2 class="heading-title pb-3">Newly listed properties</h2>
+
+            <a href="#"
+              ><span>View all</span> <i class="icon-long-right"></i
+            ></a>
+          </div>
+          <div class="col-lg-8">
+            <div class="position-relative newly-listed-property-img-v2">
+              <img
+                src="./assets/images/home-v2/newly-listed-properties.png"
+                class="img-fluid d-none d-md-inline"
+                alt="TrustPilot Logo"
+              />
+
+              <!-- Badge -->
+              <div class="position-absolute top-0 left-0 p-3 badges">
+                <span class="d-table badge bg-success d-block mb-1"
+                  >Verified</span
+                >
+                <span class="d-table badge bg-info">New</span>
+              </div>
+
+              <!-- Heart Badge -->
+              <button
+                class="btn favorite-btn d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-regular fa-heart"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="property-type mb-2">FOR RENT</p>
+            <h5 class="card-title m-0 property-feature">
+              3-bed Apartment | 67 sq.m
+            </h5>
+            <p class="my-2 text-muted property-address">
+              3811 Ditmars Blvd Astoria, NY 11105
+            </p>
+            <h6 class="property-price">
+              <i class="icon-cash me-1"></i> $1,629
+            </h6>
+            <hr class="my-3" />
+            <div class="d-flex justify-content-center gap-4 property-details">
+              <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+              <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+              <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+            </div>
+
+            <!-- Button -->
+            <div
+              class="added-today-property-button bottom-0 end-0 p-4 d-flex gap-0"
+            >
+              <button class="btn btn-primary custom-btn">From $3,850</button>
+              <button class="btn btn-primary heart-icon-btn">
+                <i class="icon-heart-default"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Newly listed properties Section END -->
 
     <!-- Section START -->
     <section class="py-5">
