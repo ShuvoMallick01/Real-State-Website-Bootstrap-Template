@@ -8,24 +8,35 @@ Keywords: real state, Template etc.
 
 */
 
-/* =============== *** =============== */
-/* ===== Utilities css ===== */
-/* ===== Home Page css ===== */
-/* ===== Login Page CSS ===== */
-/* =============== *** =============== */
+/* =========== CSS Files List =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Home Page V1 CSS ----- */
+/* ----- Home Page V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS Files List =============== */
 
-/* ===== style list table ===== */
+/* ===== Style List Table Start ===== */
 /* 
-  1. Header section
-  2. Hero/Banner section
-  3. Category & Major Category Section
-  4. Top Offers Section
+  1. Header Section
+  2. Hero/Banner Section
+  3. Category Section
+  4. Service Section
+  5. Top Offer Section
+  6. Added Today Section
+  7. Calculate the Cost Section
+  8. Search Property Section
+  9. Our partners Section
+  10. Top real estate agents Section
+  11. Footer Section
   */
-/* ===== style list table ===== */
+/* ===== Style List Table End ===== */
 
-/* ====================== Next Page ====================== */
-/* ===== Home Page CSS ===== */
-/* ====================== Next Page ====================== */
+/* =================== Next Page =================== */
+/* ===== Home Page V2 CSS ===== */
+/* =================== Next Page =================== */
 
 /* ===== Header START ===== */
 .custom-header {
@@ -53,8 +64,12 @@ Keywords: real state, Template etc.
 }
 
 .sign-in-btn {
-  color: #fd5631 !important;
-  font-weight: 600 !important;
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+.sign-in-btn:hover {
+  color: var(--bs-white) !important;
 }
 
 .custom-menu .dropdown-toggle::after {
