@@ -94,6 +94,11 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-600);
 }
 
+.rent-wrapper-v2:hover,
+.rent-wrapper-v2 select:hover {
+  color: var(--bs-gray-800);
+}
+
 .rent-wrapper-v2:first-child,
 .rent-wrapper-v2:first-child select {
   border-left: none;
@@ -169,6 +174,63 @@ Keywords: real state, Template etc.
 /* ===== About Section END ===== */
 
 /* ===== Newly listed properties Section START ===== */
+.newly-listed-property-img-v2 img {
+  width: 808px;
+}
+
+.property-type {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--bs-primary);
+  text-transform: uppercase;
+}
+
+.property .property-feature {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+
+.property-address {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.property-price {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.property-price > i {
+  color: var(--bs-gray-600);
+  font-size: 21px;
+  vertical-align: bottom;
+}
+
+.property hr {
+  border: none;
+  border: 1px solid var(--bs-gray-300);
+}
+
+.property-details > p {
+  color: var(--bs-gray-600);
+  font-size: 14px;
+}
+
+.property-details > i {
+  color: var(--bs-gray-600);
+}
+
+/* .property .badge {
+  font-weight: 400;
+  font-size: 14px;
+} */
+
+.property .badges {
+  z-index: 2;
+}
 /* ===== Newly listed properties Section END ===== */
 
 /* ===== Section START ===== */
