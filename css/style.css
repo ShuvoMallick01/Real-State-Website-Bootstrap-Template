@@ -54,6 +54,24 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-800) !important;
 }
 
+.custom-menu li a:hover {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--bs-primary) !important;
+}
+
+.dropdown-menu li a {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--bs-gray-800) !important;
+}
+
+.dropdown-menu li a:hover {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--bs-primary) !important;
+}
+
 .nav-item .active {
   color: var(--bs-primary) !important;
 }
@@ -82,6 +100,12 @@ Keywords: real state, Template etc.
   font-family: "Font Awesome 6 Free";
   font-size: 12px;
 }
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--bs-white);
+}
+
 /* ===== Header END ===== */
 
 /* ===== Hero/Banner START===== */
@@ -301,6 +325,7 @@ Keywords: real state, Template etc.
   text-decoration: none;
 }
 
+/* Property Card */
 .property {
   box-shadow: var(--shadow-small);
   border-radius: 12px;
@@ -312,7 +337,7 @@ Keywords: real state, Template etc.
   box-shadow: var(--shadow-default);
 }
 
-.card-top::after {
+.property .card-top::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -346,42 +371,37 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-800);
 }
 
-.property-address {
+.property .property-address {
   font-weight: 400;
   font-size: 14px;
   color: var(--bs-gray-600);
 }
 
-.property-price {
+.property .property-price {
   font-weight: 700;
   font-size: 16px;
   color: var(--bs-gray-700);
 }
 
-.property-price > i {
+.property .property-price > i {
   color: var(--bs-gray-600);
   font-size: 21px;
   vertical-align: bottom;
 }
 
-.property hr {
+.property .property hr {
   border: none;
   border: 1px solid var(--bs-gray-300);
 }
 
-.property-details > p {
+.property .property-details > p {
   color: var(--bs-gray-600);
   font-size: 14px;
 }
 
-.property-details > i {
+.property .property-details > i {
   color: var(--bs-gray-600);
 }
-
-/* .property .badge {
-  font-weight: 400;
-  font-size: 14px;
-} */
 
 .property .badges {
   z-index: 2;

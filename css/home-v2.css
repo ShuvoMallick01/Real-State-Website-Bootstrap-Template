@@ -178,49 +178,45 @@ Keywords: real state, Template etc.
   width: 808px;
 }
 
-.property-type {
+.property-v2 .property-type {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--bs-primary);
   text-transform: uppercase;
 }
 
-.property .property-feature {
+.property-v2 .property-feature {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 24px;
   color: var(--bs-gray-800);
 }
 
-.property-address {
+.property-v2 .property-address {
   font-weight: 400;
   font-size: 14px;
-  color: var(--bs-gray-600);
-}
-
-.property-price {
-  font-weight: 700;
-  font-size: 16px;
   color: var(--bs-gray-700);
 }
 
-.property-price > i {
-  color: var(--bs-gray-600);
-  font-size: 21px;
-  vertical-align: bottom;
+.property-v2 .property-details > p {
+  color: var(--bs-gray-700);
+  font-size: 16px;
+  font-weight: 700;
+  border-right: 1px solid var(--bs-gray-300);
 }
 
-.property hr {
-  border: none;
-  border: 1px solid var(--bs-gray-300);
+.property-v2 .property-details > p:last-child {
+  border-right: none;
 }
 
-.property-details > p {
+.property-v2 .property-details i {
   color: var(--bs-gray-600);
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.property-details > i {
+.property-v2 .property-details span {
   color: var(--bs-gray-600);
+  font-weight: 500;
 }
 
 /* .property .badge {

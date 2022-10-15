@@ -1,4 +1,16 @@
 /* ======= Responsive Start =======*/
+/* ========== Desktop ========== */
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+  .download-app-info {
+    width: 100%;
+  }
+
+  .custom-download-app-store-icon {
+    padding-top: 2px !important;
+  }
+}
+
 /* ========== Tablets ========== */
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
