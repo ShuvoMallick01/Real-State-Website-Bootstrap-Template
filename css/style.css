@@ -457,12 +457,12 @@ Keywords: real state, Template etc.
   cursor: pointer;
 }
 
-.added-today-services .added-today-service img {
+.added-today-service img {
   width: 100%;
   position: relative;
 }
 
-.added-today-services .image-overlay {
+.added-today-service .image-overlay {
   content: "";
   position: absolute;
   background: var(--bs-gradient-image);
@@ -472,23 +472,24 @@ Keywords: real state, Template etc.
   z-index: 1;
 }
 
-.added-today-property-details {
+.added-today-service .property-details {
   z-index: 1;
-  color: var(--bs-white);
+  color: var(--bs-white) !important;
 }
 
-.added-today-property-details .added-today-property-type {
+.added-today-service .property-type {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
+  color: var(--bs-white) !important;
 }
 
-.added-today-property-details .added-today-property-feature {
+.added-today-service .property-feature {
   font-weight: 700;
   font-size: 20px;
 }
 
-.added-today-property-details .added-today-property-address {
+.added-today-service .property-address {
   font-weight: 400;
   font-size: 14px;
 }

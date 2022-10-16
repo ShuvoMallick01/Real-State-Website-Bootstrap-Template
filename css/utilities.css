@@ -114,7 +114,6 @@ i {
 }
 
 /* ===== Custom Utilities ===== */
-
 .heading-title {
   font-weight: 700;
   font-size: 28px;
@@ -143,4 +142,9 @@ i {
 
 .btn:hover {
   background-color: #fd390e !important;
+}
+
+.custom-hr {
+  border: none;
+  border: 1px solid var(--bs-gray-300);
 }

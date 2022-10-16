@@ -255,14 +255,50 @@ Keywords: real state, Template etc.
 .newly-property-button .heart-icon-btn:hover {
   border-left: 1px solid var(--bs-primary);
 }
-
 /* ===== Newly listed properties Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Discover Locations START ===== */
+.discover-location {
+  box-shadow: var(--shadow-small);
+  padding: 34px;
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.discover-location img {
+  width: 80px;
+}
+
+.discover-location h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.discover-location p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.discover-location-list ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+/* ===== Discover Locations END ===== */
+
+/* ===== Top properties on Finder Section START ===== */
+.top-properties .property-image-single img {
+  height: 540px;
+}
+
+.top-properties .property-img-second-col-top img {
+  height: 220px;
+}
+
+.top-properties .property-img-second-col-bottom img {
+  height: 296px;
+}
+/* ===== Top properties on Finder Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
