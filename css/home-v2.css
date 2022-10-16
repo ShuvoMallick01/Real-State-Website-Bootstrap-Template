@@ -300,8 +300,24 @@ Keywords: real state, Template etc.
 }
 /* ===== Top properties on Finder Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Find your agent Section START ===== */
+.find-agent {
+  background-color: var(--bs-gray-100);
+  border-radius: 12px;
+  padding: 80px 20px;
+}
+
+.find-agent h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.find-agent .agent-description {
+  width: 70%;
+  color: var(--bs-gray-700);
+  margin-bottom: 50px;
+}
+/* ===== Find your agent Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
