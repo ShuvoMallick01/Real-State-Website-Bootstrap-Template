@@ -140,8 +140,23 @@ i {
   background: rgba(7, 201, 139, 1) !important;
 }
 
+/* button utilities */
 .btn:hover {
   background-color: #fd390e !important;
+}
+
+.btn-primary-outline {
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-primary-outline:hover {
+  color: var(--bs-white) !important;
 }
 
 .custom-hr {

@@ -336,8 +336,75 @@ Keywords: real state, Template etc.
 }
 /* ===== Find your agent Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Latest property news Section START ===== */
+.featured-news {
+  box-shadow: var(--shadow-small);
+}
+
+.latest-property-news-v2 .featured-news-img img {
+  width: 306px;
+  height: 100%;
+}
+
+.news-author-info {
+  bottom: 24px;
+}
+
+.news-author-info h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.news-author-info p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--bs-gray-700);
+}
+
+/* .latest-property-news-v2 .middle-line .divider {
+  border-left: 1px solid var(--bs-gray-300);
+} */
+
+.hr-vertical {
+  width: 1px;
+  height: 100%;
+}
+
+hr {
+  background-color: var(--bs-gray-300);
+  opacity: 1;
+}
+
+.sign-up-form h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.sign-up-form p {
+  color: var(--bs-gray-700);
+}
+
+.subscribe-form-v2 .form-group {
+  width: 416px;
+  height: 60px;
+  background-color: var(--bs-white);
+  box-shadow: var(--shadow-small);
+  border-radius: 8px;
+  border: 1px solid var(--bs-gray-300);
+}
+
+.subscribe-form-v2 .input-group i {
+  font-size: 18px;
+  color: var(--bs-gray-600) !important;
+  padding-top: 5px !important;
+}
+
+.subscribe-form-v2 .input-group input {
+  box-shadow: none;
+}
+
+/* ===== Latest property news Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */

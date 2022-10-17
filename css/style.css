@@ -719,7 +719,7 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-800);
 }
 
-.footer-contact .custom-footer-social-icons > i {
+.custom-social-icons > i {
   background-color: var(--bs-white);
   padding: 9px;
   border-radius: 50%;
@@ -729,7 +729,7 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-700);
 }
 
-.custom-footer-social-icons > i:hover {
+.custom-social-icons > i:hover {
   color: var(--bs-white);
   background-color: var(--bs-primary);
   box-shadow: var(--shadow-large);
