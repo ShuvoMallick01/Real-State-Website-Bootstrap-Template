@@ -30,8 +30,11 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ================= Next Page ================= */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Navbar Section START ===== */
+.nav-user-pic img {
+  width: 38px;
+}
+/* ===== Navbar Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
