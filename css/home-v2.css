@@ -406,8 +406,62 @@ hr {
 
 /* ===== Latest property news Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== three Card Section START ===== */
+.three-card:hover {
+  background-color: var(--bs-white);
+  box-shadow: var(--shadow-default);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.calculate-cost-property {
+  background: rgba(253, 188, 49, 0.1);
+}
+
+.visit-help-center {
+  background: rgba(60, 118, 242, 0.1);
+}
+
+.how-to-work {
+  background: rgba(7, 201, 139, 0.1);
+}
+
+.three-card h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.three-card h5 {
+  color: var(--bs-gray-700);
+}
+
+.three-card h5 {
+  color: var(--bs-gray-700);
+}
+
+.three-card button {
+  color: var(--bs-gray-700);
+  background-color: transparent;
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.calculate-cost-property button {
+  color: #fdbc31;
+}
+
+.visit-help-center button {
+  color: var(--bs-info);
+}
+
+.how-to-work button {
+  color: var(--bs-success);
+}
+/* ===== three Card Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
@@ -419,4 +473,4 @@ hr {
 /* ===== Section END ===== */
 
 /* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Section END ===== */ ;
