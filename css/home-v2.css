@@ -362,14 +362,13 @@ Keywords: real state, Template etc.
   border-left: 1px solid var(--bs-gray-300);
 } */
 
-.hr-vertical {
+.latest-property-news-v2 .hr-vertical {
   width: 1px;
   height: 100%;
 }
 
-hr {
+.latest-property-news-v2 hr {
   background-color: var(--bs-gray-300);
-  opacity: 1;
 }
 
 .sign-up-form h4 {

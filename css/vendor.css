@@ -30,8 +30,34 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ================= Next Page ================= */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Left Filter Area Section START ===== */
+.left-filter-area {
+  box-shadow: var(--shadow-small);
+}
+
+.filter-header .tab-btn {
+  font-size: 16px;
+}
+
+.filter-heading {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+
+.filter-price-range {
+  width: 48%;
+}
+
+.filter-price-range span {
+  background-color: var(--bs-white);
+}
+
+.filter-price-range .input-group {
+  height: 44px;
+}
+
+/* ===== Left Filter Area Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */

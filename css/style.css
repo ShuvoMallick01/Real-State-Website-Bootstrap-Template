@@ -325,7 +325,7 @@ Keywords: real state, Template etc.
 }
 
 /* Property Card */
-.property {
+.top-offer-area .property {
   box-shadow: var(--shadow-small);
   border-radius: 12px;
   transition: box-shadow 300ms ease;
@@ -429,7 +429,7 @@ Keywords: real state, Template etc.
 /* ===== Top Offer END===== */
 
 /* ===== Added Today START ===== */
-.added-today-btns .tab-btn {
+.tab-btn {
   padding: 8px 16px 8px 16px;
   font-weight: 400;
   font-size: 14px;
@@ -439,13 +439,13 @@ Keywords: real state, Template etc.
   border-radius: 8px;
 }
 
-.added-today-btns .tab-btn:hover {
+.tab-btn:hover {
   color: var(--bs-primary);
   background-color: var(--bs-white) !important;
   box-shadow: var(--shadow-small);
 }
 
-.added-today-btns .tab-btn-active {
+.tab-btn-active {
   color: var(--bs-primary);
   background-color: var(--bs-white) !important;
   box-shadow: var(--shadow-small);

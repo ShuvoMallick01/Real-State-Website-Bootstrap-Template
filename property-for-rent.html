@@ -281,7 +281,7 @@
               </li>
             </ul>
 
-            <div class="d-flex gap-4 align-content-center">
+            <div class="d-flex gap-4 align-items-center">
               <div class="nav-user-pic m-0 p-0">
                 <img
                   src="./assets/images/property-for-rent/user-picture-avatar.svg"
@@ -298,6 +298,178 @@
       </nav>
     </header>
     <!-- Navbar End -->
+
+    <!-- Property for Rent Section START -->
+    <section class="property-rent-area py-3">
+      <div class="container-fluid">
+        <div class="row gy-4 gy-lg-0">
+          <!-- left side filter Area -->
+          <div class="col-lg-4">
+            <div class="left-filter-area px-3 px-xl-4 px-xxl-5 py-4">
+              <!-- filter heading -->
+              <div class="filter-header d-flex gap-3">
+                <button class="tab-btn tab-btn-active">
+                  <i class="icon-home"></i> For rent
+                </button>
+                <button class="tab-btn">
+                  <i class="icon-home"></i> For sale
+                </button>
+              </div>
+
+              <hr class="py-2" />
+
+              <!-- filter body start -->
+              <div class="filter-body pt-2">
+                <!-- Location -->
+                <div class="filter-location pb-4 mb-2">
+                  <h3 class="filter-heading">Location</h3>
+                  <select class="form-select mb-2">
+                    <option value="" disabled="">Choose city</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Dallas">Dallas</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York" selected="">New York</option>
+                    <option value="San Diego">San Diego</option>
+                  </select>
+                  <select class="form-select">
+                    <option value="" selected="" disabled="">
+                      Choose the district
+                    </option>
+                    <option value="Brooklyn">Brooklyn</option>
+                    <option value="Manhattan">Manhattan</option>
+                    <option value="Staten Island">Staten Island</option>
+                    <option value="The Bronx">The Bronx</option>
+                    <option value="Queens">Queens</option>
+                  </select>
+                </div>
+
+                <!-- Property Type -->
+                <div class="pb-4 mb-2">
+                  <h3 class="filter-heading">Property type</h3>
+                  <div class="simplebar-content" style="padding: 0px">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="house"
+                      />
+                      <label class="form-check-label fs-sm" for="house"
+                        >House</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="apartment"
+                        checked=""
+                      />
+                      <label class="form-check-label fs-sm" for="apartment"
+                        >Apartment</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="room"
+                      />
+                      <label class="form-check-label fs-sm" for="room"
+                        >Room</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="office"
+                      />
+                      <label class="form-check-label fs-sm" for="office"
+                        >Office</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="commercial"
+                      />
+                      <label class="form-check-label fs-sm" for="commercial"
+                        >Commercial</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="land"
+                      />
+                      <label class="form-check-label fs-sm" for="land"
+                        >Land</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Price per Month -->
+                <div class="pb-4 mb-2">
+                  <h3 class="filter-heading">Price per month</h3>
+                  <input
+                    type="range"
+                    class="form-range"
+                    min="0"
+                    max="5"
+                    step="0.5"
+                    id="customRange3"
+                  />
+
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="filter-price-range">
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"
+                          >$</span
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Price Start"
+                          aria-label="range-price-start"
+                          aria-describedby="basic-addon1"
+                        />
+                      </div>
+                    </div>
+                    <div class="text-muted">—</div>
+                    <div class="filter-price-range">
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"
+                          >$</span
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Price End"
+                          aria-label="range-price-start"
+                          aria-describedby="basic-addon1"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Beds & Baths -->
+                <div class="pb-4 mb-2">
+                  <h3 class="filter-heading">Beds & Baths</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side filter -->
+          <div class="col-lg-8"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Property for Rent Section END -->
 
     <!-- Section START -->
     <section class="py-5">
