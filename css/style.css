@@ -325,7 +325,7 @@ Keywords: real state, Template etc.
 }
 
 /* Property Card */
-.top-offer-area .property {
+.property {
   box-shadow: var(--shadow-small);
   border-radius: 12px;
   transition: box-shadow 300ms ease;

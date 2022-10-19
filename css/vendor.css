@@ -85,8 +85,37 @@ Keywords: real state, Template etc.
 }
 /* ===== Left Filter Area Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Right Property for Rent Section START ===== */
+.breadcrumb-item > a,
+.breadcrumb-item {
+  color: var(--bs-gray-600);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.breadcrumb .active {
+  color: var(--bs-primary);
+}
+
+.map-view,
+.map-view i {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-primary);
+}
+
+.property-item-sorting hr {
+  width: 70%;
+}
+
+.property-item-sorting label,
+.property-item-sorting .count-result {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+/* ===== Right Property for Rent Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */

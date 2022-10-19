@@ -304,7 +304,7 @@
       <div class="container-fluid">
         <div class="row gy-4 gy-lg-0">
           <!-- left side filter Area -->
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xl-3">
             <div class="left-property-filter px-3 px-xl-4 px-xxl-5 py-4">
               <!-- filter heading -->
               <div class="filter-header d-flex gap-3">
@@ -679,7 +679,590 @@
           </div>
 
           <!-- Right side filter -->
-          <div class="col-lg-8"></div>
+          <div class="col-lg-8 col-xl-9">
+            <div class="pb-5 pt-4 px-3 px-xl-4 px-xxl-5">
+              <!-- Small Nav Bar -->
+              <nav class="mb-3 pt-md-2" aria-label="Breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="index.html" class="">Home</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Property for rent
+                  </li>
+                </ol>
+              </nav>
+
+              <!-- Page title -->
+              <div
+                class="d-flex align-items-center justify-content-between pb-3 pb-sm-4"
+              >
+                <h1 class="page-title mb-sm-0">Property for rent</h1>
+                <div class="map-view">
+                  <a href="#" class="text-reset text-decoration-none"
+                    ><i class="icon-map"></i> Map view</a
+                  >
+                </div>
+              </div>
+
+              <!-- property item Sorting -->
+              <div
+                class="property-item-sorting d-flex flex-sm-row flex-column align-items-sm-center justify-content-between align-items-stretch my-2"
+              >
+                <div class="d-flex align-items-center flex-shrink-0">
+                  <label class="text-nowrap me-3" for="sortby"
+                    ><i class="icon-switch-vertical"></i> Sort by:</label
+                  >
+
+                  <select class="form-select form-select-sm" id="sortby">
+                    <option>Newest</option>
+                    <option>Popularity</option>
+                    <option>Low - High Price</option>
+                    <option>High - Low Price</option>
+                    <option>High rating</option>
+                    <option>Average Rating</option>
+                  </select>
+                </div>
+
+                <hr class="d-none d-sm-block mx-4" />
+
+                <div
+                  class="count-result d-none d-sm-flex align-items-center flex-shrink-0 text-muted"
+                >
+                  <i class="icon-circle me-2"></i><span>148 result</span>
+                </div>
+              </div>
+
+              <!-- Property Catalog Grid -->
+              <div class="row g-4 py-4">
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-01.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-02.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-03.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-04.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-05.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-06.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-01.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-02.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-03.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-04.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-05.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Single Card -->
+                <div class="col-xl-4 col-sm-6">
+                  <div class="card border-0 property overflow-hidden">
+                    <div class="card-top position-relative">
+                      <img
+                        src="./assets/images/catalog/rent/property-rent-image-06.png"
+                        class="card-img-top position-relative"
+                        alt="Apartment"
+                      />
+
+                      <!-- Badge -->
+                      <div class="position-absolute top-0 left-0 p-3 badges">
+                        <span class="d-table badge bg-success d-block mb-1"
+                          >Verified</span
+                        >
+                        <span class="d-table badge bg-info">New</span>
+                      </div>
+                    </div>
+
+                    <div class="card-body p-4">
+                      <p class="property-type mb-2">FOR RENT</p>
+                      <h5 class="card-title m-0 property-feature">
+                        3-bed Apartment | 67 sq.m
+                      </h5>
+                      <p class="my-2 text-muted property-address">
+                        3811 Ditmars Blvd Astoria, NY 11105
+                      </p>
+                      <h6 class="property-price">
+                        <i class="icon-cash me-1"></i> $1,629
+                      </h6>
+                      <hr class="custom-hr my-3" />
+                      <div
+                        class="d-flex justify-content-center gap-4 property-details"
+                      >
+                        <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                        <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- end card -->
+              </div>
+
+              <hr />
+
+              <!-- pagination -->
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">2</span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- End -->
+            </div>
+          </div>
         </div>
       </div>
     </section>
