@@ -305,7 +305,7 @@
         <div class="row gy-4 gy-lg-0">
           <!-- left side filter Area -->
           <div class="col-lg-4">
-            <div class="left-filter-area px-3 px-xl-4 px-xxl-5 py-4">
+            <div class="left-property-filter px-3 px-xl-4 px-xxl-5 py-4">
               <!-- filter heading -->
               <div class="filter-header d-flex gap-3">
                 <button class="tab-btn tab-btn-active">
@@ -316,7 +316,7 @@
                 </button>
               </div>
 
-              <hr class="py-2" />
+              <hr class="mt-4" />
 
               <!-- filter body start -->
               <div class="filter-body pt-2">
@@ -344,7 +344,7 @@
                 </div>
 
                 <!-- Property Type -->
-                <div class="pb-4 mb-2">
+                <div class="filter-property-type pb-4 mb-2">
                   <h3 class="filter-heading">Property type</h3>
                   <div class="simplebar-content" style="padding: 0px">
                     <div class="form-check">
@@ -459,7 +459,221 @@
                 <!-- Beds & Baths -->
                 <div class="pb-4 mb-2">
                   <h3 class="filter-heading">Beds & Baths</h3>
+                  <div class="filter-beds-baths">
+                    <label class="d-block mb-1">Bedrooms</label>
+                    <div
+                      class="btn-group me-2"
+                      role="group"
+                      aria-label="First group"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        Studio+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        1+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        2+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        3+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        4+
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="filter-beds-baths pt-2 my-1">
+                    <label class="d-block mb-1">Bedrooms</label>
+                    <div
+                      class="btn-group me-2"
+                      role="group"
+                      aria-label="First group"
+                    >
+                      <button type="button" class="btn btn-outline-secondary">
+                        1+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        2+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        3+
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        4+
+                      </button>
+                    </div>
+                  </div>
                 </div>
+
+                <!-- Square Metres -->
+                <div class="pb-4 mb-2">
+                  <h3 class="filter-heading">Square Metres</h3>
+
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="filter-price-range">
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"
+                          >$</span
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Min"
+                          aria-label="range-price-start"
+                          aria-describedby="basic-addon1"
+                        />
+                      </div>
+                    </div>
+                    <div class="text-muted">—</div>
+                    <div class="filter-price-range">
+                      <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1"
+                          >$</span
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Max"
+                          aria-label="range-price-start"
+                          aria-describedby="basic-addon1"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Amenities -->
+                <div class="filter-amenities pb-4 mb-2">
+                  <h3 class="filter-heading">Amenities</h3>
+                  <div class="simplebar-content" style="padding: 0px">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="air-condition"
+                        checked=""
+                      />
+                      <label class="form-check-label fs-sm" for="air-condition"
+                        >Air conditioning</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="balcony"
+                      />
+                      <label class="form-check-label fs-sm" for="balcony"
+                        >Balcony</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="garage"
+                        checked=""
+                      />
+                      <label class="form-check-label fs-sm" for="garage"
+                        >Garage</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="gym"
+                      />
+                      <label class="form-check-label fs-sm" for="gym"
+                        >Gym</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="parking"
+                      />
+                      <label class="form-check-label fs-sm" for="parking"
+                        >Parking</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="pool"
+                      />
+                      <label class="form-check-label fs-sm" for="pool"
+                        >Pool</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pets -->
+                <div class="filter-pets pb-4 mb-2">
+                  <h3 class="filter-heading">Pets</h3>
+                  <div class="simplebar-content" style="padding: 0px">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="allow-cats"
+                      />
+                      <label class="form-check-label fs-sm" for="allow-cats"
+                        >Allows cats</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="allow-dogs"
+                      />
+                      <label class="form-check-label fs-sm" for="allow-dogs"
+                        >Allows dogs</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Additonal options -->
+                <div class="filter-pets pb-4 mb-2">
+                  <h3 class="filter-heading">Aditional Options</h3>
+                  <div class="simplebar-content" style="padding: 0px">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="allow-cats"
+                      />
+                      <label class="form-check-label fs-sm" for="allow-cats"
+                        >Verified</label
+                      >
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="allow-dogs"
+                      />
+                      <label class="form-check-label fs-sm" for="allow-dogs"
+                        >Featured</label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="mb-4" />
+
+                <button class="btn btn-primary-outline" type="button">
+                  <i class="icon-rotate-right me-2"></i>Reset filters
+                </button>
+
+                <!-- End -->
               </div>
             </div>
           </div>

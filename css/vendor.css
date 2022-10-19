@@ -31,7 +31,7 @@ Keywords: real state, Template etc.
 /* ================= Next Page ================= */
 
 /* ===== Left Filter Area Section START ===== */
-.left-filter-area {
+.left-property-filter {
   box-shadow: var(--shadow-small);
 }
 
@@ -43,6 +43,13 @@ Keywords: real state, Template etc.
   font-weight: 700;
   font-size: 18px;
   color: var(--bs-gray-900);
+}
+
+/* Property Type */
+.left-property-filter label,
+.left-property-filter .form-check-input {
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .filter-price-range {
@@ -57,6 +64,25 @@ Keywords: real state, Template etc.
   height: 44px;
 }
 
+/* Beds & Baths */
+.filter-beds-baths .btn {
+  padding: 6px 16px;
+}
+
+.filter-beds-baths .btn-outline-secondary {
+  border-color: var(--bs-gray-400) !important;
+  color: var(--bs-gray-800) !important;
+}
+
+.filter-beds-baths label,
+.filter-beds-baths button {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn-primary-outline {
+  padding: 10px 24px;
+}
 /* ===== Left Filter Area Section END ===== */
 
 /* ===== Section START ===== */
