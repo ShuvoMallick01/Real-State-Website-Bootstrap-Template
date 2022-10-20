@@ -137,6 +137,11 @@ Keywords: real state, Template etc.
   color: var(--bs-primary);
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">" !important;
+  /* content: "\e9c4"; */
+}
+
 .map-view,
 .map-view i {
   font-weight: 700;
@@ -179,18 +184,44 @@ Keywords: real state, Template etc.
 /* ================================= */
 /* ===== PROPERTY FOR SALE PAGE ==== */
 /* ================================= */
-
 /* ===== Left Filter Area Section START ===== */
 /* ===== Left Filter Area Section END ===== */
-
 /* ===== Right Property for Rent Section START ===== */
 /* ===== Right Property for Rent Section END ===== */
-
 /* ================================= */
 /* ===== SINGLE PROPERTY PAGE ==== */
 /* ================================= */
 
+/* ===================================== */
+/* ===== SINGLE PROPERTY PAGE START ==== */
+/* ===================================== */
 /* ===== Section START ===== */
+.single-property-heading .property-address {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.single-property-details .property-details > p {
+  color: var(--bs-gray-700);
+  font-size: 16px;
+  font-weight: 700;
+  border-right: 1px solid var(--bs-gray-300);
+}
+
+.single-property-details .property-details > p:last-child {
+  border-right: none;
+}
+
+.single-property-details .property-details i {
+  color: var(--bs-gray-600);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.single-property-details .property-details span {
+  color: var(--bs-gray-600);
+  font-weight: 500;
+}
 /* ===== Section END ===== */
 
 /* ===== Section START ===== */
@@ -225,3 +256,6 @@ Keywords: real state, Template etc.
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
+/* ===================================== */
+/* ===== SINGLE PROPERTY PAGE END ==== */
+/* ===================================== */
