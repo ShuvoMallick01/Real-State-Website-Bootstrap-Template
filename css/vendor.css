@@ -195,7 +195,7 @@ Keywords: real state, Template etc.
 /* ===================================== */
 /* ===== SINGLE PROPERTY PAGE START ==== */
 /* ===================================== */
-/* ===== Section START ===== */
+/* ===== Property Heading Section START ===== */
 .single-property-heading .property-address {
   font-weight: 400;
   font-size: 18px;
@@ -222,10 +222,48 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-600);
   font-weight: 500;
 }
-/* ===== Section END ===== */
+/* ===== Property Heading  Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Gellery Section START ===== */
+.apartment-gallery-area .apartment-gallery {
+  cursor: pointer;
+}
+
+.apartment-gallery .gallery::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(var(--bs-black-rgb), 0.5);
+  z-index: 1;
+  border-radius: 12px;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.apartment-gallery:hover .gallery::after {
+  opacity: 1;
+}
+
+.apartment-gallery .gallery-zoom-icon {
+  font-size: 35px;
+  color: var(--bs-white);
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transform: scale(0);
+  transition: all 300ms ease;
+}
+
+.apartment-gallery:hover .gallery-zoom-icon {
+  transform: scale(1);
+}
+/* ===== Gellery Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
