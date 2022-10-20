@@ -115,6 +115,26 @@ Keywords: real state, Template etc.
   font-size: 14px;
   color: var(--bs-gray-700);
 }
+
+.pagination li a {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.pagination .page-link {
+  border-radius: 50%;
+  border: transparent;
+  cursor: pointer;
+  margin: 0px 4px;
+  color: var(--bs-gray-800);
+}
+
+.page-item.active > .page-link {
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-white);
+  font-weight: bold;
+  padding: 4px 11px;
+}
 /* ===== Right Property for Rent Section END ===== */
 
 /* ===== Section START ===== */
