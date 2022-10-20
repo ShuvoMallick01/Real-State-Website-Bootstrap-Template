@@ -80,7 +80,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #666276;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -92,8 +92,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-color: #fd5631;
+  --bs-link-hover-color: #fd5631;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 
@@ -171,4 +171,16 @@ hr {
 .page-title {
   font-weight: 700;
   font-size: 32px;
+}
+
+.post-heading {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--bs-gray-900);
+}
+
+.post-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
 }
