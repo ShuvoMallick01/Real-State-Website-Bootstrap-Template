@@ -30,6 +30,9 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ================= Next Page ================= */
 
+/* ================================= */
+/* ===== PROPERTY FOR RENT PAGE ==== */
+/* ================================= */
 /* ===== Left Filter Area Section START ===== */
 .left-property-filter {
   box-shadow: var(--shadow-small);
@@ -102,6 +105,14 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-800) !important;
 }
 
+.filter-beds-baths .btn-outline-secondary:hover {
+  background-color: var(--bs-gray-200) !important;
+}
+
+.filter-beds-baths .active {
+  background-color: var(--bs-gray-200) !important;
+}
+
 .filter-beds-baths label,
 .filter-beds-baths button {
   font-weight: 400;
@@ -164,6 +175,20 @@ Keywords: real state, Template etc.
   padding: 4px 11px;
 }
 /* ===== Right Property for Rent Section END ===== */
+
+/* ================================= */
+/* ===== PROPERTY FOR SALE PAGE ==== */
+/* ================================= */
+
+/* ===== Left Filter Area Section START ===== */
+/* ===== Left Filter Area Section END ===== */
+
+/* ===== Right Property for Rent Section START ===== */
+/* ===== Right Property for Rent Section END ===== */
+
+/* ================================= */
+/* ===== SINGLE PROPERTY PAGE ==== */
+/* ================================= */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
