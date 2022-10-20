@@ -33,6 +33,7 @@ Keywords: real state, Template etc.
 /* ===== Left Filter Area Section START ===== */
 .left-property-filter {
   box-shadow: var(--shadow-small);
+  height: 100%;
 }
 
 .filter-header .tab-btn {
@@ -45,11 +46,38 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-900);
 }
 
+/* Location */
+/* .filter-location select option:disabled {
+  color: var(--bs-gray-600);
+  color: red !important;
+} */
+
+/* .filter-location option:disabled {
+  color: red !important;
+} */
+
 /* Property Type */
 .left-property-filter label,
 .left-property-filter .form-check-input {
   font-weight: 400;
   font-size: 14px;
+}
+
+.form-check-input:checked {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+/* Price per month */
+.form-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: var(--bs-primary);
+}
+
+.form-range:hover::-webkit-slider-thumb {
+  outline: none;
+  box-shadow: none;
+  background: var(--bs-primary);
 }
 
 .filter-price-range {
