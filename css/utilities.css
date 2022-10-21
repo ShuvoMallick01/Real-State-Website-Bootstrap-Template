@@ -178,9 +178,3 @@ hr {
   font-size: 24px;
   color: var(--bs-gray-900);
 }
-
-.post-text {
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--bs-gray-700);
-}
