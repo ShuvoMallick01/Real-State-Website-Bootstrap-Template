@@ -297,11 +297,15 @@ Keywords: real state, Template etc.
   font-size: 20px;
   color: var(--bs-gray-600);
 }
-
 /* ===== Left Side Post Content  Section END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== Right Side Section START ===== */
+.card {
+  border: none;
+  box-shadow: var(--shadow-small);
+}
+
+/* ===== Right Side Section END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */
