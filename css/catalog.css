@@ -305,6 +305,11 @@ Keywords: real state, Template etc.
   box-shadow: var(--shadow-small);
 }
 
+.map .map-button {
+  height: 100%;
+  width: 100%;
+  inset: 0;
+}
 /* ===== Right Side Section END ===== */
 
 /* ===== Section START ===== */

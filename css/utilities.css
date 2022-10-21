@@ -140,7 +140,7 @@ i {
   background: rgba(7, 201, 139, 1) !important;
 }
 
-/* button utilities */
+/* button start */
 .btn:hover {
   background-color: #fd390e !important;
 }
@@ -182,6 +182,7 @@ i {
   font-weight: 700;
   font-size: 16px;
 }
+/* button end */
 
 .custom-hr {
   border: none;
@@ -222,3 +223,10 @@ hr {
   font-size: 14px;
   color: var(--bs-gray-600);
 }
+
+/* from start */
+.form-control[type="date"],
+[type="text"] {
+  color: var(--bs-gray-600);
+}
+/* from end */
