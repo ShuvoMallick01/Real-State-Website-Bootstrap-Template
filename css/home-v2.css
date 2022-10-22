@@ -45,6 +45,7 @@ Keywords: real state, Template etc.
   height: 736px;
   object-fit: cover;
   position: relative;
+  background-size: cover;
 }
 
 .color-overlay {
