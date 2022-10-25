@@ -8,7 +8,7 @@ Keywords: real state, Template etc.
 
 */
 
-/* =========== CSS Files List =========== */
+/* =========== CSS FILES INDEX =========== */
 /* ----- Utilities CSS ----- */
 /* ----- Style CSS ----- */
 /* ----- Home V2 CSS ----- */
@@ -16,27 +16,25 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ----- Vendor CSS ----- */
 /* ----- Pages CSS ----- */
-/* =============== CSS Files List =============== */
+/* =============== CSS FILES INDEX =============== */
 
-/* ===== Style List Table Start ===== */
+/* ===== STYLE INDEX (CURRENT FILE) ===== */
 /* 
-  1. Left Control Section
-  2. Property for rent Section
-  3. Products Section
+  1. Property for rent Section
+  2. Property for sell section
+  3. Single Property V.1
   */
-/* ===== Style List Table End ===== */
+/* ===== STYLE INDEX (CURRENT FILE) ===== */
 
-/* ================= Next Page ================= */
+/* ================= NEXT CSS FILE ================= */
 /* ----- Account CSS ----- */
-/* ================= Next Page ================= */
+/* ================= NEXT CSS FILE ================= */
 
 /* ================================= */
 /* ===== PROPERTY FOR RENT PAGE ==== */
 /* ================================= */
 /* ===== Left Filter Area Section START ===== */
 .left-property-filter {
-  /* box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
-    0px 4px 12px rgba(31, 27, 45, 0.08); */
   box-shadow: 5px 0 5px -2px rgba(31, 27, 45, 0.08),
     -5px 0 5px -5px rgba(31, 27, 45, 0.08);
 
@@ -54,7 +52,12 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-900);
 }
 
-/* Property Type */
+/* location */
+.filter-location select:required:invalid {
+  color: var(--bs-gray-600);
+}
+
+/* property type */
 .left-property-filter label,
 .left-property-filter .form-check-input {
   font-weight: 400;
@@ -70,6 +73,7 @@ Keywords: real state, Template etc.
   height: 150px;
   overflow: auto;
 }
+
 /* Price per month */
 .form-range::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -160,19 +164,6 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-700);
 }
 
-/* .pagination li a {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.pagination .page-link {
-  border-radius: 50%;
-  border: transparent;
-  cursor: pointer;
-  margin: 0px 4px;
-  color: var(--bs-gray-800);
-} */
-
 .custom-pagination .pagination {
   gap: 10px;
 }
@@ -199,16 +190,15 @@ Keywords: real state, Template etc.
   font-size: 16px;
 }
 /* ===== Right Property for Rent Section END ===== */
+/* ===================================== */
+/* ===== PROPERTY FOR RENT PAGE END ==== */
+/* ===================================== */
 
+/* ======================================= */
+/* ===== PROPERTY FOR SALE PAGE START ==== */
+/* ======================================= */
 /* ================================= */
-/* ===== PROPERTY FOR SALE PAGE ==== */
-/* ================================= */
-/* ===== Left Filter Area Section START ===== */
-/* ===== Left Filter Area Section END ===== */
-/* ===== Right Property for Rent Section START ===== */
-/* ===== Right Property for Rent Section END ===== */
-/* ================================= */
-/* ===== SINGLE PROPERTY PAGE ==== */
+/* ===== PROPERTY FOR SALE PAGE END ==== */
 /* ================================= */
 
 /* ===================================== */

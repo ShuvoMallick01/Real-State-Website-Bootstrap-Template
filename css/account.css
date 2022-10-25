@@ -8,7 +8,7 @@ Keywords: real state, Template etc.
 
 */
 
-/* =========== CSS Files List =========== */
+/* =========== CSS FILES INDEX =========== */
 /* ----- Utilities CSS ----- */
 /* ----- Style CSS ----- */
 /* ----- Home V2 CSS ----- */
@@ -16,58 +16,84 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ----- Vendor CSS ----- */
 /* ----- Pages CSS ----- */
-/* =============== CSS Files List =============== */
+/* =============== CSS FILES INDEX =============== */
 
-/* ===== Style List Table Start ===== */
+/* ===== STYLE INDEX (CURRENT FILE) ===== */
 /* 
-  1. Left Control Section
-  2. Property for rent Section
-  3. Products Section
+  1. Property for rent Section
+  2. Property for sell section
+  3. Single Property V.1
   */
-/* ===== Style List Table End ===== */
+/* ===== STYLE INDEX (CURRENT FILE) ===== */
 
-/* ================= Next Page ================= */
-/* ----- Account CSS ----- */
-/* ================= Next Page ================= */
+/* ================= NEXT CSS FILE ================= */
+/* ----- Vendor CSS File ----- */
+/* ================= NEXT CSS FILE ================= */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ================= RUNNING PAGE NAME ================= */
+/* ----- Account Personal Info Start ----- */
+/* ================= RUNNING PAGE NAME ================= */
+/* ===== left Account Navbar START ===== */
+.account-nav {
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.account-nav .nav-link:hover,
+.account-nav .nav-link > i:hover {
+  color: var(--bs-primary);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.account-nav .nav-link {
+  transition: all 300ms ease;
+}
+/* ===== left Account Navbar END ===== */
+/* ================= RUNNING PAGE ================= */
+/* ----- Account Personal Info End ----- */
+/* ================= RUNNING PAGE ================= */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
+
+/* ===== START ===== */
+/* ===== END ===== */
