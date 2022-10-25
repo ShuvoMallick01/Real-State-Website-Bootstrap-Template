@@ -37,6 +37,10 @@ Keywords: real state, Template etc.
 .account-nav {
 }
 
+.account-nav i {
+  font-size: 18px;
+}
+
 .account-nav .nav-link:hover,
 .account-nav .nav-link > i:hover {
   color: var(--bs-primary);
@@ -45,6 +49,26 @@ Keywords: real state, Template etc.
 .account-nav .nav-link {
   transition: all 300ms ease;
 }
+
+.account-nav .nav-link.active {
+  position: relative;
+  color: var(--bs-primary);
+}
+
+.account-nav .nav-link.active::before {
+  position: absolute;
+  top: 0;
+  left: -16px;
+  width: 2px;
+  height: 100%;
+  background-color: #fd5631;
+  content: "";
+}
+
+/* .account-nav .nav-link.active:hover .nav-link::before {
+  opacity: 1;
+} */
+
 /* ===== left Account Navbar END ===== */
 /* ================= RUNNING PAGE ================= */
 /* ----- Account Personal Info End ----- */
