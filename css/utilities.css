@@ -173,6 +173,34 @@ i {
   font-weight: 700;
   font-size: 16px;
 }
+
+.custom-text-btn {
+  background-color: transparent;
+  border: transparent;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--bs-primary);
+}
+
+.custom-text-btn:hover {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: #fd390e !important;
+}
+
+.custom-gray-btn {
+  padding: 10px 24px;
+  background-color: var(--bs-gray-200);
+  border: var(--bs-gray-400);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--bs-gray-800);
+}
+
+.custom-gray-btn:hover {
+  color: var(--bs-white) !important;
+}
+
 /* button end */
 
 .custom-hr {
@@ -188,9 +216,9 @@ hr {
   border-bottom: 1px solid var(--bs-gray-300) !important;
 }
 
-/* .border-end {
-  border-left: 1px solid var(--bs-gray-300) !important;
-} */
+.border-top {
+  border-top: 1px solid var(--bs-gray-300) !important;
+}
 
 .page-title {
   font-weight: 700;

@@ -387,19 +387,190 @@
             </div>
 
             <!-- Right Contents -->
-            <div class="col-lg-8 col-md-7">
-              <h1 class="page-title">Personal Info</h1>
+            <div class="account-right-contents col-lg-8 col-md-7 mb-5">
+              <h1 class="page-title mb-3">Personal Info</h1>
+              <div class="mb-2">Your personal info is 58% completed</div>
+
+              <!-- progress -->
+              <div class="progress mb-4">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 58%"
+                  aria-valuenow="58"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+
+              <label class="form-label pt-2" for="account-bio">Short bio</label>
+              <div class="row mb-4">
+                <div class="col-lg-9 col-sm-8">
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    placeholder="Write your bio here. It will be displayed on your public profile."
+                  ></textarea>
+                </div>
+
+                <div class="col-lg-3 col-sm-4">
+                  <div class="ac-change-picture">
+                    <div
+                      class="contents d-flex flex-column justify-content-center align-items-center"
+                    >
+                      <i class="icon-camera-plus"></i>
+                      <p>Change Picture</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- details -->
+              <div class="personal-info border rounded-3 p-3 mb-4">
+                <!-- Name -->
+                <div class="border-bottom mb-4 pb-4">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <div class="pe-2">
+                      <label class="ac-form-label">Full name</label>
+                      <div>Annette Black</div>
+                    </div>
+                    <div class="ac-details-edit p-0 my-auto">
+                      <i class="icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="border-bottom mb-4 pb-4">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <div class="pe-2">
+                      <label class="ac-form-label">Email</label>
+                      <div>annette_black@gmail.com</div>
+                    </div>
+                    <div class="ac-details-edit p-0 my-auto">
+                      <i class="icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Phone number -->
+                <div class="border-bottom mb-4 pb-4">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <div class="pe-2">
+                      <label class="ac-form-label">Phone number</label>
+                      <div>(302) 555-0107</div>
+                    </div>
+                    <div class="ac-details-edit p-0 my-auto">
+                      <i class="icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Company name -->
+                <div class="border-bottom mb-3 pb-4">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <div class="pe-2">
+                      <label class="ac-form-label active">Company name</label>
+                      <div>Not specified</div>
+                    </div>
+                    <div class="ac-details-edit active p-0 my-auto">
+                      <i class="icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="border-bottom mb-4 pb-3">
+                  <input
+                    class="form-control custom-form-control"
+                    type="text"
+                    placeholder="Enter company name"
+                  />
+                </div>
+
+                <!-- Address -->
+                <div class="">
+                  <div
+                    class="d-flex justify-content-between align-content-center"
+                  >
+                    <div class="pe-2">
+                      <label class="ac-form-label">Address</label>
+                      <div>Not specified</div>
+                    </div>
+                    <div class="ac-details-edit p-0 my-auto">
+                      <i class="icon-edit"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- end -->
+              </div>
+
+              <!-- social media -->
+              <div class="pt-2">
+                <label class="form-label fw-bold mb-3">Socials</label>
+              </div>
+              <!-- facebook -->
+              <div class="social-filed d-flex align-items-center mb-3">
+                <div
+                  class="btn btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
+                >
+                  <i class="icon-Facebook-white-bg"></i>
+                </div>
+                <input
+                  class="form-control custom-form-control"
+                  type="text"
+                  placeholder="Your Facebook account"
+                />
+              </div>
+
+              <!-- Linkdin -->
+              <div class="social-filed d-flex align-items-center mb-3">
+                <div
+                  class="btn btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
+                >
+                  <i class="icon-linkedin"></i>
+                </div>
+                <input
+                  class="form-control custom-form-control"
+                  type="text"
+                  placeholder="Your Facebook account"
+                />
+              </div>
+
+              <!-- twitter -->
+              <div class="social-filed d-flex align-items-center mb-3">
+                <div
+                  class="btn btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
+                >
+                  <i class="icon-twitter"></i>
+                </div>
+                <input
+                  class="form-control custom-form-control"
+                  type="text"
+                  placeholder="Your Facebook account"
+                />
+              </div>
+
+              <a class="btn custom-text-btn"
+                ><i class="icon-short-down align-middle me-2"></i>Load more</a
+              >
+
+              <div class="d-flex border-top mt-4 pt-4 pb-1">
+                <button class="btn custom-gray-btn px-3 px-sm-4" type="button">
+                  Delete account
+                </button>
+              </div>
+              <!-- end -->
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- END -->
-
-    <!-- START -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row gy-4 gy-lg-0"></div>
       </div>
     </section>
     <!-- END -->
