@@ -30,9 +30,10 @@ Keywords: real state, Template etc.
 /* ----- Vendor CSS File ----- */
 /* ================= NEXT CSS FILE ================= */
 
-/* ================= RUNNING PAGE NAME ================= */
-/* ----- Account Personal Info Start ----- */
-/* ================= RUNNING PAGE NAME ================= */
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Personal Info Start ----- */
+/* ================= CURRENT PAGE NAME ================= */
+
 /* ===== left Account Navbar START ===== */
 .account-nav {
 }
@@ -64,8 +65,9 @@ Keywords: real state, Template etc.
   background-color: #fd5631;
   content: "";
 }
+/* ===== Left Account Navbar END ===== */
 
-/* ===== Right Account Navbar END ===== */
+/* ===== Right Account Contents START ===== */
 .account-right-contents .progress {
   height: 4px;
 }
@@ -120,15 +122,41 @@ Keywords: real state, Template etc.
 .custom-text-btn i {
   font-size: 18px;
 }
-/* ===== Right Side Account Start ===== */
-/* ===== right Side Account Start ===== */
-/* ================= RUNNING PAGE ================= */
-/* ----- Account Personal Info End ----- */
-/* ================= RUNNING PAGE ================= */
+/* ===== Right Account Contents END ===== */
 
-/* ===== START ===== */
-/* ===== END ===== */
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Personal Info END ----- */
+/* ================= CURRENT PAGE NAME ================= */
 
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Password & Security START ----- */
+/* ================= CURRENT PAGE NAME ================= */
+
+.form-input-icon i {
+  font-size: 18px;
+  margin-left: -35px;
+}
+
+.ac-login-history .details h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.ac-login-history .details p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.ac-login-history i {
+  font-size: 24px;
+  color: var(--bs-gray-600);
+}
+
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Password & Security END ----- */
+/* ================= CURRENT PAGE NAME ================= */
 /* ===== START ===== */
 /* ===== END ===== */
 

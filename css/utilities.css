@@ -131,6 +131,10 @@ i {
   background: rgba(7, 201, 139, 1) !important;
 }
 
+.text-success {
+  color: var(--bs-success) !important;
+}
+
 /* button start */
 .btn:hover {
   background-color: #fd390e !important;
@@ -209,6 +213,18 @@ i {
   justify-content: center;
   padding: 0;
   transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.custom-three-dot-btn {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all 300ms ease;
+  cursor: pointer;
 }
 
 .custom-btn-icon:hover i {
@@ -249,6 +265,12 @@ hr {
   font-weight: 700;
   font-size: 18px;
   color: var(--bs-gray-800);
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
 }
 
 .custom-mute-text {
