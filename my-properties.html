@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom icons -->
+    <link rel="stylesheet" href="./assets/icons.css" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home-v2.css" />
+    <link rel="stylesheet" href="./css/catalog.css" />
+    <link rel="stylesheet" href="./css/account.css" />
+    <link rel="stylesheet" href="./css/vendor.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Home - V2</title>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <header class="header-area">
+      <nav class="navbar navbar-expand-lg custom-header">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/logo-finder.svg"
+              class="img-fluid"
+              alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-menu">
+              <!-- Language Change Menu -->
+              <li class="nav-item dropdown px-3 menu-language">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="./assets/images/icons/united-states 1.svg"
+                    class="img-fluid"
+                    alt="United State Flag"
+                  />
+                  Eng
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">BN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">ES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">AR</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./index.html">Home V.1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item active" href="./home-v2.html"
+                      >Home V.2</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalog
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./property-for-rent.html"
+                      >Property for Rent</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./property-for-sale.html"
+                      >Property for Sell</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./single-property-v1.html"
+                      >Single Property V.1</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">Sign Up</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./personal-info.html"
+                      >Personal Info</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./security.html">Security</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./my-properties.html"
+                      >My Properties</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./wishlist.html">Wishlist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./notifications.html"
+                      >Notifications</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Vendor
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./add-property.html"
+                      >Add Property</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./promotion.html"
+                      >Property Promotion</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./vendor-rent.html"
+                      >Vendor Page: Rent</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./vendor-sale.html"
+                      >Vendor Page: Sale</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./reviews.html"
+                      >Vendor Page: Reviews</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Single menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./post.html">Post</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./help-center.html"
+                      >Help Center</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./404.html">404</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <div class="d-flex gap-4 align-items-center">
+              <div class="nav-user-pic m-0 p-0">
+                <img
+                  src="./assets/images/property-for-rent/user-picture-avatar.svg"
+                  class="img-fluid"
+                  alt="User Picture Avater"
+                />
+              </div>
+              <button class="btn btn-primary custom-btn flex-shrink-0">
+                <i class="fa-regular fa-plus"></i> Add Property
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- START -->
+    <section class="mt-3 pb-lg-4">
+      <div class="container">
+        <div class="row gy-4 gy-lg-0">
+          <!-- Breadcrumb -->
+          <nav class="mb-2 pt-md-3" aria-label="Breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="index.html" class="">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Account
+              </li>
+            </ol>
+          </nav>
+
+          <!-- Contents -->
+          <div class="row">
+            <!-- Left Account Menu/Nav -->
+            <div class="col-lg-4 col-md-5 col-sm-6 pe-lg-4 mb-5 mb-sm-0">
+              <div class="card card-body">
+                <div
+                  class="d-flex d-md-block d-lg-flex align-items-start pt-lg-2 mb-4"
+                >
+                  <img
+                    src="./assets/images/catalog/single-property-page/floyd-miles.png"
+                    class="img-fluid"
+                    alt="Review Icon"
+                  />
+                  <div class="pt-md-2 pt-lg-0 ps-3 ps-md-0 ps-lg-3">
+                    <h5 class="reivew-title m-0 mb-1">Annette Black</h5>
+                    <div class="align-items-center">
+                      <span class="review-icons">
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                      </span>
+                    </div>
+
+                    <p class="m-0 mb-1 mt-3 mb-0">
+                      <i class="icon-phone-1"></i> (302) 555-0107
+                    </p>
+                    <p class="m-0">
+                      <i class="icon-mail"></i> annette_black@gmail.com
+                    </p>
+                  </div>
+                </div>
+
+                <a class="btn btn-primary btn-lg mb-3" href="#"
+                  ><i class="icon-plus me-2"></i>Add property</a
+                >
+
+                <!-- Nav/Menu -->
+                <div class="mt-3">
+                  <div class="account-nav d-flex flex-column position-relative">
+                    <a
+                      class="nav-link py-3 border-top"
+                      href="./personal-info.html"
+                    >
+                      <i class="icon-user-default me-2"></i>Personal Info</a
+                    >
+                    <a class="nav-link py-3 border-top" href="./security.html">
+                      <i class="icon-lock me-2"></i>Password & Security</a
+                    >
+                    <a
+                      class="nav-link py-3 active border-top"
+                      href="./my-properties.html"
+                    >
+                      <i class="icon-home me-2"></i>My Properties</a
+                    >
+                    <a class="nav-link py-3 border-top" href="./wishlist.html">
+                      <i class="icon-heart-default me-2"></i>Wishlist</a
+                    >
+                    <a class="nav-link py-3 border-top" href="./reviews.html">
+                      <i class="icon-star-default me-2"></i>Reviews</a
+                    >
+                    <a
+                      class="nav-link py-3 border-top"
+                      href="./notifications.html"
+                    >
+                      <i class="icon-bell-default me-2"></i>Notification
+                      Preferences</a
+                    >
+                    <a
+                      class="nav-link py-3 border-top"
+                      href="./help-center.html"
+                    >
+                      <i class="icon-help me-2"></i>Help</a
+                    >
+                    <a class="nav-link py-3 border-top" href="#">
+                      <i class="icon-logout me-2"></i>Log Out</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Contents -->
+            <div class="account-right-contents col-lg-8 col-md-7 mb-5">
+              <h1 class="page-title mb-3">Password & Security</h1>
+              <div class="mb-4">
+                Manage your password settings and secure your account.
+              </div>
+
+              <!-- End right contents -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END -->
+
+    <!-- Footer Section START -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Social Media Column -->
+          <div class="footer-contact col-lg-3 col-sm-6 col-12 mb-3">
+            <img
+              src="./assets/images/logo-finder.svg"
+              class="img-fluid mb-3"
+              alt="Logo"
+            />
+            <p class="m-0 mb-1"><i class="icon-mail"></i> example@gmail.com</p>
+            <p><i class="icon-phone-1"></i> (406) 555-0120</p>
+
+            <div class="custom-social-icons d-flex gap-2 mt-4">
+              <i class="icon-Facebook-white-bg rounded-circle"></i>
+              <i class="icon-twitter rounded-circle"></i>
+              <i class="icon-whatsapp rounded-circle"></i>
+              <i class="icon-telegram-1 rounded-circle"></i>
+            </div>
+          </div>
+
+          <!-- Quick Links-Column -->
+          <div class="custom-footer-quick-link col-lg-2 col-sm-6 col-12 mb-3">
+            <h4 class="footer-heading pb-2">Quick Links</h4>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Buy a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Sell a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Rent a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Сalculate your property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Top offers</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Top cities</a
+              >
+            </p>
+          </div>
+
+          <!-- About Column -->
+          <div class="custom-footer-about-link col-lg-2 col-sm-6 col-12 mb-3">
+            <h4 class="footer-heading pb-2">About</h4>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >About Us</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Our agents</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Hepl & support</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Contacts</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >News</a
+              >
+            </p>
+          </div>
+
+          <!-- Featured News Column -->
+          <div class="footer-featured-newses col-md-5 col-12 mb-5">
+            <h4 class="footer-heading pb-2">Featured News</h4>
+            <!-- Single News -->
+            <div
+              class="featured-news col-12 mb-4 d-flex justify-content-between"
+            >
+              <div class="featured-news-img col-2">
+                <img
+                  src="./assets/images/news/featured-news-2.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
+
+              <div class="featured-news-info col-10 pe-3">
+                <p class="m-0 mb-1 p-0">HOME IMPROVEMENT</p>
+                <h3>Your Guide to a Smart Apartment Searching</h3>
+                <p class="text-muted news-description m-0 mb-3">
+                  Mi justo, varius vitae cursus ipsum sem massa amet
+                  pellentesque. Ipsum enim sit nulla ridiculus semper nam...
+                </p>
+
+                <div class="featured-news-date d-flex gap-4 m-0 p-0">
+                  <p class="m-0 p-0"><i class="icon-date"></i> Dec 4</p>
+                  <p class="m-0 p-0"><i class="icon-left"></i> 2 comments</p>
+                </div>
+              </div>
+            </div>
+
+            <hr class="footer-news-divider" />
+
+            <!-- Single News -->
+            <div
+              class="featured-news col-12 mb-3 mt-4 d-flex justify-content-between"
+            >
+              <div class="featured-news-img col-2">
+                <img
+                  src="./assets/images/news/featured-news-1.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
+
+              <div class="featured-news-info col-10 pe-3">
+                <p class="m-0 mb-1 p-0">TIPS & ADVICE</p>
+                <h3>Top 10 Ways to Refresh Your Space</h3>
+                <p class="text-muted news-description m-0 mb-3">
+                  Volutpat, orci, vitae arcu feugiat vestibulum ultricies nisi,
+                  aenean eget. Vitae enim, tellus tempor consequat mi vitae...
+                </p>
+
+                <div class="featured-news-date d-flex gap-4 m-0 p-0">
+                  <p class="m-0 p-0"><i class="icon-date"></i> Nov 24</p>
+                  <p class="m-0 p-0"><i class="icon-left"></i> No comments</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Featured -->
+          </div>
+          <!-- End -->
+        </div>
+
+        <!-- Download Our App -->
+        <div
+          class="row custom-download-our-app justify-content-center align-items-center"
+        >
+          <div class="custom-download-app-artwork col-md-3 text-center">
+            <img
+              src="./assets/images/illustration/download-our-app.svg"
+              class="img-fluid"
+              alt="Download Our App"
+            />
+          </div>
+
+          <div
+            class="download-app-info-icon col-lg-9 d-flex flex-lg-row flex-column justify-content-center align-content-center text-center text-lg-start"
+          >
+            <!-- info -->
+            <div class="download-app-info col-lg-6 pt-3 pb-1 px-3">
+              <h4 class="mb-3">Download Our App</h4>
+              <p>
+                Find everything you need for buying, selling <br />
+                & renting property in our new Finder App!
+              </p>
+            </div>
+
+            <!-- icons -->
+            <div
+              class="custom-download-app-store-icon col-lg-6 d-flex p-lg-3 pb-4 d-flex gap-4 justify-content-lg-start justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/icons/app-store.png"
+                class="img-fluid"
+                alt="Download Our App"
+              />
+              <img
+                src="./assets/images/icons/google-play.png"
+                class="img-fluid"
+                alt="Download Our App"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section END -->
+
+    <!-- Bootstrap JS JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
