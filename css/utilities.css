@@ -201,6 +201,19 @@ i {
   color: var(--bs-white) !important;
 }
 
+.custom-btn-icon {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all 300ms ease;
+}
+
+.custom-btn-icon:hover i {
+  color: var(--bs-white) !important;
+}
 /* button end */
 
 .custom-hr {
