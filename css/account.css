@@ -156,7 +156,10 @@ Keywords: real state, Template etc.
 /* ================= CURRENT PAGE NAME ================= */
 /* ----- Account -> Password & Security END ----- */
 /* ================= CURRENT PAGE NAME ================= */
-
+.ac-property img {
+  height: 100%;
+  width: 100%;
+}
 /* ================= CURRENT PAGE NAME ================= */
 /* ----- Account -> MY PROPERTIES START ----- */
 /* ================= CURRENT PAGE NAME ================= */

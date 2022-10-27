@@ -225,6 +225,12 @@ i {
   padding: 0;
   transition: all 300ms ease;
   cursor: pointer;
+  color: var(--bs-gray-800);
+}
+
+.custom-three-dot-btn:hover {
+  box-shadow: var(--shadow-large);
+  color: var(--bs-gray-600);
 }
 
 .custom-btn-icon:hover i {
