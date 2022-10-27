@@ -364,45 +364,51 @@ Keywords: real state, Template etc.
   text-transform: uppercase;
 }
 
-.property .property-feature {
+.property .property-feature,
+.ac-property .property-feature {
   font-weight: 700;
   font-size: 16px;
   color: var(--bs-gray-800);
 }
 
-.property .property-address {
+.property .property-address,
+.ac-property .property-address {
   font-weight: 400;
   font-size: 14px;
   color: var(--bs-gray-600);
 }
 
-.property .property-price {
+.property .property-price,
+.ac-property .property-price {
   font-weight: 700;
   font-size: 16px;
   color: var(--bs-gray-700);
 }
 
-.property .property-price > i {
+.property .property-price > i,
+.ac-property .property-price > i {
   color: var(--bs-gray-600);
   font-size: 21px;
   vertical-align: bottom;
 }
 
-.property .property hr {
+.property .property hr,
+.ac-property .property hr {
   border: none;
   border: 1px solid var(--bs-gray-300);
 }
 
-.property .property-details > p {
+.property .property-details > p,
+.ac-property .property-details > p {
   color: var(--bs-gray-600);
   font-size: 14px;
 }
 
-.property .property-details > i {
+.property .property-details > i .ac-property .property-details > i {
   color: var(--bs-gray-600);
 }
 
-.property .badges {
+.property .badges .ac-property .badges {
   z-index: 2;
 }
 

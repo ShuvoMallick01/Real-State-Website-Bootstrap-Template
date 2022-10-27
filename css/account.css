@@ -172,9 +172,38 @@ Keywords: real state, Template etc.
   font-weight: 400;
   font-size: 18px;
 }
-/* ================= CURRENT PAGE NAME ================= */
-/* ----- Account -> MY PROPERTIES END ----- */
-/* ================= CURRENT PAGE NAME ================= */
+/* ================= MY PROPERTIES PAGE END ================= */
+
+/* ================= WISHLIST PAGE START ================= */
+.ac-property:hover {
+  box-shadow: var(--shadow-default);
+  transition: all 300ms ease;
+}
+
+.favorite-btn-on {
+  background-color: var(--bs-white);
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.favorite-btn-on > i {
+  color: var(--bs-primary);
+}
+
+.favorite-btn-on:hover i {
+  color: var(--bs-white);
+  transition: all 300ms ease;
+}
+/* ================= WISHLIST PAGE END ================= */
+
+/* ================= REVIEWS PAGE START ================= */
+
+/* ================= REVIEWS PAGE END ================= */
 /* ===== START ===== */
 /* ===== END ===== */
 
