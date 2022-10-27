@@ -391,9 +391,77 @@
 
             <!-- Right Contents -->
             <div class="account-right-contents col-lg-8 col-md-7 mb-5">
-              <h1 class="page-title mb-3">Password & Security</h1>
-              <div class="mb-4">
-                Manage your password settings and secure your account.
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h1 class="page-title mb-3">My Properties</h1>
+                  <div class="mb-4">
+                    Reviews you’ve received will be visible both here and on
+                    your public profile.
+                  </div>
+                </div>
+                <a class="btn custom-text-btn mb-2"
+                  ><i class="icon-trash me-2"></i>Delete all</a
+                >
+              </div>
+
+              <!-- button -->
+              <div class="ac-my-property d-flex gap-2 border-bottom pb-3 mb-4">
+                <button class="tab-btn tab-btn-active">
+                  <i class="icon-file me-1"></i>Published
+                </button>
+                <button class="tab-btn">
+                  <i class="icon-clean me-1"> </i>Drafts
+                </button>
+                <button class="tab-btn">
+                  <i class="icon-archive me-1"></i>Archived
+                </button>
+              </div>
+
+              <!-- Single Item -->
+              <div class="card border-0 property overflow-hidden">
+                <div class="d-flex">
+                  <div class="col-5 card-top position-relative">
+                    <img
+                      src="./assets/images/catalog/rent/property-rent-image-01.png"
+                      class="card-img-top position-relative"
+                      alt="Apartment"
+                    />
+
+                    <!-- Badge -->
+                    <div class="position-absolute top-0 left-0 p-3 badges">
+                      <span class="d-table badge bg-success d-block mb-1"
+                        >Verified</span
+                      >
+                      <span class="d-table badge bg-info">New</span>
+                    </div>
+
+                    <!-- Heart Badge -->
+                    <button
+                      class="btn favorite-btn d-flex justify-content-center align-items-center"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+
+                  <div class="col-7 card-body p-4">
+                    <p class="property-type mb-2">FOR RENT</p>
+                    <h5 class="card-title m-0 property-feature">
+                      3-bed Apartment | 67 sq.m
+                    </h5>
+                    <p class="my-2 text-muted property-address">
+                      3811 Ditmars Blvd Astoria, NY 11105
+                    </p>
+                    <h6 class="property-price">
+                      <i class="icon-cash me-1"></i> $1,629
+                    </h6>
+                    <hr class="custom-hr my-3" />
+                    <div class="d-flex gap-4 property-details">
+                      <p class="mb-0">3 <i class="icon-bed ms-1"></i></p>
+                      <p class="mb-0">2 <i class="icon-bath ms-1"></i></p>
+                      <p class="mb-0">2 <i class="icon-car ms-1"></i></p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <!-- End right contents -->
