@@ -793,7 +793,7 @@ Keywords: real state, Template etc.
 }
 
 .footer-news-divider {
-  border: 0.2px solid var(--bs-gray-600);
+  border: 0.2px solid var(--bs-gray-600) !important;
   opacity: 0.1;
 }
 

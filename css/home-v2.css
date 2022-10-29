@@ -335,7 +335,7 @@ Keywords: real state, Template etc.
 /* ===== Find your agent Section END ===== */
 
 /* ===== Latest property news Section START ===== */
-.featured-news {
+.latest-property-news-v2 .featured-news {
   box-shadow: var(--shadow-small);
 }
 
