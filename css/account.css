@@ -30,10 +30,7 @@ Keywords: real state, Template etc.
 /* ----- Vendor CSS File ----- */
 /* ================= NEXT CSS FILE ================= */
 
-/* ================= CURRENT PAGE NAME ================= */
-/* ----- Account -> Personal Info Start ----- */
-/* ================= CURRENT PAGE NAME ================= */
-
+/* ----- Account -> Personal Info START ----- */
 /* ===== left Account Navbar START ===== */
 .account-nav {
 }
@@ -74,6 +71,10 @@ Keywords: real state, Template etc.
 
 .account-right-contents label {
   color: var(--bs-gray-900);
+}
+
+.ac-short-bio .form-control {
+  height: 100%;
 }
 
 .ac-change-picture {
