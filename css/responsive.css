@@ -66,6 +66,11 @@
     width: 100%;
   }
   /* Banner Search Location END */
+
+  /* Account-Whishlist Page */
+  .ac-change-picture {
+    height: 100px;
+  }
 }
 
 /* ========== Mobile responsive start ==========*/
