@@ -53,6 +53,17 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-900);
 }
 
+/* right */
+.ap-right-contents .perchantage-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+
+.ap-right-contents .ap-content-filled li a:hover {
+  color: var(--bs-primary);
+  cursor: pointer;
+}
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */
