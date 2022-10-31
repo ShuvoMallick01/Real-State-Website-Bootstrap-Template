@@ -64,6 +64,10 @@ Keywords: real state, Template etc.
   color: var(--bs-primary);
   cursor: pointer;
 }
+
+.ap-custom-textarea {
+  height: 108px;
+}
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */
