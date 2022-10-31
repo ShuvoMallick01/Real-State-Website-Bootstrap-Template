@@ -47,6 +47,12 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-900);
 }
 
+.basic-info-card .radio-form-label {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */
