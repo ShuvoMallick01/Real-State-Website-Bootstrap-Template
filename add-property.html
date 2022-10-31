@@ -897,22 +897,52 @@
                     >Price
                   </h2>
 
-                  <div class="row">
-                    <div class="col-sm-6 mb-3">
-                      <label class="form-label ap-form-label" for="ap-area"
-                        >Total area, sq.m
-                      </label>
-                      <input
-                        class="form-control"
-                        type="text"
-                        id="ap-area"
-                        placeholder="Enter your area"
-                        value=""
-                        required=""
-                      />
+                  <div>
+                    <label class="form-label ap-form-label" for="ap-area"
+                      >Price <span class="text-danger">*</span>
+                    </label>
+                    <div class="row">
+                      <div class="col-2">
+                        <select class="form-select mb-2">
+                          <option value="usd">$</option>
+                          <option value="eur">€</option>
+                          <option value="gbp">£</option>
+                          <option value="jpy">¥</option>
+                        </select>
+                      </div>
+
+                      <div class="col-6">
+                        <input
+                          class="form-control"
+                          type="number"
+                          id="ap-price"
+                          min="200"
+                          step="50"
+                          required=""
+                        />
+                      </div>
+                      <div class="col-4">
+                        <select class="form-select mb-2">
+                          <option value="day">per day</option>
+                          <option value="week">per week</option>
+                          <option value="month" selected="">per month</option>
+                          <option value="year">per year</option>
+                        </select>
+                      </div>
                     </div>
 
-                    <!-- end row -->
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="flexSwitchCheckDefault"
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                        >Negotiated price</label
+                      >
+                    </div>
                   </div>
                   <!-- end card body-->
                 </div>
