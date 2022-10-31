@@ -27,14 +27,27 @@ Keywords: real state, Template etc.
 /* ===== Style List Table End ===== */
 
 /* ================= Next Page ================= */
-/* ----- Account CSS ----- */
+/* ----- Pages Tab Pages CSS ----- */
 /* ================= Next Page ================= */
 
-/* ===== Navbar Section START ===== */
-.nav-user-pic img {
-  width: 38px;
+/* ===== VENDOR - ADD PROPERTY CSS START ===== */
+.add-property-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--bs-gray-900);
 }
-/* ===== Navbar Section END ===== */
+
+.basic-info-card .icon-info-circle {
+  color: var(--bs-primary);
+}
+
+.ap-form-label {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
+/* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */
 /* ===== Section END ===== */

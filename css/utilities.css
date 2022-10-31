@@ -289,4 +289,10 @@ hr {
 [type="text"] {
   color: var(--bs-gray-600);
 }
+
+.form-control,
+.form-select {
+  height: 44px;
+}
+
 /* from end */
