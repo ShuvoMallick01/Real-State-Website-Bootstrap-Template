@@ -68,6 +68,17 @@ Keywords: real state, Template etc.
 .ap-custom-textarea {
   height: 108px;
 }
+
+/* Photos/video card */
+.ap-photo-video-card .custom-alert {
+  border: 1px solid rgba(60, 118, 242, 0.4);
+}
+
+.ap-photo-video-card .upload {
+  border: 1px dashed var(--bs-gray-400);
+  border-radius: 12px;
+  height: 244px;
+}
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */

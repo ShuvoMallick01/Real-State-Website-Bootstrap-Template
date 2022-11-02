@@ -135,6 +135,11 @@ i {
   color: var(--bs-success) !important;
 }
 
+/* text */
+.text-info {
+  color: #3c76f2 !important;
+}
+
 /* button start */
 .btn:hover {
   background-color: #fd390e !important;
