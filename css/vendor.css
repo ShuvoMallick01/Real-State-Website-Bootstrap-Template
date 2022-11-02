@@ -128,6 +128,20 @@ Keywords: real state, Template etc.
   padding-left: 15%;
 }
 
+.promo-plan .plan-btn {
+  padding: 10px 50px !important;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.promo-plan .plan-btn:hover {
+  color: var(--bs-white);
+}
+
 /* ===== VENDOR - PROMOTION CSS END ===== */
 /* ===== Section START ===== */
 /* ===== Section END ===== */
