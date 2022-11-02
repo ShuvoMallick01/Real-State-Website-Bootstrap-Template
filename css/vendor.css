@@ -86,8 +86,22 @@ Keywords: real state, Template etc.
   font-size: 16px;
   color: var(--bs-gray-900) !important;
 }
+
+.ap-contents .form-control {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900) !important;
+}
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
+/* ===== VENDOR - PROMOTION CSS START ===== */
+.promo-section-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--bs-gray-900);
+}
+
+/* ===== VENDOR - PROMOTION CSS END ===== */
 /* ===== Section START ===== */
 /* ===== Section END ===== */
 
