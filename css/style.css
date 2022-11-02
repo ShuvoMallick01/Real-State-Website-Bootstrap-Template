@@ -38,6 +38,15 @@ Keywords: real state, Template etc.
 /* ===== Home Page V2 CSS ===== */
 /* =================== Next Page =================== */
 
+/* ===== Import CSS Files ===== */
+@import "./utilities.css";
+@import "./home-v2.css";
+@import "./catalog.css";
+@import "./account.css";
+@import "./vendor.css";
+@import "./pages.css";
+@import "./responsive.css";
+
 /* ===== Header START ===== */
 .custom-header {
   font-weight: 700;
