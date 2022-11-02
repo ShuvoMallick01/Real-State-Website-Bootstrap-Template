@@ -178,6 +178,22 @@ Keywords: real state, Template etc.
   box-shadow: var(--shadow-default) !important;
 }
 /* ===== VENDOR - PROMOTION CSS END ===== */
+
+/* ===== VENDOR - RENT CSS START ===== */
+/* left */
+.vendor-rent-left .user-name {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--bs-gray-900);
+}
+
+.vendor-rent-left .user-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+/* ===== VENDOR - RENT CSS END ===== */
+
 /* ===== Section START ===== */
 /* ===== Section END ===== */
 
