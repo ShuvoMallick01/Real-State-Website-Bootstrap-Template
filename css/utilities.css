@@ -145,7 +145,8 @@ i {
   background-color: #fd390e !important;
 }
 
-.btn-primary-outline {
+.btn-primary-outline,
+.btn-outline-secondary {
   padding: 14px 32px;
   font-size: 1rem;
   border-radius: 0.5rem;
