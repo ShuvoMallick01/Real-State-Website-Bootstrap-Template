@@ -79,6 +79,13 @@ Keywords: real state, Template etc.
   border-radius: 12px;
   height: 244px;
 }
+
+/* Contacts Card */
+.ap-contents .form-label {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900) !important;
+}
 /* ===== VENDOR - ADD PROPERTY CSS END ===== */
 
 /* ===== Section START ===== */
