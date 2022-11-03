@@ -194,6 +194,12 @@ Keywords: real state, Template etc.
 }
 /* ===== VENDOR - RENT CSS END ===== */
 
+/* ===== VENDOR - REVIEWS START ===== */
+.vendor-reviews-right .progress {
+  width: 100%;
+}
+/* ===== VENDOR - REVIEWS END ===== */
+
 /* ===== Section START ===== */
 /* ===== Section END ===== */
 
