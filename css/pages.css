@@ -26,48 +26,54 @@ Keywords: real state, Template etc.
   */
 /* ===== Style List Table End ===== */
 
-/* ================= Next Page ================= */
-/* ----- Account CSS ----- */
-/* ================= Next Page ================= */
+/* ===== BLOG START ===== */
+.blog-img img {
+  overflow: hidden;
+  cursor: pointer;
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-category {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-primary);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-800);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-title:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-primary);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-des {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-600) !important;
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-author-info {
+  cursor: pointer;
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-author-info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+.blog-author-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-800);
+}
 
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
-
-/* ===== Section START ===== */
-/* ===== Section END ===== */
+/* control pannel */
+.blog-control-search .search-icon {
+  margin-top: -30px;
+}
+/* ===== BLOG END ===== */
