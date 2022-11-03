@@ -109,4 +109,22 @@ Keywords: real state, Template etc.
   font-size: 18px;
   color: var(--bs-gray-900);
 }
+
+.right-post-contents .comment-title {
+  color: var(--bs-gray-900);
+}
+
+.comment-form-card .form-title {
+  color: var(--bs-gray-900) !important;
+  font-weight: 700;
+  font-size: 28px !important;
+}
+
+.post-form label {
+  color: var(--bs-gray-900);
+}
+
+.post-form textarea {
+  height: 124px;
+}
 /* ===== SINGLE BLOG END ===== */
