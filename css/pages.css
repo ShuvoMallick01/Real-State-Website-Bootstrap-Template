@@ -77,3 +77,36 @@ Keywords: real state, Template etc.
   margin-top: -30px;
 }
 /* ===== BLOG END ===== */
+
+/* ===== SINGLE BLOG START ===== */
+.post-category {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+
+.post-category:hover {
+  color: var(--bs-primary);
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.blog-post .post-img img {
+  width: 100%;
+}
+
+.blog-post .author-img img {
+  width: 80px;
+}
+
+.right-post-contents .bold-paragraph,
+.blockquote {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+/* ===== SINGLE BLOG END ===== */
