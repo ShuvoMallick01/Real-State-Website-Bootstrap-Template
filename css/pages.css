@@ -150,7 +150,8 @@ Keywords: real state, Template etc.
 }
 
 /* How it Works */
-.how-work h3 {
+.how-work h3,
+.team-card h3 {
   font-weight: 700;
   font-size: 20px;
   color: var(--bs-gray-900);
@@ -168,5 +169,15 @@ Keywords: real state, Template etc.
 .step .number-circle {
   font-weight: 700;
   font-size: 16px;
+}
+
+/* Profesional Team */
+.team-card {
+  cursor: pointer;
+}
+
+.team-card:hover {
+  box-shadow: var(--shadow-large);
+  transition: all 300ms ease;
 }
 /* ===== ABOUT PAGE END ===== */
