@@ -204,4 +204,36 @@ Keywords: real state, Template etc.
   margin-top: -12px;
 }
 
+/* Buy property with confidence START */
+.buy-property .contents {
+  background-color: var(--bs-gray-200);
+}
+
+.buy-property .contents h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.buy-property .left-contents {
+  max-width: 526px;
+}
+
+.buy-property .right-img {
+  margin-top: -38px;
+}
+
+/* Our recent highlights START */
+.recent-post .blog-category {
+  font-size: 12px;
+}
+
+.recent-post .blog-title {
+  font-size: 16px;
+}
+
+.recent-post .author-info h4 {
+  font-size: 14px;
+  margin-bottom: 2px !important;
+}
 /* ===== ABOUT PAGE END ===== */
