@@ -128,3 +128,25 @@ Keywords: real state, Template etc.
   height: 124px;
 }
 /* ===== SINGLE BLOG END ===== */
+
+/* ===== ABOUT PAGE START ===== */
+.about .left-about h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--bs-gray-900);
+}
+
+/* Why Choose us start */
+.why-choose .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.why-choose .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+/* Why Choose us end */
+/* ===== ABOUT PAGE END ===== */

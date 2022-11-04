@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="./css/vendor.css" />
     <link rel="stylesheet" href="./css/pages.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <title>Account - Personal Info</title>
+    <title>Account - Review</title>
   </head>
 
   <body>
@@ -307,6 +307,7 @@
               </li>
             </ol>
           </nav>
+
           <!-- Contents -->
           <div class="row">
             <!-- Left Account Menu/Nav -->
@@ -320,9 +321,7 @@
                     class="img-fluid"
                     alt="Review Icon"
                   />
-                  <div
-                    class="pt-md-2 pt-lg-0 ps-3 ps-md-0 ps-lg-3 text-truncate"
-                  >
+                  <div class="pt-md-2 pt-lg-0 ps-3 ps-md-0 ps-lg-3">
                     <h5 class="reivew-title m-0 mb-1">Annette Black</h5>
                     <div class="align-items-center">
                       <span class="review-icons">
@@ -337,9 +336,8 @@
                     <p class="m-0 mb-1 mt-3 mb-0">
                       <i class="icon-phone-1"></i> (302) 555-0107
                     </p>
-                    <p class="m-0 d-block">
-                      <i class="icon-mail"></i>
-                      <span class="text-truncate">annette_black@gmail.com</span>
+                    <p class="m-0">
+                      <i class="icon-mail"></i> annette_black@gmail.com
                     </p>
                   </div>
                 </div>
@@ -352,7 +350,7 @@
                 <div class="mt-3">
                   <div class="account-nav d-flex flex-column position-relative">
                     <a
-                      class="nav-link active py-3 border-top"
+                      class="nav-link py-3 border-top"
                       href="./personal-info.html"
                     >
                       <i class="icon-user-default me-2"></i>Personal Info</a
@@ -370,7 +368,7 @@
                       <i class="icon-heart-default me-2"></i>Wishlist</a
                     >
                     <a
-                      class="nav-link py-3 border-top"
+                      class="nav-link py-3 active border-top"
                       href="./ac-reviews.html"
                     >
                       <i class="icon-star-default me-2"></i>Reviews</a
@@ -398,193 +396,250 @@
 
             <!-- Right Contents -->
             <div class="account-right-contents col-lg-8 col-md-7 mb-5">
-              <h1 class="page-title mb-3">Personal Info</h1>
-              <div class="mb-2">Your personal info is 58% completed</div>
-
-              <!-- progress -->
-              <div class="progress mb-4">
-                <div
-                  class="progress-bar bg-warning"
-                  role="progressbar"
-                  style="width: 58%"
-                  aria-valuenow="58"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
+              <h1 class="page-title mb-3">Reviews</h1>
+              <div class="mb-4">
+                Reviews you’ve posted will be visible both here and on your
+                public profile.
               </div>
 
-              <label class="form-label pt-2" for="account-bio">Short bio</label>
-              <div class="ac-short-bio row mb-4">
-                <div class="col-xl-9 col-lg-8 col-md-6">
-                  <textarea
-                    class="form-control"
-                    rows="6"
-                    placeholder="Write your bio here. It will be displayed on your public profile."
-                  ></textarea>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                  <div
-                    class="ac-change-picture d-flex flex-column justify-content-center align-items-center text-center"
-                  >
-                    <label for="upload-photo">
-                      <i class="icon-camera-plus"></i>
-                      <p>Change Picture</p>
-                    </label>
-
-                    <input
-                      type="file"
-                      id="upload-photo"
-                      style="display: none"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <!-- details -->
-              <div class="personal-info border rounded-3 p-3 mb-4">
-                <!-- Name -->
-                <div class="border-bottom mb-4 pb-4">
-                  <div
-                    class="d-flex justify-content-between align-content-center"
-                  >
-                    <div class="pe-2">
-                      <label class="ac-form-label">Full name</label>
-                      <div>Annette Black</div>
-                    </div>
-                    <div class="ac-details-edit p-0 my-auto">
-                      <i class="icon-edit"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Email -->
-                <div class="border-bottom mb-4 pb-4">
-                  <div
-                    class="d-flex justify-content-between align-content-center"
-                  >
-                    <div class="pe-2">
-                      <label class="ac-form-label">Email</label>
-                      <div>annette_black@gmail.com</div>
-                    </div>
-                    <div class="ac-details-edit p-0 my-auto">
-                      <i class="icon-edit"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Phone number -->
-                <div class="border-bottom mb-4 pb-4">
-                  <div
-                    class="d-flex justify-content-between align-content-center"
-                  >
-                    <div class="pe-2">
-                      <label class="ac-form-label">Phone number</label>
-                      <div>(302) 555-0107</div>
-                    </div>
-                    <div class="ac-details-edit p-0 my-auto">
-                      <i class="icon-edit"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Company name -->
-                <div class="border-bottom mb-3 pb-4">
-                  <div
-                    class="d-flex justify-content-between align-content-center"
-                  >
-                    <div class="pe-2">
-                      <label class="ac-form-label active">Company name</label>
-                      <div>Not specified</div>
-                    </div>
-                    <div class="ac-details-edit active p-0 my-auto">
-                      <i class="icon-edit"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="border-bottom mb-4 pb-3">
-                  <input
-                    class="form-control custom-form-control"
-                    type="text"
-                    placeholder="Enter company name"
-                  />
-                </div>
-
-                <!-- Address -->
-                <div class="">
-                  <div
-                    class="d-flex justify-content-between align-content-center"
-                  >
-                    <div class="pe-2">
-                      <label class="ac-form-label">Address</label>
-                      <div>Not specified</div>
-                    </div>
-                    <div class="ac-details-edit p-0 my-auto">
-                      <i class="icon-edit"></i>
-                    </div>
-                  </div>
-                </div>
-                <!-- end -->
-              </div>
-
-              <!-- social media -->
-              <div class="pt-2">
-                <label class="form-label fw-bold mb-3">Socials</label>
-              </div>
-
-              <!-- facebook -->
-              <div class="social-filed d-flex align-items-center mb-3">
-                <div
-                  class="btn custom-btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
-                >
-                  <i class="icon-Facebook-white-bg"></i>
-                </div>
-                <input
-                  class="form-control custom-form-control"
-                  type="text"
-                  placeholder="Your Facebook account"
-                />
-              </div>
-
-              <!-- Linkdin -->
-              <div class="social-filed d-flex align-items-center mb-3">
-                <div
-                  class="btn custom-btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
-                >
-                  <i class="icon-linkedin"></i>
-                </div>
-                <input
-                  class="form-control custom-form-control"
-                  type="text"
-                  placeholder="Your Facebook account"
-                />
-              </div>
-
-              <!-- twitter -->
-              <div class="social-filed d-flex align-items-center mb-3">
-                <div
-                  class="btn custom-btn-icon btn-light shadow-sm rounded-circle flex-shrink-0 me-3"
-                >
-                  <i class="icon-twitter"></i>
-                </div>
-                <input
-                  class="form-control custom-form-control"
-                  type="text"
-                  placeholder="Your Facebook account"
-                />
-              </div>
-
-              <a class="btn custom-text-btn mb-2"
-                ><i class="icon-short-down align-middle me-2"></i>Load more</a
-              >
-
-              <div class="d-flex border-top mt-4 pt-4 pb-1">
-                <button class="btn custom-gray-btn px-3 px-sm-4" type="button">
-                  Delete account
+              <!-- button -->
+              <div class="ac-my-property d-flex gap-2 border-bottom pb-3 mb-4">
+                <button class="tab-btn">
+                  <i class="icon-file me-1"></i>Reviews about you
+                </button>
+                <button class="tab-btn tab-btn-active">
+                  <i class="icon-clean me-1"> </i>Reviews by you
                 </button>
               </div>
-              <!-- end -->
+
+              <div class="mb-4">
+                <div
+                  class="d-flex flex-sm-row flex-column align-items-sm-center align-items-stretch justify-content-between"
+                >
+                  <h2 class="post-heading">3 reviews</h2>
+
+                  <!-- property item Sorting -->
+                  <div
+                    class="property-item-sorting d-flex flex-sm-row flex-column align-items-sm-center justify-content-between align-items-stretch my-2"
+                  >
+                    <div class="d-flex align-items-center flex-shrink-0">
+                      <label class="text-nowrap me-3" for="sortby"
+                        ><i class="icon-switch-vertical"></i> Sort by:</label
+                      >
+
+                      <select class="form-select form-select-sm" id="sortby">
+                        <option>Newest</option>
+                        <option>Popularity</option>
+                        <option>Low - High Price</option>
+                        <option>High - Low Price</option>
+                        <option>High rating</option>
+                        <option>Average Rating</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- reivew -->
+              <div class="review mb-4 pb-4 border-bottom">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="d-flex align-items-center pe-3">
+                    <img
+                      src="./assets/images/catalog/single-property-page/ammett-black.png"
+                      class="img-fluid me-2"
+                      alt="Review Icon"
+                    />
+                    <div>
+                      <h5 class="reivew-title m-0">Annette Black</h5>
+                      <span class="review-icons">
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <p class="custom-mute-text">Dec 17,2020</p>
+                  <!-- end -->
+                </div>
+                <p>
+                  Elementum ut quam tincidunt egestas vitae elit, hendrerit.
+                  Ullamcorper nulla amet lobortis elit, nibh condimentum enim.
+                  Aliquam felis nisl tellus sodales lectus dictum tristique
+                  proin vitae. Odio fermentum viverra tortor quis.
+                </p>
+
+                <div class="review-like-icon d-flex align-items-center m-0">
+                  <button class="btn-like m-0">
+                    <i class="icon-like me-1 align-middle"></i
+                    ><span class="custom-mute-text">(3)</span>
+                  </button>
+
+                  <div class="border-end me-1">&nbsp;</div>
+
+                  <button class="btn-like">
+                    <i class="icon-dislike me-1 align-middle"></i
+                    ><span class="custom-mute-text">(0)</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- reivew -->
+              <div class="review mb-4 pb-4 border-bottom">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="d-flex align-items-center pe-3">
+                    <img
+                      src="./assets/images/catalog/single-property-page/avatar.png"
+                      class="img-fluid me-2"
+                      alt="Review Icon"
+                    />
+                    <div>
+                      <h5 class="reivew-title m-0">Darrell Steward</h5>
+                      <span class="review-icons">
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-star-default text-warning"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <p class="custom-mute-text">Dec 17,2020</p>
+                  <!-- end -->
+                </div>
+                <p>
+                  Vel dictum nunc ut tristique. Egestas diam amet, ut proin
+                  hendrerit. Dui accumsan at phasellus tempus consequat
+                  dignissim.
+                </p>
+
+                <div class="review-like-icon d-flex align-items-center m-0">
+                  <button class="btn-like m-0">
+                    <i class="icon-like me-1 align-middle"></i
+                    ><span class="custom-mute-text">(3)</span>
+                  </button>
+
+                  <div class="border-end me-1">&nbsp;</div>
+
+                  <button class="btn-like">
+                    <i class="icon-dislike me-1 align-middle"></i
+                    ><span class="custom-mute-text">(0)</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- reivew -->
+              <div class="review mb-4 pb-4 border-bottom">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="d-flex align-items-center pe-3">
+                    <img
+                      src="./assets/images/catalog/single-property-page/avatar.png"
+                      class="img-fluid me-2"
+                      alt="Review Icon"
+                    />
+                    <div>
+                      <h5 class="reivew-title m-0">Floyd Miles</h5>
+                      <span class="review-icons">
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <p class="custom-mute-text">Dec 17,2020</p>
+                  <!-- end -->
+                </div>
+                <p>
+                  Viverra nunc blandit sapien non imperdiet sit. Purus tempus
+                  elementum aliquam eu urna. A aenean duis non egestas at libero
+                  porttitor integer eget. Sed dictum lobortis laoreet gravida.
+                </p>
+
+                <div class="review-like-icon d-flex align-items-center m-0">
+                  <button class="btn-like m-0">
+                    <i class="icon-like me-1 align-middle"></i
+                    ><span class="custom-mute-text">(3)</span>
+                  </button>
+
+                  <div class="border-end me-1">&nbsp;</div>
+
+                  <button class="btn-like">
+                    <i class="icon-dislike me-1 align-middle"></i
+                    ><span class="custom-mute-text">(0)</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- reivew -->
+              <div class="review mb-4 pb-4 border-bottom">
+                <div class="d-flex justify-content-between mb-3">
+                  <div class="d-flex align-items-center pe-3">
+                    <img
+                      src="./assets/images/catalog/single-property-page/floyd-miles.png"
+                      class="img-fluid me-2"
+                      alt="Review Icon"
+                    />
+                    <div>
+                      <h5 class="reivew-title m-0">Annette Black</h5>
+                      <span class="review-icons">
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                        <i class="icon-rating text-warning"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <p class="custom-mute-text">Dec 17,2020</p>
+                  <!-- end -->
+                </div>
+                <p>
+                  Elementum ut quam tincidunt egestas vitae elit, hendrerit.
+                  Ullamcorper nulla amet lobortis elit, nibh condimentum enim.
+                  Aliquam felis nisl tellus sodales lectus dictum tristique
+                  proin vitae. Odio fermentum viverra tortor quis.
+                </p>
+
+                <div class="review-like-icon d-flex align-items-center m-0">
+                  <button class="btn-like m-0">
+                    <i class="icon-like me-1 align-middle"></i
+                    ><span class="custom-mute-text">(3)</span>
+                  </button>
+
+                  <div class="border-end me-1">&nbsp;</div>
+
+                  <button class="btn-like">
+                    <i class="icon-dislike me-1 align-middle"></i
+                    ><span class="custom-mute-text">(0)</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- pagination -->
+              <nav class="custom-pagination mt-4">
+                <ul class="pagination align-items-center">
+                  <li class="page-item icon-single-left"></li>
+                  <li class="page-item">
+                    <a class="page-link active" href="#">1</a>
+                  </li>
+                  <li class="page-item" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">...</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">8</a>
+                  </li>
+                  <li class="page-item icon-single-right" href="#"></li>
+                </ul>
+              </nav>
+
+              <!-- End right contents -->
             </div>
           </div>
         </div>
