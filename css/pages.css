@@ -254,4 +254,20 @@ Keywords: real state, Template etc.
   font-size: 20px;
   color: var(--bs-gray-900);
 }
-/* ===== HELP CENTER EMD ===== */ ;
+/* ===== HELP CENTER EMD ===== */
+
+/* ===== CONTACT START ===== */
+.contact-page .contact-form {
+  background-color: var(--bs-gray-200);
+}
+
+.contact-page .contact-form label {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
+.contact-page .contact-form textarea {
+  height: 128px;
+}
+/* ===== CONTACT END ===== */ ;
