@@ -249,4 +249,9 @@ Keywords: real state, Template etc.
   padding: 14px 32px !important;
 }
 
+.help-contents h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
 /* ===== HELP CENTER EMD ===== */ ;
