@@ -237,3 +237,16 @@ Keywords: real state, Template etc.
   margin-bottom: 2px !important;
 }
 /* ===== ABOUT PAGE END ===== */
+
+/* ===== HELP CENTER START ===== */
+.help-center .form-group {
+  padding: 8px;
+  border: 1px solid var(--bs-gray-300);
+  border-radius: 8px;
+}
+
+.help-center .btn-lg {
+  padding: 14px 32px !important;
+}
+
+/* ===== HELP CENTER EMD ===== */ ;
