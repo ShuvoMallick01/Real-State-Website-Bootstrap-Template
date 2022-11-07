@@ -297,16 +297,11 @@ Keywords: real state, Template etc.
 /* ===== CONTACT END ===== */
 
 /* ===== 404 END ===== */
-
-.four-hundred-four .container-fluid {
-  min-height: 100vh !important;
-  height: 100% !important;
-}
-
 /* left */
 .four-hundred-four .left-side {
   background-color: var(--bs-gray-900);
   min-height: 100vh;
+  height: 100% !important;
 }
 
 @media (max-width: 2000px) {
