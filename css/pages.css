@@ -294,4 +294,58 @@ Keywords: real state, Template etc.
 .contact-card:hover {
   box-shadow: var(--shadow-default);
 }
-/* ===== CONTACT END ===== */ ;
+/* ===== CONTACT END ===== */
+
+/* ===== 404 END ===== */
+
+.four-hundred-four .container-fluid {
+  min-height: 100vh !important;
+  height: 100% !important;
+}
+
+/* left */
+.four-hundred-four .left-side {
+  background-color: var(--bs-gray-900);
+  min-height: 100vh;
+}
+
+@media (max-width: 2000px) {
+  .four-hundred-four .left-side {
+    padding-left: 40% !important;
+  }
+
+  .right-side-img img {
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .four-hundred-four .left-side {
+    padding-left: 25px !important;
+  }
+}
+
+.four-hundred-four .left-side h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.four-hundred-four .left-side p {
+  width: 80%;
+}
+
+.btn-outline-light:hover {
+  color: var(--bs-white) !important;
+  border: 1px solid var(--bs-primary) !important;
+}
+
+/* right */
+.four-hundred-four .right-side-img img {
+  max-width: 636px;
+  width: 100%;
+}
+
+.four-hundred-four .right-side-img {
+  min-height: 100vh !important;
+  height: 100% !important;
+}
