@@ -116,6 +116,47 @@ Keywords: real state, Template etc.
 }
 /* ===== Header END ===== */
 
+/* ===== Sign In Modal START ====== */
+.modal {
+  --bs-modal-width: 952px !important;
+}
+
+.sign-in-modal .left-contents .dont-have {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.sign-in-modal .left-contents h2 {
+  font-weight: 700;
+  font-size: 28px !important;
+  color: var(--bs-gray-900);
+}
+
+/* .border-right {
+  border-right: 1px solid black !important;
+  height: 100px;
+  content: "";
+} */
+
+.sign-in-modal .right-contents .or {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.sign-in-modal .sign-in-form .form-label,
+.forgot-pass {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
+.forgot-pass {
+  color: var(--bs-primary) !important;
+}
+/* ===== Sign In Modal END ====== */
+
 /* ===== Hero/Banner START===== */
 .hero-title {
   font-size: 56px;

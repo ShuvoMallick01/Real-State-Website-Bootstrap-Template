@@ -282,9 +282,144 @@
             </ul>
 
             <div>
-              <button class="btn sign-in-btn">
+              <button
+                type="button"
+                class="btn sign-in-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
                 <i class="fa-regular fa-user"></i> Sign In
               </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <!-- start -->
+                    <div class="modal-body px-0 py-2">
+                      <button
+                        class="btn-close position-absolute top-0 end-0 mt-3 me-3"
+                        type="button"
+                        data-bs-dismiss="modal"
+                      ></button>
+
+                      <!-- contents -->
+                      <div class="row sign-in-modal mx-0 align-items-center">
+                        <!-- <div class="border-left mx-auto"></div> -->
+                        <!-- left side -->
+                        <div class="col-md-6 p-3 p-lg-5">
+                          <div class="left-contents">
+                            <h2 class="h3 mb-4 mb-sm-5">
+                              Hey there!<br />Welcome back.
+                            </h2>
+                            <img
+                              class="d-block mx-auto"
+                              src="./assets/images/sign-in-illustration.svg"
+                              width="344"
+                              alt="Illustartion"
+                            />
+                            <div class="dont-have mt-4">
+                              Don't have an account?
+                              <a
+                                href="#signup-modal"
+                                data-bs-toggle="modal"
+                                data-bs-dismiss="modal"
+                                >Sign up here</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- right side -->
+                        <div class="col-md-6 px-4 p-3 p-lg-5">
+                          <div class="right-contents">
+                            <button
+                              class="btn btn-outline-info mb-3 w-100"
+                              href="#"
+                            >
+                              <i class="icon-google me-1"></i>Sign in with
+                              Google
+                            </button>
+                            <button
+                              class="btn btn-outline-info mb-3 w-100"
+                              href="#"
+                            >
+                              <i class="icon-Facebook-white-bg me-1"></i>Sign in
+                              with Facebook
+                            </button>
+
+                            <div class="d-flex align-items-center py-2 mb-1">
+                              <hr class="w-100" />
+                              <p class="or px-3">Or</p>
+                              <hr class="w-100" />
+                            </div>
+
+                            <form class="sign-in-form">
+                              <div class="mb-4">
+                                <label
+                                  class="form-label mb-2"
+                                  for="signin-email"
+                                  >Email address</label
+                                >
+                                <input
+                                  class="form-control"
+                                  type="email"
+                                  id="signin-email"
+                                  placeholder="Enter your email"
+                                  required=""
+                                />
+                              </div>
+
+                              <div class="mb-4">
+                                <div
+                                  class="d-flex align-items-center justify-content-between mb-0"
+                                >
+                                  <label
+                                    class="form-label mb-2"
+                                    for="signin-password"
+                                    >Password</label
+                                  >
+                                  <a class="forgot-pass" href="#"
+                                    >Forgot password?</a
+                                  >
+                                </div>
+
+                                <div
+                                  class="form-input-icon d-flex align-items-center"
+                                >
+                                  <input
+                                    class="form-control custom-form-control"
+                                    type="password"
+                                    id="signin-password"
+                                    placeholder="Enter password"
+                                    required=""
+                                  />
+                                  <i class="icon-off"></i>
+                                </div>
+                              </div>
+
+                              <button
+                                class="btn btn-primary btn-lg w-100"
+                                type="submit"
+                              >
+                                Sign in
+                              </button>
+                            </form>
+                          </div>
+                        </div>
+                        <!-- end row -->
+                      </div>
+                    </div>
+                    <!-- end -->
+                  </div>
+                </div>
+              </div>
 
               <button class="btn btn-primary custom-btn">
                 <i class="fa-regular fa-plus"></i> Add Property
