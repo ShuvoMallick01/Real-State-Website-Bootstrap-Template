@@ -20,9 +20,12 @@ Keywords: real state, Template etc.
 
 /* ===== Style List Table Start ===== */
 /* 
-  1. Left Control Section
-  2. Property for rent Section
-  3. Products Section
+  1. Blog Page CSS
+  2. Post Page CSS
+  3. About CSS
+  4. Help Center CSS
+  5. Contact CSS
+  6. 404 CSS
   */
 /* ===== Style List Table End ===== */
 
@@ -296,8 +299,7 @@ Keywords: real state, Template etc.
 }
 /* ===== CONTACT END ===== */
 
-/* ===== 404 END ===== */
-/* left */
+/* ===== 404 START ===== */
 .four-hundred-four .left-side {
   background-color: var(--bs-gray-900);
   min-height: 100vh;
@@ -339,3 +341,4 @@ Keywords: real state, Template etc.
   max-width: 636px;
   width: 100%;
 }
+/* ===== 404 END ===== */

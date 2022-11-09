@@ -18,13 +18,16 @@ Keywords: real state, Template etc.
 /* ----- Pages CSS ----- */
 /* =============== CSS FILES INDEX =============== */
 
-/* ===== STYLE INDEX (CURRENT FILE) ===== */
+/* ===== ACCOUNT STYLE INDEX ===== */
 /* 
-  1. Property for rent Section
-  2. Property for sell section
-  3. Single Property V.1
+  1. Personal Info CSS
+  2. Security CSS
+  3. My Propertieis
+  4. Wishlist CSS
+  5. Reviews CSS
+  6. Notifications CSS
   */
-/* ===== STYLE INDEX (CURRENT FILE) ===== */
+/* ===== ACCOUNT STYLE INDEX ===== */
 
 /* ================= NEXT CSS FILE ================= */
 /* ----- Vendor CSS File ----- */
@@ -32,9 +35,6 @@ Keywords: real state, Template etc.
 
 /* ----- Account -> Personal Info START ----- */
 /* ===== left Account Navbar START ===== */
-.account-nav {
-}
-
 .account-nav i {
   font-size: 18px;
 }
