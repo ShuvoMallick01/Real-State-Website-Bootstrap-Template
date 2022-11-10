@@ -210,6 +210,21 @@ Keywords: real state, Template etc.
 }
 /* ================= WISHLIST PAGE END ================= */
 
-/* ================= REVIEWS PAGE START ================= */
+/* ================= NOTIFICATION PAGE START ================= */
+.ac-notification-tab h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
 
-/* ================= REVIEWS PAGE END ================= */
+.ac-notification-tab p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.form-check-input:checked {
+  background-color: #07c98b !important;
+  border-color: #07c98b !important;
+}
+/* ================= NOTIFICATION PAGE END ================= */
