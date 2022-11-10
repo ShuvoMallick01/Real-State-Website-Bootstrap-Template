@@ -48,7 +48,7 @@
     <header class="header-area">
       <nav class="navbar navbar-expand-lg custom-header">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="./index.html"
             ><img
               src="./assets/images/logo-finder.svg"
               class="img-fluid"
@@ -67,6 +67,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Menu -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-menu">
               <!-- Language Change Menu -->
               <li class="nav-item dropdown px-3 menu-language">
@@ -97,27 +98,9 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Home menu item -->
               <li class="nav-item dropdown px-2">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Home
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item active" href="./index.html"
-                      >Home V.1</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./home-v2.html">Home V.2</a>
-                  </li>
-                </ul>
+                <a class="nav-link active" href="./index.html">Home</a>
               </li>
 
               <!-- Catalog menu items -->
@@ -142,25 +125,16 @@
                       >Property for Sell</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./property-for-buy.html"
-                      >Property for Buy</a
-                    >
-                  </li>
+
                   <li class="nav-item">
                     <a class="dropdown-item" href="./single-property-v1.html"
-                      >Single Property V.1</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./single-property-v2.html"
-                      >Single Property V.2</a
+                      >Single Property</a
                     >
                   </li>
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Account menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -173,10 +147,22 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Sign In</a>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sign-in-Modal"
+                      >Sign In</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Sign Up</a>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#signup-Modal"
+                      >Sign Up</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="dropdown-item" href="./personal-info.html"
@@ -195,7 +181,9 @@
                     <a class="dropdown-item" href="./wishlist.html">Wishlist</a>
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="./reviews.html">Reviews</a>
+                    <a class="dropdown-item" href="./ac-reviews.html"
+                      >Reviews</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="dropdown-item" href="./notifications.html"
@@ -205,7 +193,7 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Vendor menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -245,7 +233,7 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Pages menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -281,7 +269,7 @@
               </li>
             </ul>
 
-            <!-- Sign button with Modal -->
+            <!-- Right Sign button & Modal -->
             <div>
               <button
                 type="button"
@@ -517,7 +505,7 @@
                             <form class="signup-form" novalidate="">
                               <div class="mb-2">
                                 <label class="form-label" for="signup-name"
-                                  >Full name</label
+                                  >Full Name</label
                                 >
                                 <input
                                   class="form-control"
@@ -530,7 +518,7 @@
 
                               <div class="mb-2">
                                 <label class="form-label" for="signup-email"
-                                  >Email address</label
+                                  >Email Address</label
                                 >
                                 <input
                                   class="form-control"
@@ -545,7 +533,7 @@
                                 <label class="form-label" for="signup-password"
                                   >Password
                                   <span class="text-muted"
-                                    >min. 8 char</span
+                                    >(min. 8 char)</span
                                   ></label
                                 >
 
@@ -615,9 +603,12 @@
               </div>
               <!-- SIGN UP MODAL END -->
 
-              <button class="btn btn-primary custom-btn">
+              <a
+                class="btn btn-primary custom-btn flex-shrink-0"
+                href="./add-property.html"
+              >
                 <i class="fa-regular fa-plus"></i> Add Property
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -272,12 +272,14 @@ i {
   border: 1px solid #3c76f2;
   border-radius: 8px;
   color: #3c76f2;
+
   font-weight: 700;
   font-size: 16px;
 }
 
 .btn-outline-info:hover {
   color: var(--bs-white) !important;
+  background-color: #3c76f2 !important;
 }
 /* button end */
 

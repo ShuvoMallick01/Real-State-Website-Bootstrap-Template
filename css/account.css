@@ -35,6 +35,10 @@ Keywords: real state, Template etc.
 
 /* ----- Account -> Personal Info START ----- */
 /* ===== left Account Navbar START ===== */
+.user-pic {
+  width: 48px;
+}
+
 .account-nav i {
   font-size: 18px;
 }

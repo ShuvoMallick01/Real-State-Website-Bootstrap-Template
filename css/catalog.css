@@ -33,6 +33,10 @@ Keywords: real state, Template etc.
 /* ================================= */
 /* ===== PROPERTY FOR RENT PAGE ==== */
 /* ================================= */
+.nav-user-pic img {
+  width: 40px;
+}
+
 /* ===== Left Filter Area Section START ===== */
 .left-property-filter {
   box-shadow: 5px 0 5px -2px rgba(31, 27, 45, 0.08),
@@ -151,6 +155,10 @@ Keywords: real state, Template etc.
   font-weight: 700;
   font-size: 16px;
   color: var(--bs-primary);
+}
+
+.sort-form-select {
+  height: 36px !important;
 }
 
 .property-item-sorting hr {
