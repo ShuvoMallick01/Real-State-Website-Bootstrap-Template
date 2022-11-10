@@ -275,6 +275,10 @@ i {
   font-weight: 700;
   font-size: 16px;
 }
+
+.btn-outline-info:hover {
+  color: var(--bs-white) !important;
+}
 /* button end */
 
 .custom-hr {
