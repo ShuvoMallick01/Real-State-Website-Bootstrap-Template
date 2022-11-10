@@ -618,6 +618,16 @@ Keywords: real state, Template etc.
   font-size: 16px;
   padding: 14px 32px 14px 32px;
 }
+
+.modal-calculate {
+  --bs-modal-width: 600px !important;
+}
+
+.modal-calculate-contents .form-label {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
 /* ===== Calculate END===== */
 
 /* ===== Search property by city START===== */
