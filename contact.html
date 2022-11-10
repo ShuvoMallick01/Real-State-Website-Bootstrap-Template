@@ -41,7 +41,7 @@
     <header class="header-area">
       <nav class="navbar navbar-expand-lg custom-header">
         <div class="container">
-          <a class="navbar-brand" href="#"
+          <a class="navbar-brand" href="./index.html"
             ><img
               src="./assets/images/logo-finder.svg"
               class="img-fluid"
@@ -60,6 +60,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Menu -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-menu">
               <!-- Language Change Menu -->
               <li class="nav-item dropdown px-3 menu-language">
@@ -90,30 +91,12 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Home menu item -->
               <li class="nav-item dropdown px-2">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Home
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item">
-                    <a class="dropdown-item" href="./index.html">Home V.1</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item active" href="./home-v2.html"
-                      >Home V.2</a
-                    >
-                  </li>
-                </ul>
+                <a class="nav-link" href="./index.html">Home</a>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Catalog menu items -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -138,13 +121,13 @@
 
                   <li class="nav-item">
                     <a class="dropdown-item" href="./single-property-v1.html"
-                      >Single Property V.1</a
+                      >Single Property</a
                     >
                   </li>
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Account menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -157,10 +140,22 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Sign In</a>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sign-in-Modal"
+                      >Sign In</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="#">Sign Up</a>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#signup-Modal"
+                      >Sign Up</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="dropdown-item" href="./personal-info.html"
@@ -191,7 +186,7 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Vendor menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -231,7 +226,7 @@
                 </ul>
               </li>
 
-              <!-- Single menu item -->
+              <!-- Pages menu item -->
               <li class="nav-item dropdown px-2">
                 <a
                   class="nav-link dropdown-toggle"
@@ -258,7 +253,9 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="dropdown-item" href="./contact.html">Contact</a>
+                    <a class="dropdown-item active" href="./contact.html"
+                      >Contact</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="dropdown-item" href="./404.html">404</a>
@@ -267,17 +264,335 @@
               </li>
             </ul>
 
+            <!-- MODAL SIGN IN START -->
+            <div
+              class="modal fade"
+              id="sign-in-Modal"
+              tabindex="-1"
+              aria-labelledby="sign-in-ModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <!-- start -->
+                  <div class="modal-body px-0 py-0">
+                    <button
+                      class="btn-close position-absolute top-0 end-0 mt-3 me-3"
+                      type="button"
+                      data-bs-dismiss="modal"
+                    ></button>
+
+                    <!-- contents -->
+                    <div class="row sign-in-modal mx-0 align-items-center">
+                      <!-- left side -->
+                      <div class="col-md-6 p-3 p-lg-5 border-right">
+                        <div class="left-contents">
+                          <h2 class="modal-title mb-4 mb-sm-5">
+                            Hey there!<br />Welcome back.
+                          </h2>
+                          <img
+                            class="d-block mx-auto"
+                            src="./assets/images/sign-in-illustration.svg"
+                            width="344"
+                            alt="Illustartion"
+                          />
+                          <div class="dont-have mt-4">
+                            Don't have an account?
+                            <a
+                              href="#signup-Modal"
+                              data-bs-toggle="modal"
+                              data-bs-dismiss="modal"
+                              >Sign up here</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- right side -->
+                      <div class="col-md-6 px-4 p-3 p-lg-5">
+                        <div class="right-contents">
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-google me-1"></i>Sign in with Google
+                          </button>
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-Facebook-white-bg me-1"></i>Sign in
+                            with Facebook
+                          </button>
+
+                          <div class="d-flex align-items-center py-2 mb-1">
+                            <hr class="w-100" />
+                            <p class="or px-3">Or</p>
+                            <hr class="w-100" />
+                          </div>
+
+                          <form class="sign-in-form">
+                            <div class="mb-4">
+                              <label class="form-label mb-2" for="signin-email"
+                                >Email address</label
+                              >
+                              <input
+                                class="form-control"
+                                type="email"
+                                id="signin-email"
+                                placeholder="Enter your email"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-4">
+                              <div
+                                class="d-flex align-items-center justify-content-between mb-0"
+                              >
+                                <label
+                                  class="form-label mb-2"
+                                  for="signin-password"
+                                  >Password</label
+                                >
+                                <a class="forgot-pass" href="#"
+                                  >Forgot password?</a
+                                >
+                              </div>
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signin-password"
+                                  placeholder="Enter password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <button
+                              class="btn btn-primary btn-lg w-100"
+                              type="submit"
+                            >
+                              Sign in
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                      <!-- end row -->
+                    </div>
+                  </div>
+                  <!-- end -->
+                </div>
+              </div>
+            </div>
+            <!-- MODAL SIGN IN  END -->
+
+            <!-- MODAL SIGN UP START -->
+            <div
+              class="modal fade"
+              id="signup-Modal"
+              tabindex="-1"
+              aria-labelledby="signup-ModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <!-- start -->
+                  <div class="modal-body px-0 py-0">
+                    <button
+                      class="btn-close position-absolute top-0 end-0 mt-3 me-3"
+                      type="button"
+                      data-bs-dismiss="modal"
+                    ></button>
+
+                    <!-- MODAL contents -->
+                    <div class="row signup-modal mx-0 align-items-center">
+                      <!-- left MODAL side -->
+                      <div class="col-md-6 p-3 p-lg-5 border-right">
+                        <div class="left-contents">
+                          <h2 class="modal-title mb-4 mb-sm-5">
+                            Join Finder.<br />
+                            premium benefits:
+                          </h2>
+
+                          <ul class="left-list list-unstyled mb-4">
+                            <li class="d-flex mb-2">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Add and promote your listings</span>
+                            </li>
+                            <li class="d-flex mb-2">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Easily manage your wishlist</span>
+                            </li>
+                            <li class="d-flex mb-0">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Leave reviews</span>
+                            </li>
+                          </ul>
+
+                          <img
+                            class="d-block mx-auto"
+                            src="./assets/images/sign-up-illustration.svg"
+                            width="344"
+                            alt="Illustartion"
+                          />
+
+                          <div class="dont-have mt-4">
+                            Already have an account?
+                            <a
+                              href="#sign-in-Modal"
+                              data-bs-toggle="modal"
+                              data-bs-dismiss="modal"
+                              >Sign In</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- right MODAL side -->
+                      <div class="col-md-6 px-4 p-3 p-lg-5">
+                        <div class="right-contents">
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-google me-1"></i>Sign in with Google
+                          </button>
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-Facebook-white-bg me-1"></i>Sign in
+                            with Facebook
+                          </button>
+
+                          <div class="d-flex align-items-center py-2 mb-0">
+                            <hr class="w-100" />
+                            <p class="or px-3">Or</p>
+                            <hr class="w-100" />
+                          </div>
+
+                          <form class="signup-form" novalidate="">
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-name"
+                                >Full Name</label
+                              >
+                              <input
+                                class="form-control"
+                                type="text"
+                                id="signup-name"
+                                placeholder="Enter your full name"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-email"
+                                >Email Address</label
+                              >
+                              <input
+                                class="form-control"
+                                type="email"
+                                id="signup-email"
+                                placeholder="Enter your email"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-password"
+                                >Password
+                                <span class="text-muted"
+                                  >(min. 8 char)</span
+                                ></label
+                              >
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signup-password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <div class="mb-3">
+                              <label
+                                class="form-label"
+                                for="signup-confirm-password"
+                                >Confirm Password
+                              </label>
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signup-confirm-password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <div class="form-check mb-4">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="agree-to-terms"
+                                required=""
+                              />
+                              <label
+                                class="form-check-label"
+                                for="agree-to-terms"
+                                >By joining, I agree to the
+                                <a href="#">Terms of use</a> and
+                                <a href="#">Privacy policy</a></label
+                              >
+                            </div>
+                            <button
+                              class="btn btn-primary btn-lg w-100"
+                              type="submit"
+                            >
+                              Sign up
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                      <!-- end row -->
+                    </div>
+                  </div>
+                  <!-- end -->
+                </div>
+              </div>
+            </div>
+            <!-- MODAL SIGN UP END -->
+
+            <!-- RIGHT nav -->
             <div class="d-flex gap-4 align-items-center">
               <div class="nav-user-pic m-0 p-0">
-                <img
-                  src="./assets/images/property-for-rent/user-picture-avatar.svg"
-                  class="img-fluid"
-                  alt="User Picture Avater"
-                />
+                <a href="personal-info.html"
+                  ><img
+                    src="./assets/images/user/shuvo-mallick-pic.png"
+                    class="img-fluid"
+                    alt="User Picture"
+                /></a>
               </div>
-              <button class="btn btn-primary custom-btn flex-shrink-0">
+              <a
+                class="btn btn-primary custom-btn flex-shrink-0"
+                href="./add-property.html"
+              >
                 <i class="fa-regular fa-plus"></i> Add Property
-              </button>
+              </a>
             </div>
           </div>
         </div>
