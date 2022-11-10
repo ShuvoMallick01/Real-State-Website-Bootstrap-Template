@@ -132,24 +132,22 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-700);
 }
 
-.sign-in-modal .left-contents h2 {
-  font-weight: 700;
-  font-size: 28px !important;
-  color: var(--bs-gray-900);
-}
-
 .border-right {
   border-right: 1px solid var(--bs-gray-300) !important;
 }
 
-.sign-in-modal .right-contents .or {
+.sign-in-modal .right-contents .or,
+.signup-modal .right-contents .or {
   font-weight: 400;
   font-size: 16px;
   color: var(--bs-gray-700);
 }
 
 .sign-in-modal .sign-in-form .form-label,
-.forgot-pass {
+.forgot-pass,
+.signup-modal .signup-form .form-label,
+.signup-modal .dont-have,
+.signup-modal .form-check {
   font-weight: 400;
   font-size: 16px;
   color: var(--bs-gray-900);
@@ -159,6 +157,20 @@ Keywords: real state, Template etc.
   color: var(--bs-primary) !important;
 }
 /* ===== Sign In Modal END ====== */
+
+/* ===== Sign UP Modal START ====== */
+.modal-title {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--bs-gray-900);
+}
+
+.signup-modal .left-list {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+/* ===== Sign UP Modal END ====== */
 
 /* ===== Hero/Banner START===== */
 .hero-title {
