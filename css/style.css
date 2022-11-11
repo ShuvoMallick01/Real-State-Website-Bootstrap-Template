@@ -47,7 +47,7 @@ Keywords: real state, Template, bootstrap template etc.
 @import "./pages.css";
 @import "./responsive.css";
 
-/* ===== Header START ===== */
+/* ===== NAVBAR START ===== */
 .custom-header {
   font-weight: 700;
   font-size: 28px;
@@ -114,7 +114,7 @@ Keywords: real state, Template, bootstrap template etc.
 .dropdown-item:active {
   background-color: var(--bs-white);
 }
-/* ===== Header END ===== */
+/* ===== NAVBAR END ===== */
 
 /* ===== Sign In Modal START ====== */
 .modal {
@@ -172,7 +172,7 @@ Keywords: real state, Template, bootstrap template etc.
 }
 /* ===== Sign UP Modal END ====== */
 
-/* ===== Hero/Banner START===== */
+/* ===== HERO/BANNER START===== */
 .hero-title {
   font-size: 56px;
   font-weight: 700;
@@ -290,8 +290,7 @@ Keywords: real state, Template, bootstrap template etc.
     width: 90%;
   }
 }
-
-/* ===== Hero/Banner END===== */
+/* ===== HERO/BANNER END===== */
 
 /* ===== Category Section START===== */
 .category {
@@ -789,7 +788,7 @@ Keywords: real state, Template, bootstrap template etc.
 }
 /* ===== Top real estate agents Section END ===== */
 
-/* ===== Footer START===== */
+/* ===== FOOTER START===== */
 .footer-area {
 }
 
@@ -908,4 +907,4 @@ Keywords: real state, Template, bootstrap template etc.
   font-size: 16px;
   color: var(--bs-white);
 }
-/* ===== Footer END===== */
+/* ===== FOOTER END===== */
