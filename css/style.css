@@ -4,11 +4,11 @@ Template: Real State Website
 Author: Shuvo Mallick
 Description: Real State Template
 Version: 1.0.0
-Keywords: real state, Template etc. 
+Keywords: real state, Template, bootstrap template etc. 
 
 */
 
-/* =========== CSS Files List =========== */
+/* =========== CSS FILES LIST =========== */
 /* ----- Utilities CSS ----- */
 /* ----- Style CSS ----- */
 /* ----- Home Page V2 CSS ----- */
@@ -16,9 +16,9 @@ Keywords: real state, Template etc.
 /* ----- Account CSS ----- */
 /* ----- Vendor CSS ----- */
 /* ----- Pages CSS ----- */
-/* =============== CSS Files List =============== */
+/* =========== CSS FILES LIST =========== */
 
-/* ===== Style List Table Start ===== */
+/* ===== Style File INDEX ===== */
 /* 
   1. Header Section
   2. Hero/Banner Section
@@ -32,11 +32,11 @@ Keywords: real state, Template etc.
   10. Top real estate agents Section
   11. Footer Section
   */
-/* ===== Style List Table End ===== */
+/* ===== Style File INDEX ===== */
 
-/* =================== Next Page =================== */
-/* ===== Home Page V2 CSS ===== */
-/* =================== Next Page =================== */
+/* =================== NEXT CSS FILE =================== */
+/* ===== VENDOR CSS ===== */
+/* =================== NEXT CSS FILE =================== */
 
 /* ===== Import CSS Files ===== */
 @import "./utilities.css";
