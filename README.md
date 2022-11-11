@@ -18,3 +18,33 @@ Skyber – Real State Bootstrap Website Template is a vast and complete HTML5, C
 - Easy to customize
 - Cross Browser Support
 - No console error
+
+## Web Page List
+
+- Home
+- Catalog: Property for Rent
+- Catalog: Property for Sell
+- Catalog: Single Property
+- Account: Sign In Modal
+- Account: Sign Up Modal
+- Account: Personal Info
+- Account: Security
+- Account: My Properties
+- Account: Wishlist
+- Account: Reviews
+- Account: Notifications
+- Vendor: Add Property
+- Vendor: Property Promotion
+- Vendor: Rent
+- Vendor: Sale
+- Vendor: Reviews
+- Blog
+- Post
+- About
+- Help Center
+- Contact
+- 404
+
+## Support
+
+- Feel free to contact us any time. We have a dedicated team to provide you the best support.
