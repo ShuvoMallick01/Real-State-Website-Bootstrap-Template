@@ -34,7 +34,7 @@
 
   .rent-responsive,
   .rent-field {
-    width: 100%;
+    width: 100% !important;
   }
 
   .rent-field {
@@ -42,28 +42,28 @@
   }
 
   .rent-wrapper {
-    border-right: none;
+    border-right: none !important;
   }
 
   .rent-wrapper:nth-child(2) {
-    border-left: none;
+    border-left: none !important;
   }
 
   .rent-wrapper:first-child {
-    box-shadow: 0px 5px 0px -2px rgb(31 27 45 / 12%);
-    border-radius: 10px 0px 0px 0px;
+    box-shadow: 0px 5px 0px -2px rgb(31 27 45 / 12%) !important;
+    border-radius: 10px 0px 0px 0px !important;
   }
 
   .rent-wrapper:nth-child(2) i {
-    margin-left: 0px;
+    margin-left: 0px !important;
   }
 
   .search-location .filter-range {
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   .rent-responsive button {
-    width: 100%;
+    width: 100% !important;
   }
   /* Banner Search Location END */
 

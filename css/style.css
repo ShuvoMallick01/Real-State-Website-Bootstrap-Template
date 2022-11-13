@@ -114,6 +114,16 @@ Keywords: real state, Template, bootstrap template etc.
 .dropdown-item:active {
   background-color: var(--bs-white);
 }
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler {
+  border: transparent !important;
+}
 /* ===== NAVBAR END ===== */
 
 /* ===== Sign In Modal START ====== */
@@ -173,20 +183,30 @@ Keywords: real state, Template, bootstrap template etc.
 /* ===== Sign UP Modal END ====== */
 
 /* ===== HERO/BANNER START===== */
-.hero-title {
+.hero .hero-title {
   font-size: 56px;
   font-weight: 700;
   color: var(--bs-gray-900);
 }
 
-.hero-description {
+.hero .hero-description {
   font-size: 20px;
   color: nav(--bs-gray-700);
   margin-right: -54px;
 }
 
+@media (max-width: 576px) {
+  .hero .hero-description {
+    margin-right: 0px !important;
+  }
+
+  .hero .hero-title {
+    font-size: 45px;
+  }
+}
+
 /* form start */
-.search-location {
+.hero .search-location {
   margin-top: -30px;
   box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
     0px 4px 12px rgba(31, 27, 45, 0.08);

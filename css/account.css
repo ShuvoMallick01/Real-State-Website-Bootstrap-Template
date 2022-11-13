@@ -223,7 +223,7 @@ Keywords: real state, Template etc.
   color: var(--bs-gray-700);
 }
 
-.form-check-input:checked {
+.ac-notification-tab .form-check-input:checked {
   background-color: #07c98b !important;
   border-color: #07c98b !important;
 }
