@@ -806,6 +806,13 @@ Keywords: real state, Template, bootstrap template etc.
   font-weight: 400;
   font-size: 14px;
 }
+
+@media (max-width: 700px) {
+  .top-agent-review-area {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+}
 /* ===== Top real estate agents Section END ===== */
 
 /* ===== FOOTER START===== */
