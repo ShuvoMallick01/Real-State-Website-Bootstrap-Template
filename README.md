@@ -6,7 +6,7 @@ Live Site: https://shuvomallick01.github.io/real-state-website-using-bootstrap/
 
 Skyber – Real State Bootstrap Website Template is a vast and complete HTML5, CSS and Bootstrap Real State template. The eye-catching design and beautiful interface of this template will attract any visitor. You can deal with Ready Made Real State Website, and many more things.
 
-## Main Features List
+## Tools
 
 - Build with Bootstrap
 - Homepage
@@ -19,7 +19,7 @@ Skyber – Real State Bootstrap Website Template is a vast and complete HTML5, C
 - Cross Browser Support
 - No console error
 
-## Web Page List
+## Features/Web Pages
 
 - Home
 - Catalog: Property for Rent
