@@ -257,6 +257,10 @@ Keywords: real state, Template etc.
   font-size: 20px;
   color: var(--bs-gray-900);
 }
+
+.custom-tabs {
+  width: 100%;
+}
 /* ===== HELP CENTER EMD ===== */
 
 /* ===== CONTACT START ===== */

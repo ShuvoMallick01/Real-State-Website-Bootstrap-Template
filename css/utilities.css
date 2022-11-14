@@ -281,6 +281,23 @@ i {
   color: var(--bs-white) !important;
   background-color: #3c76f2 !important;
 }
+
+.custom-tabs .nav-link {
+  padding: 8px 16px 8px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-800);
+  background-color: var(--bs-gray-200) !important;
+  border: none;
+  border-radius: 8px;
+}
+
+.custom-tabs .active,
+.custom-tabs .nav-link:hover {
+  color: var(--bs-primary);
+  background-color: var(--bs-white) !important;
+  box-shadow: var(--shadow-small);
+}
 /* button end */
 
 .custom-hr {
