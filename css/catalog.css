@@ -78,6 +78,23 @@ Keywords: real state, Template etc.
   overflow: auto;
 }
 
+.custom-scrollbar {
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bs-gray-300);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary);
+  height: 20%;
+  border-radius: 10px;
+}
+
 /* Price per month */
 .form-range::-webkit-slider-thumb {
   -webkit-appearance: none;
