@@ -612,6 +612,10 @@ Keywords: real state, Template, bootstrap template etc.
 .added-today-property-button .heart-icon-btn:hover {
   border-left: 1px solid var(--bs-primary);
 }
+
+.added-today-services .property-details {
+  width: 65%;
+}
 /* ===== Added Today END ===== */
 
 /* ===== Calculate START===== */
@@ -723,9 +727,15 @@ Keywords: real state, Template, bootstrap template etc.
 .top-agents {
 }
 
-.top-agent-pic {
-  width: 416px;
-  /* height: 400px; */
+.top-re-agent .top-agent-pic {
+  width: 400px !important;
+  height: 400px;
+}
+
+.top-re-agent .top-agent-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .top-agent-review-area {
