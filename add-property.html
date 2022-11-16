@@ -1289,21 +1289,24 @@
                   </div>
 
                   <div
-                    class="upload d-flex flex-column justify-content-center align-items-center"
+                    class="upload ap-upload d-flex flex-column justify-content-center align-items-center"
                   >
-                    <div class="btn btn-primary custom-btn btn-lg mb-3">
+                    <label
+                      for="upload-photo"
+                      class="btn btn-primary custom-btn btn-lg mb-3"
+                    >
                       <i class="icon-upload me-1 me-2"></i>
                       Upload photos / video
-                    </div>
+                    </label>
                     <p>or drag them in</p>
-                    <!-- <input
-                      class="btn btn-primary custom-btn btn-lg d-none"
-                      type="file"
-                      id="myFile"
-                      name="filename"
-                    /> -->
-                  </div>
 
+                    <input
+                      class="btn btn-primary custom-btn btn-lg mb-3"
+                      type="file"
+                      id="upload-photo"
+                      style="display: none"
+                    />
+                  </div>
                   <!-- end card body-->
                 </div>
               </div>
