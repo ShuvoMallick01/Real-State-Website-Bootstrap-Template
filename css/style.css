@@ -48,6 +48,10 @@ Keywords: real state, Template, bootstrap template etc.
 @import "./responsive.css";
 
 /* ===== NAVBAR START ===== */
+.navbar-brand {
+  width: 116px;
+}
+
 .custom-header {
   font-weight: 700;
   font-size: 28px;
