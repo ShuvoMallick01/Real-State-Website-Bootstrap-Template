@@ -1,4 +1,4 @@
-# SKYBER - Real State Bootstrap Website
+# SKYBER - Real State Website Bootstrap Template
 
 Live Site: https://shuvomallick01.github.io/real-state-website-using-bootstrap/
 
