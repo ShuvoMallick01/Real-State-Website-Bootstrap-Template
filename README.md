@@ -1,6 +1,6 @@
-# SKYBER - Real State Website Bootstrap Template
+# SKYBER - Real Estate Website Bootstrap Template - V1
 
-Live Site: https://shuvomallick01.github.io/Real-State-Website-Bootstrap-Template/
+Live Site: https://shuvomallick01.github.io/SKYBER-Real-Estate-Website-Bootstrap-Template-V1/
 
 ## Overview
 

@@ -67,7 +67,7 @@
     rgba(31, 27, 45, 0.94) 100%
   );
 
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: var(--bs-font-sans-serif) !important;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
