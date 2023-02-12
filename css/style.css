@@ -521,6 +521,63 @@ Keywords: real state, Template, bootstrap template etc.
 .favorite-btn > i {
   color: var(--bs-primary);
 }
+
+/* SWIPER SLIDER START */
+.swiper-container .swiper-wrapper {
+  margin-bottom: 3rem;
+}
+
+.swiper-container .swiper-pagination {
+  bottom: 0;
+}
+
+.swiper-container .swiper-button-prev,
+.swiper-container .swiper-button-next {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: var(--shadow-small);
+}
+
+.swiper-container .swiper-button-prev {
+  left: -2rem;
+}
+
+.swiper-container .swiper-button-next {
+  right: -2rem;
+}
+
+.swiper-container .swiper-button-prev::after,
+.swiper-container .swiper-button-next::after {
+  font-size: 1.25rem;
+  color: var(--bs-gray-800);
+  font-family: "icomoon" !important;
+}
+
+.swiper-container .swiper-button-prev::after {
+  content: "\e9c2";
+}
+
+.swiper-container .swiper-button-next::after {
+  content: "\e9c4";
+}
+
+.swiper-container .swiper-pagination-bullet {
+  width: 1rem;
+  height: 6px;
+  opacity: 0.4;
+  border-radius: 4px;
+  background-color: var(--bs-gray-700);
+  transition: width 300ms;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 2rem;
+}
+/* SWIPER SLIDER END */
+
 /* ===== Top Offer END===== */
 
 /* ===== Added Today START ===== */
