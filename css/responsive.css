@@ -71,6 +71,12 @@
   .ac-change-picture {
     height: 100px;
   }
+
+  /* Swiper Slider */
+  .swiper-container .swiper-button-prev::after,
+  .swiper-container .swiper-button-next::after {
+    display: none;
+  }
 }
 
 /* ========== Mobile responsive start ==========*/
