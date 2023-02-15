@@ -18,7 +18,7 @@ for (let i = 0; i < swiperContainers.length; i++) {
   const swiperEl = slider.querySelector(".swiper");
   const slidePerView = slider.getAttribute("data-per-view");
   const disablePagination = slider.getAttribute("data-disable-pagination");
-
+  console.log(disablePagination);
   // SWIPER
   const swiper = new Swiper(swiperEl, {
     slidesPerView: slidePerView ? Number(slidePerView) : 4,
@@ -32,7 +32,7 @@ for (let i = 0; i < swiperContainers.length; i++) {
 
     // pagination
     pagination: {
-      el: Boolean(disablePagination)
+      el: Boolean(disablePagination === true)
         ? null
         : slider.querySelector(".swiper-pagination"),
       type: "bullets",
@@ -56,10 +56,10 @@ for (let i = 0; i < swiperContainers.length; i++) {
         slidesPerView: 3,
         spaceBetween: 20,
       },
-      // 1400: {
-      //   slidesPerView: 4,
-      //   spaceBetween: 20,
-      // },
+      1400: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
     },
   });
 }
