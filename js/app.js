@@ -18,7 +18,7 @@ for (let i = 0; i < swiperContainers.length; i++) {
   const swiperEl = slider.querySelector(".swiper");
   const slidePerView = slider.getAttribute("data-per-view");
   const disablePagination = slider.getAttribute("data-disable-pagination");
-  console.log(disablePagination);
+
   // SWIPER
   const swiper = new Swiper(swiperEl, {
     slidesPerView: slidePerView ? Number(slidePerView) : 4,
@@ -37,7 +37,11 @@ for (let i = 0; i < swiperContainers.length; i++) {
         : slider.querySelector(".swiper-pagination"),
       type: "bullets",
       clickable: true,
+      // dynamicBullets: true,
     },
+
+    // effect: "flip",
+    // loop: true,
 
     // Responsive
     breakpoints: {
