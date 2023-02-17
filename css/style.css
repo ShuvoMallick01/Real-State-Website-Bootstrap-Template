@@ -294,8 +294,7 @@ Keywords: real state, Template, bootstrap template etc.
   background: var(--bs-primary);
 }
 
-.range-filter > p {
-  top: -40px;
+.range-filter p {
   width: 70.8px;
   height: 26px;
   display: flex;
@@ -307,6 +306,23 @@ Keywords: real state, Template, bootstrap template etc.
   font-weight: 400;
   font-size: 12px;
 }
+
+.range-filter .range-value {
+  top: -40px;
+}
+
+/* .range-filter .polygon-range {
+  bottom: 8px;
+  left: 0px;
+  text-align: center;
+  border-top: 8px solid white;
+  margin: auto !important;
+  display: flex;
+  justify-content: center;
+  box-shadow: var(--shadow-small);
+  border-left: 14.8px solid transparent;
+  border-right: 14.8px solid transparent;
+} */
 
 /* button */
 .search-btn {
