@@ -646,9 +646,7 @@
                 class="d-flex gap-4 align-items-center flex-grow-1 pe-2 responsive-search rent-responsives"
               >
                 <!-- Single Field -->
-                <div
-                  class="d-flex align-items-center filter-item rent-responsive"
-                >
+                <div class="filter-item rent-responsive">
                   <div
                     class="d-flex align-items-center rent-wrapper rent-field p-md-3"
                   >
@@ -696,11 +694,20 @@
                   <label for="customRange1" class="form-label me-2 mt-2">
                     Price
                   </label>
-                  <input
-                    type="range"
-                    class="form-range filter-range"
-                    id="customRange1"
-                  />
+
+                  <div class="range-filter position-relative mt-2">
+                    <input
+                      type="range"
+                      class="form-range filter-range"
+                      id="price-range"
+                      min="0"
+                      max="100"
+                      value="50"
+                    />
+                    <p class="position-absolute">
+                      $<span id="range-Value">0</span>
+                    </p>
+                  </div>
                 </div>
 
                 <div class="bg-white search-location-btn rent-responsive">
@@ -1951,11 +1958,11 @@
           </div>
 
           <!-- navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
 
           <!-- pagination -->
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
         <!-- End -->
       </div>
@@ -2310,6 +2317,9 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+
+    <!-- ToolTrip -->
+    <script></script>
     <!-- Swiper Js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- Custom JS -->

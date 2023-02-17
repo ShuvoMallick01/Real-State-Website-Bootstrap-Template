@@ -282,6 +282,7 @@ Keywords: real state, Template, bootstrap template etc.
   max-width: 10rem;
 }
 
+/* Rage */
 .filter-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: var(--bs-primary);
@@ -293,6 +294,21 @@ Keywords: real state, Template, bootstrap template etc.
   background: var(--bs-primary);
 }
 
+.range-filter > p {
+  top: -40px;
+  width: 70.8px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bs-white);
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: var(--shadow-small);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* button */
 .search-btn {
   background-color: var(--bs-primary);
   border: none;
@@ -305,9 +321,6 @@ Keywords: real state, Template, bootstrap template etc.
 
 .search-btn i {
   font-size: 1rem;
-}
-
-.rent-responsive {
 }
 
 @media (max-width: 1400px) {

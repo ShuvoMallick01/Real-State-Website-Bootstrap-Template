@@ -1,6 +1,8 @@
+// SLIDER FUNCTIONALITY
 const swiperContainers = document.querySelectorAll(".swiper-container");
 const swipers = document.querySelectorAll(".swiper");
 
+// CREATE ELEMENT
 function createElement(className) {
   const element = document.createElement("div");
   element.className = className;
@@ -67,3 +69,21 @@ for (let i = 0; i < swiperContainers.length; i++) {
     },
   });
 }
+
+// TOOLTIPS
+// const tooltipTriggerList = document.querySelectorAll(
+//   '[data-bs-toggle="tooltip"]'
+// );
+
+// const tooltipList = [...tooltipTriggerList].map(
+//   (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+// );
+
+const slideRange = document.getElementById("price-range");
+const rangeValue = document.getElementById("range-Value");
+
+rangeValue.textContent = slideRange.value;
+
+slideRange.addEventListener("input", (e) => {
+  rangeValue.textContent = e.target.value;
+});
