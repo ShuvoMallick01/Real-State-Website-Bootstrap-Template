@@ -30,13 +30,14 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <!-- custom css -->
+    <!-- NoUiSlider CSS -->
+    <link rel="stylesheet" href="./css/nouislider.min.css" />
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Home - Real State Company</title>
   </head>
@@ -695,7 +696,7 @@
                     Price
                   </label>
 
-                  <div class="range-filter position-relative mt-2">
+                  <!-- <div class="range-filter position-relative mt-2">
                     <input
                       type="range"
                       class="form-range filter-range"
@@ -704,13 +705,11 @@
                       max="100"
                       value="50"
                     />
-                    <div class="position-absolute range-value">
-                      <p class="position-relative">
-                        $<span id="range-Value">0</span>
-                      </p>
-                      <!-- <div class="polygon-range position-absolute"></div> -->
-                    </div>
-                  </div>
+                    <p class="position-absolute">
+                      $<span id="range-Value">0</span>
+                    </p>
+                  </div> -->
+                  <div id="slider"></div>
                 </div>
 
                 <div class="bg-white search-location-btn rent-responsive">
@@ -2325,6 +2324,8 @@
     <script></script>
     <!-- Swiper Js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- NoUiSlider JS -->
+    <script src="./js/nouislider.min.js"></script>
     <!-- Custom JS -->
     <script src="./js/app.js"></script>
   </body>

@@ -70,20 +70,22 @@ for (let i = 0; i < swiperContainers.length; i++) {
   });
 }
 
-// TOOLTIPS
-// const tooltipTriggerList = document.querySelectorAll(
-//   '[data-bs-toggle="tooltip"]'
-// );
+// RANGE SLIDER USING NOUISLIDER
+const slider = document.getElementById("slider");
 
-// const tooltipList = [...tooltipTriggerList].map(
-//   (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-// );
-
-const slideRange = document.getElementById("price-range");
-const rangeValue = document.getElementById("range-Value");
-
-rangeValue.textContent = slideRange.value;
-
-slideRange.addEventListener("input", (e) => {
-  rangeValue.textContent = e.target.value;
+noUiSlider.create(slider, {
+  start: [10000],
+  connect: "lower",
+  range: {
+    min: 0,
+    max: 20000,
+  },
+  tooltips: true,
+  format: {
+    // 'to' the formatted value. Receives a number.
+    to: (value) => `$${value.toFixed(0)}`,
+    // 'from' the formatted value.
+    // Receives a string, should return a number.
+    from: (value) => Number(value),
+  },
 });

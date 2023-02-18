@@ -283,7 +283,7 @@ Keywords: real state, Template, bootstrap template etc.
 }
 
 /* Rage */
-.filter-range::-webkit-slider-thumb {
+/* .filter-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: var(--bs-primary);
 }
@@ -293,36 +293,48 @@ Keywords: real state, Template, bootstrap template etc.
   box-shadow: none;
   background: var(--bs-primary);
 }
-
-.range-filter p {
-  width: 70.8px;
-  height: 26px;
-  display: flex;
-  align-items: center;
-  background-color: var(--bs-white);
-  justify-content: center;
-  border-radius: 40px;
-  box-shadow: var(--shadow-small);
-  font-weight: 400;
-  font-size: 12px;
-}
-
-.range-filter .range-value {
-  top: -40px;
-}
-
-/* .range-filter .polygon-range {
-  bottom: 8px;
-  left: 0px;
-  text-align: center;
-  border-top: 8px solid white;
-  margin: auto !important;
-  display: flex;
-  justify-content: center;
-  box-shadow: var(--shadow-small);
-  border-left: 14.8px solid transparent;
-  border-right: 14.8px solid transparent;
 } */
+
+/* Range Using NO UI Slider CSS */
+#slider {
+  all: unset;
+  background-color: var(--bs-gray-400);
+  height: 10px;
+  min-width: 6.5rem;
+  border-radius: 1rem;
+}
+
+#slider .noUi-connects {
+  border-radius: 1rem;
+}
+
+#slider .noUi-connect {
+  background-color: var(--bs-primary);
+}
+
+#slider .noUi-handle {
+  width: 16px;
+  height: 16px;
+  background-color: var(--bs-white);
+  top: -4px;
+  right: -9px;
+  border-radius: 9px;
+  border: 4px solid var(--bs-primary);
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+  display: none;
+}
+
+#slider .noUi-tooltip {
+  bottom: 180%;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+  border: 0;
+  box-shadow: var(--shadow-small);
+  padding: 4px 12px;
+}
 
 /* button */
 .search-btn {
