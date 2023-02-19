@@ -18,12 +18,16 @@ for (let i = 0; i < swiperContainers.length; i++) {
   slider.append(prevButton, nextButton, pagination);
 
   const swiperEl = slider.querySelector(".swiper");
+
   const slidePerView = slider.getAttribute("data-per-view");
   const disablePagination = slider.getAttribute("data-disable-pagination");
+  const slideEffect = slider.getAttribute("data-effect");
 
   // SWIPER
   const swiper = new Swiper(swiperEl, {
-    slidesPerView: slidePerView ? Number(slidePerView) : 4,
+    effect: slideEffect || "slide",
+
+    // slidesPerView: slidePerView ? Number(slidePerView) : 4,
     spaceBetween: 20,
 
     // Navigation arrows
@@ -39,31 +43,26 @@ for (let i = 0; i < swiperContainers.length; i++) {
         : slider.querySelector(".swiper-pagination"),
       type: "bullets",
       clickable: true,
-      // dynamicBullets: true,
     },
-
-    // effect: "flip",
-    // loop: true,
 
     // Responsive
     breakpoints: {
-      // when window width is >= 320px
       0: {
         slidesPerView: 1,
         spaceBetween: 20,
       },
-      // when window width is >= 480px
+
       992: {
         slidesPerView: 2,
         spaceBetween: 20,
       },
-      // when window width is >= 640px
+
       1200: {
         slidesPerView: 3,
         spaceBetween: 20,
       },
       1400: {
-        slidesPerView: 4,
+        slidesPerView: slidePerView ? Number(slidePerView) : 4,
         spaceBetween: 20,
       },
     },
@@ -89,3 +88,10 @@ noUiSlider.create(slider, {
     from: (value) => Number(value),
   },
 });
+
+// SINGLE PROPERTY JS
+// ---------------------
+// GLIGHT BOX FOR IMAGE GELLERY
+
+const lightbox = GLightbox();
+console.log(lightbox);

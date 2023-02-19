@@ -299,7 +299,7 @@ Keywords: real state, Template, bootstrap template etc.
 #slider {
   all: unset;
   background-color: var(--bs-gray-400);
-  height: 10px;
+  height: 8px;
   min-width: 6.5rem;
   border-radius: 1rem;
 }
