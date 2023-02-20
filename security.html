@@ -725,6 +725,7 @@
                 <h4 class="form-title mb-3">Password</h4>
                 <!-- Password change form -->
                 <form class="mb-4">
+                  <!-- Current Password -->
                   <div class="row align-items-end mb-2">
                     <div class="col-lg-6 mb-2">
                       <div class="pe-2">
@@ -732,10 +733,10 @@
                         <div class="form-input-icon d-flex align-items-center">
                           <input
                             class="form-control custom-form-control"
-                            type="text"
-                            placeholder=""
+                            id="password"
+                            type="password"
                           />
-                          <i class="icon-off"></i>
+                          <i class="fa-regular fa-eye" id="eye-password"></i>
                         </div>
                       </div>
                     </div>
@@ -753,10 +754,10 @@
                         <div class="form-input-icon d-flex align-items-center">
                           <input
                             class="form-control custom-form-control"
-                            type="text"
-                            placeholder=""
+                            id="password"
+                            type="password"
                           />
-                          <i class="icon-off"></i>
+                          <i class="fa-regular fa-eye" id="eye-password"></i>
                         </div>
                       </div>
                     </div>
@@ -1054,5 +1055,11 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Dropzone JS -->
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+
+    <!-- Custom Accont JS -->
+    <script src="./js/accounts.js"></script>
   </body>
 </html>

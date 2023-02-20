@@ -81,6 +81,7 @@ Keywords: real state, Template etc.
   height: 100%;
 }
 
+/* Picture Upload */
 .ac-change-picture {
   border: 1px dashed var(--bs-gray-400);
   border-radius: 12px;
@@ -98,6 +99,13 @@ Keywords: real state, Template etc.
   height: 100%;
   width: 100%;
 }
+
+/* DropZone START */
+.ac-change-picture .dropzone {
+  border: none;
+  background-color: transparent;
+}
+/* DropZone END */
 
 .ac-form-label {
   font-weight: 700;
@@ -144,6 +152,7 @@ Keywords: real state, Template etc.
 .form-input-icon i {
   font-size: 18px;
   margin-left: -35px;
+  cursor: pointer;
 }
 
 .ac-login-history .details h5 {

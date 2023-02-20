@@ -31,15 +31,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- DropZone CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css"
+      type="text/css"
+    />
+
     <!-- custom css -->
-    <link rel="stylesheet" href="./css/utilities.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/home-v2.css" />
-    <link rel="stylesheet" href="./css/catalog.css" />
-    <link rel="stylesheet" href="./css/account.css" />
-    <link rel="stylesheet" href="./css/vendor.css" />
-    <link rel="stylesheet" href="./css/pages.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
     <title>Account - Personal Info</title>
   </head>
 
@@ -743,20 +743,30 @@
                 </div>
 
                 <!-- Upload Image -->
+
                 <div class="col-xl-3 col-lg-4 col-md-6">
                   <div
-                    class="ac-change-picture d-flex flex-column justify-content-center align-items-center text-center"
+                    class="ac-change-picture position-relative dropzone-container"
                   >
-                    <label for="upload-photo">
-                      <i class="icon-camera-plus"></i>
-                      <p>Change Picture</p>
-                    </label>
+                    <form
+                      action="/assets/upload/"
+                      class="dropzone h-100 w-100"
+                      id="my-dropzone"
+                      method="post"
+                      enctype="multipart/form-data"
+                    >
+                      <input
+                        type="file"
+                        name="file"
+                        id="upload-photo"
+                        style="display: none"
+                      />
 
-                    <input
-                      type="file"
-                      id="upload-photo"
-                      style="display: none"
-                    />
+                      <div class="dz-default dz-message">
+                        <i class="icon-camera-plus dz-default fs-2"></i>
+                        <p class="text-nowrap mb-0">Change Picture</p>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -1113,5 +1123,11 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Dropzone JS -->
+    <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/accounts.js"></script>
   </body>
 </html>
