@@ -1,3 +1,5 @@
+// NAVBAR COLLAPSE CHANGE ICON
+
 // SLIDER FUNCTIONALITY
 const swiperContainers = document.querySelectorAll(".swiper-container");
 const swipers = document.querySelectorAll(".swiper");
